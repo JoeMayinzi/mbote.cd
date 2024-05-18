@@ -127,34 +127,34 @@ export default function Header() {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center gap-7 py-4 border-t header-border ">
+      <div className="flex items-center justify-center gap-7 border-t header-border ">
         <div class="flex items-center">
           <div class="group relative cursor-pointer py-2">
             <div class="flex items-center justify-between space-x-5">
               <Link
                 href="https://mbote.cd/"
                 target="_blank"
-                class="menu-hover text-base font-normal text-white  uppercase"
+                className="menu-hover text-[15px] font-normal text-white  uppercase w-[142px] h-12 px-4 text-center bg-[#151515] rounded-[5px] flex justify-center items-center "
                 onClick=""
               >
                 Actualités
+                <span className=" ms-[17px] ">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="5"
+                    stroke="#fff"
+                    className="h-3 w-3"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                    />
+                  </svg>
+                </span>
               </Link>
-              <span>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke="#fff"
-                  class="h-6 w-6"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M19.5 8.25l-7.5 7.5-7.5-7.5"
-                  />
-                </svg>
-              </span>
             </div>
 
             <div class="invisible absolute z-50 flex w-full flex-col bg-white custom-shadaw rounded-md py-1 px-4 text-gray-800 shadow-xl group-hover:visible">

@@ -91,7 +91,7 @@ export default function Home() {
           <div className=" mt-7 flex gap-5 result-box-shadaw">
             <div>
               <Image
-                className=" w-full h-auto"
+                className="w-full h-auto"
                 src={SearchImg}
                 width="410"
                 height="246"

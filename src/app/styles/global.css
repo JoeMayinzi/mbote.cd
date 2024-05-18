@@ -44,11 +44,6 @@ body {
   ) !important;
 }
 
-.bb::after {
-  content: "-";
-  width: 100%;
-  height: 5px;
-  background: #888888;
-  position: relative;
-  bottom: 0;
+.text-16 {
+  font-size: 16px !important;
 }

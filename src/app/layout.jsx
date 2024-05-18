@@ -5,6 +5,7 @@ import { Montserrat } from "@next/font/google";
 const font = Montserrat({
   subsets: ["latin"],
   weight: ["400", "700"],
+  adjustFontFallback: false,
 });
 
 export default function RootLayout({ children }) {
