@@ -47,3 +47,50 @@ body {
 .text-16 {
   font-size: 16px !important;
 }
+
+.bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../../assets/images/home-bg.webp");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.article-bg {
+  background-image: url("../../assets/images/top-story-img.webp");
+  background-position: center;
+  background-size: cover;
+  height: 298px;
+}
+
+.article-bg-2 {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0) 41%,
+      rgba(0, 0, 0, 0)
+    ),
+    url("../../assets/images/IMG_1277.webp");
+  background-position: center;
+  background-size: cover;
+  height: 596px;
+  position: relative;
+}
+
+.H-auto {
+  height: auto !important;
+}
+
+.in-actu::after {
+  content: "";
+  position: relative;
+  bottom: 30%;
+  background-color: #fdab09;
+  display: block;
+  width: 70px;
+  height: 5px;
+}
+
+.last-block-shadaw {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.08) !important;
+}
