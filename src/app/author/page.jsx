@@ -13,7 +13,7 @@ export default function Author() {
         <div>
           <div className=" p-[5px] mb-3 bg-[rgba(73,73,73,.2)] flex items-center w-fit">
             <div>
-              <Link className="text-sm font-bold" href="/">
+              <Link className=" text-xs md:text-sm font-bold" href="/">
                 Accueil
               </Link>
             </div>
@@ -44,7 +44,7 @@ export default function Author() {
               </svg>
             </span>
             <div>
-              <Link className="text-sm font-bold" href="/author">
+              <Link className="text-xs md:text-sm  font-bold" href="/author">
                 Auteurs
               </Link>
             </div>
@@ -75,7 +75,7 @@ export default function Author() {
               </svg>
             </span>
             <div>
-              <Link className="text-sm font-bold" href="/author">
+              <Link className="text-xs md:text-sm  font-bold" href="/author">
                 Articles postés par Redaction Mbote
               </Link>
             </div>
@@ -84,7 +84,7 @@ export default function Author() {
       </div>
 
       <div className="relative mt-12 p-[80px] rounded-md bg-[#000000] ">
-        <div className="absolute top-[-50px] left-[40%] text-center">
+        <div className="absolute top-[-50px] left-[30%] md:left-[40%] text-center">
           <Image
             className=" ml-10"
             src={avatar}
@@ -98,7 +98,7 @@ export default function Author() {
         </div>
       </div>
       <div className="mt-10">
-        <div className="grid grid-cols-3 gap-x-[10px] gap-y-10 ">
+        <div className=" grid grid-cols-1 md:grid-cols-3 gap-x-[10px] gap-y-10 ">
           <Article />
           <Article />
           <Article />
