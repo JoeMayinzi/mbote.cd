@@ -50,37 +50,28 @@ export default function Archive() {
                   </svg>
                 </span>
                 <div>
-                  <Link className="text-sm font-bold" href="/author">
-                    Video
-                  </Link>
+                  <span className="text-sm font-bold">Acutalité</span>
                 </div>
               </div>
             </div>
           </div>
-          <div className="relative">
-            <div>
-              <Image
-                className="w-full h-auto"
-                src={archiveImg}
-                width="1192"
-                height="715"
-                alt="bg image"
-              />
-            </div>
-            <div className="gradient mt-9 absolute bottom-0 p-10">
-              <h3 className="text-white font-extrabold text-[49px] leading-[1.2] ">
-                <Link className="" href="/">
-                  Le Doc. : Voici comment Fally Ipupa a pu restaurer à lui seul
-                  les concerts congolais en Europe
-                </Link>
-              </h3>
-            </div>
+        </div>
+      </section>
+      <section>
+        <div className="archive-bg container mx-auto">
+          <div className="gradient mt-9 absolute bottom-0 p-10">
+            <h3 className="text-white font-extrabold text-[49px] leading-[1.2] ">
+              <Link className="" href="/">
+                Le Doc. : Voici comment Fally Ipupa a pu restaurer à lui seul
+                les concerts congolais en Europe
+              </Link>
+            </h3>
           </div>
         </div>
       </section>
       <section className=" mt-[30px] ">
         <div className="container mx-auto">
-          <div className="grid grid-cols-3 gap-x-[10px] gap-y-10">
+          <div className=" grid grid-cols-1 md:grid-cols-3 gap-x-[10px] gap-y-10">
             <Article />
             <Article />
             <Article />

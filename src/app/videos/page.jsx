@@ -9,7 +9,7 @@ export default function Videos() {
       <section>
         <div className="container mx-auto">
           <div className="mt-7 py-[30px]">
-            <div className=" px-6">
+            <div>
               <div className=" p-[5px] mb-3 bg-[rgba(73,73,73,.2)] flex items-center w-fit">
                 <div>
                   <Link className="text-sm font-bold" href="/">
@@ -43,9 +43,7 @@ export default function Videos() {
                   </svg>
                 </span>
                 <div>
-                  <Link className="text-sm font-bold" href="/author">
-                    Video
-                  </Link>
+                  <span className="text-sm font-bold">Video</span>
                 </div>
               </div>
             </div>

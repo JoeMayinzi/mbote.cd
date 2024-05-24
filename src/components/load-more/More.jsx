@@ -4,7 +4,7 @@ export default function LoadMore() {
   return (
     <div className="mt-5 flex justify-center">
       <Link
-        className="bg-[#FDAB09] w-[105px] h-9 font-bold text-xs uppercase flex justify-center items-center gap-[6px] "
+        className=" bg-[#FDAB09] w-[105px] h-9 font-bold text-xs uppercase flex justify-center items-center gap-[6px] "
         href="/"
       >
         Voir plus

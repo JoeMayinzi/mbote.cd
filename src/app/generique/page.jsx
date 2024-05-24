@@ -1,6 +1,6 @@
 export default function Generique() {
   return (
-    <section className="mt-3 pt-[21px] ">
+    <section className="mt-3 pt-[21px] px-6">
       <div className="container mx-auto">
         <div>
           <h1 className="mb-[19px] text-3xl ">Qui sommes nous</h1>
@@ -41,7 +41,7 @@ export default function Generique() {
             <li className="mb-[10px] text-[15px]">Beatrice Munguba&nbsp;</li>
           </ul>
           <p className="text-[15px] mb-[20px]">
-            <strong>Redactionl&nbsp;</strong>
+            <strong>Redaction&nbsp;</strong>
           </p>
           <ul className="mt-[15px] mb-[26px] ms-[21px] list-disc">
             <li className="mb-[10px] text-[15px]">
@@ -58,9 +58,9 @@ export default function Generique() {
             <li className="mb-[10px] text-[15px]">
               Thimothé MAMPUYA – Journaliste reporter
             </li>
-            <li className="mb-[10px] text-[15px]">
+            <p className="mb-[10px] text-[15px]">
               <strong>Production&nbsp;</strong>
-            </li>
+            </p>
             <li className="mb-[10px] text-[15px]">
               Beatrice Munguba – Presentatrice
             </li>

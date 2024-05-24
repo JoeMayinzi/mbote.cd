@@ -113,6 +113,10 @@ export default function Author() {
           <Article />
         </div>
         <LoadMore />
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde placeat
+        dolorum hic doloremque dolorem provident, accusantium voluptatum et
+        dolore consectetur, soluta ut iure? Provident, ipsum beatae. Dicta
+        commodi sequi quo.
       </div>
     </div>
   );

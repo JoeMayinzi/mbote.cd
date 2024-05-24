@@ -19,7 +19,7 @@ export default function Article() {
               </a>
             </div>
             <div>
-              <h1 className="font-extrabold text-[54px] leading-[1.2] ">
+              <h1 className="font-extrabold text-[52px] leading-[1.2] ">
                 Michel Bakenda sur le concert de moïse mbiye : « Je prie pour
                 que ce concert soit une réussite et que le Dieu de ta vie
                 t’honore devant 80 000 personnes »

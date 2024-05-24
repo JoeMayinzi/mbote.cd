@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <section>
       <div className="container mx-auto mt-5 p-[30px] ">
-        <div className="w-[834px] ">
+        <div className="w-full lg:w-[834px] ">
           <div>
             <h4 className=" text-[32px] font-bold mb-6">
               Résultats de recherche
@@ -23,7 +23,7 @@ export default function Home() {
                   placeholder="Search something here"
                 />
               </div>
-              <div>
+              <div className=" mt-2">
                 <button type="submit">
                   <svg
                     width="25"
@@ -53,8 +53,7 @@ export default function Home() {
               <Image
                 className=" w-full h-auto"
                 src={SearchImg}
-                width="410"
-                height="246"
+                ob
                 alt="search result image"
               />
             </div>
@@ -93,8 +92,7 @@ export default function Home() {
               <Image
                 className="w-full h-auto"
                 src={SearchImg}
-                width="410"
-                height="246"
+                objectFit="contain"
                 alt="search result image"
               />
             </div>
@@ -133,8 +131,7 @@ export default function Home() {
               <Image
                 className=" w-full h-auto"
                 src={SearchImg}
-                width="410"
-                height="246"
+                objectFit="contain"
                 alt="search result image"
               />
             </div>
@@ -173,8 +170,7 @@ export default function Home() {
               <Image
                 className=" w-full h-auto"
                 src={SearchImg}
-                width="410"
-                height="246"
+                objectFit="contain"
                 alt="search result image"
               />
             </div>
@@ -213,8 +209,7 @@ export default function Home() {
               <Image
                 className=" w-full h-auto"
                 src={SearchImg}
-                width="410"
-                height="246"
+                objectFit="contain"
                 alt="search result image"
               />
             </div>
@@ -253,8 +248,7 @@ export default function Home() {
               <Image
                 className=" w-full h-auto"
                 src={SearchImg}
-                width="410"
-                height="246"
+                objectFit="contain"
                 alt="search result image"
               />
             </div>
@@ -293,8 +287,7 @@ export default function Home() {
               <Image
                 className=" w-full h-auto"
                 src={SearchImg}
-                width="410"
-                height="246"
+                objectFit="contain"
                 alt="search result image"
               />
             </div>
@@ -333,8 +326,7 @@ export default function Home() {
               <Image
                 className=" w-full h-auto"
                 src={SearchImg}
-                width="410"
-                height="246"
+                objectFit="contain"
                 alt="search result image"
               />
             </div>
@@ -373,8 +365,7 @@ export default function Home() {
               <Image
                 className=" w-full h-auto"
                 src={SearchImg}
-                width="410"
-                height="246"
+                objectFit="contain"
                 alt="search result image"
               />
             </div>
@@ -413,8 +404,7 @@ export default function Home() {
               <Image
                 className=" w-full h-auto"
                 src={SearchImg}
-                width="410"
-                height="246"
+                objectFit="contain"
                 alt="search result image"
               />
             </div>
