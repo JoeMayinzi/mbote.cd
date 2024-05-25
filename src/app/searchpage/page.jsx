@@ -58,7 +58,7 @@ export default function Home() {
               />
             </div>
             <div className="ps-[10px] md:ps-0 py-[10px] pr-[10px] ">
-              <h3 className="font-extrabold text-xl">
+              <h3 className="font-extrabold text-base md:text-xl ">
                 <Link href="/">
                   Niska annonce son premier méga concert au Congo, le même jour
                   que...
@@ -97,7 +97,7 @@ export default function Home() {
               />
             </div>
             <div className="ps-[10px] md:ps-0 py-[10px] pr-[10px] ">
-              <h3 className="font-extrabold text-xl">
+              <h3 className="font-extrabold text-base md:text-xl ">
                 <Link href="/">
                   Niska annonce son premier méga concert au Congo, le même jour
                   que...
@@ -136,7 +136,7 @@ export default function Home() {
               />
             </div>
             <div className="ps-[10px] md:ps-0 py-[10px] pr-[10px] ">
-              <h3 className="font-extrabold text-xl">
+              <h3 className="font-extrabold text-base md:text-xl ">
                 <Link href="/">
                   Niska annonce son premier méga concert au Congo, le même jour
                   que...
@@ -175,7 +175,7 @@ export default function Home() {
               />
             </div>
             <div className="ps-[10px] md:ps-0 py-[10px] pr-[10px] ">
-              <h3 className="font-extrabold text-xl">
+              <h3 className="font-extrabold text-base md:text-xl ">
                 <Link href="/">
                   Niska annonce son premier méga concert au Congo, le même jour
                   que...
@@ -214,7 +214,7 @@ export default function Home() {
               />
             </div>
             <div className="ps-[10px] md:ps-0 py-[10px] pr-[10px] ">
-              <h3 className="font-extrabold text-xl">
+              <h3 className="font-extrabold text-base md:text-xl ">
                 <Link href="/">
                   Niska annonce son premier méga concert au Congo, le même jour
                   que...
@@ -253,7 +253,7 @@ export default function Home() {
               />
             </div>
             <div className="ps-[10px] md:ps-0 py-[10px] pr-[10px] ">
-              <h3 className="font-extrabold text-xl">
+              <h3 className="font-extrabold text-base md:text-xl ">
                 <Link href="/">
                   Niska annonce son premier méga concert au Congo, le même jour
                   que...
@@ -292,7 +292,7 @@ export default function Home() {
               />
             </div>
             <div className="ps-[10px] md:ps-0 py-[10px] pr-[10px] ">
-              <h3 className="font-extrabold text-xl">
+              <h3 className="font-extrabold text-base md:text-xl ">
                 <Link href="/">
                   Niska annonce son premier méga concert au Congo, le même jour
                   que...
@@ -331,7 +331,7 @@ export default function Home() {
               />
             </div>
             <div className="ps-[10px] md:ps-0 py-[10px] pr-[10px] ">
-              <h3 className="font-extrabold text-xl">
+              <h3 className="font-extrabold text-base md:text-xl ">
                 <Link href="/">
                   Niska annonce son premier méga concert au Congo, le même jour
                   que...
@@ -370,7 +370,7 @@ export default function Home() {
               />
             </div>
             <div className="ps-[10px] md:ps-0 py-[10px] pr-[10px] ">
-              <h3 className="font-extrabold text-xl">
+              <h3 className="font-extrabold text-base md:text-xl ">
                 <Link href="/">
                   Niska annonce son premier méga concert au Congo, le même jour
                   que...
@@ -409,7 +409,7 @@ export default function Home() {
               />
             </div>
             <div className="ps-[10px] md:ps-0 py-[10px] pr-[10px] ">
-              <h3 className="font-extrabold text-xl">
+              <h3 className="font-extrabold text-base md:text-xl ">
                 <Link href="/">
                   Niska annonce son premier méga concert au Congo, le même jour
                   que...
