@@ -242,7 +242,7 @@ export default function Article() {
                 </div>
                 <div className="my-[10px] py-[10px] border-y border-[#ebebeb] ">
                   <div class=" text-center mt-4">
-                    <h2 class=" font-bold text-3xl mb-[10px] ">
+                    <h2 class=" font-bold text-xl md:text-3xl mb-[10px] ">
                       Partager la publication
                     </h2>
                   </div>
