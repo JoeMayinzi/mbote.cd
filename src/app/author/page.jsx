@@ -84,7 +84,7 @@ export default function Author() {
       </div>
 
       <div className="relative mt-12 p-[80px] rounded-md bg-[#000000] ">
-        <div className="absolute top-[-50px] left-[30%] md:left-[40%] text-center">
+        <div className="absolute top-[-50px] left-[20%] md:left-[40%] text-center">
           <Image
             className=" ml-10"
             src={avatar}
