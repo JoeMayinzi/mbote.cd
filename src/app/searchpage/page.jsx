@@ -14,7 +14,7 @@ export default function Home() {
               Résultats de recherche
             </h4>
           </div>
-          <div className="search-shadaw ps-5 mt-7">
+          <div className="search-shadaw px-5 mt-7">
             <form action="#" className="flex items-center">
               <div className=" w-[95%] h-[59px]">
                 <input
@@ -48,56 +48,16 @@ export default function Home() {
               autre terme de recherche.
             </p>
           </div>
-          <div className=" mt-7 flex gap-5 result-box-shadaw">
+          <div className=" mt-7 block md:flex  gap-5 result-box-shadaw">
             <div>
               <Image
                 className=" w-full h-auto"
-                src={SearchImg}
-                width="410"
-                height="246"
-                alt="search result image"
-              />
-            </div>
-            <div className=" py-[10px] pr-[10px] ">
-              <h3 className="font-extrabold text-xl">
-                <Link href="/">
-                  Niska annonce son premier méga concert au Congo, le même jour
-                  que...
-                </Link>
-              </h3>
-              <div className="mt-2">
-                <div className="flex gap-2">
-                  <div>
-                    <Link
-                      className=" uppercase py-2 px-4 bg-[#fdab09] text-sm font-bold "
-                      href="/"
-                    >
-                      Événements
-                    </Link>
-                  </div>
-                  <span className=" text-sm font-normal">
-                    <time>mai 15, 2024</time>
-                  </span>
-                </div>
-                <div className=" mt-5">
-                  <span className=" text-[#555] text-sm ">
-                    Le 10 août prochain, c'est un événement inédit qui se
-                    déroulera ...
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className=" mt-7 flex gap-5 result-box-shadaw">
-            <div>
-              <Image
-                className="w-full h-auto"
                 src={SearchImg}
                 objectFit="contain"
                 alt="search result image"
               />
             </div>
-            <div className=" py-[10px] pr-[10px] ">
+            <div className="ps-[10px] md:ps-0 py-[10px] pr-[10px] ">
               <h3 className="font-extrabold text-xl">
                 <Link href="/">
                   Niska annonce son premier méga concert au Congo, le même jour
@@ -166,7 +126,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className=" mt-7 flex gap-5 result-box-shadaw">
+          <div className=" mt-7 block md:flex  gap-5 result-box-shadaw">
             <div>
               <Image
                 className=" w-full h-auto"
@@ -175,7 +135,7 @@ export default function Home() {
                 alt="search result image"
               />
             </div>
-            <div className=" py-[10px] pr-[10px] ">
+            <div className="ps-[10px] md:ps-0 py-[10px] pr-[10px] ">
               <h3 className="font-extrabold text-xl">
                 <Link href="/">
                   Niska annonce son premier méga concert au Congo, le même jour
@@ -205,7 +165,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className=" mt-7 flex gap-5 result-box-shadaw">
+          <div className=" mt-7 block md:flex  gap-5 result-box-shadaw">
             <div>
               <Image
                 className=" w-full h-auto"
@@ -214,7 +174,7 @@ export default function Home() {
                 alt="search result image"
               />
             </div>
-            <div className=" py-[10px] pr-[10px] ">
+            <div className="ps-[10px] md:ps-0 py-[10px] pr-[10px] ">
               <h3 className="font-extrabold text-xl">
                 <Link href="/">
                   Niska annonce son premier méga concert au Congo, le même jour
@@ -244,7 +204,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className=" mt-7 flex gap-5 result-box-shadaw">
+          <div className=" mt-7 block md:flex  gap-5 result-box-shadaw">
             <div>
               <Image
                 className=" w-full h-auto"
@@ -253,7 +213,7 @@ export default function Home() {
                 alt="search result image"
               />
             </div>
-            <div className=" py-[10px] pr-[10px] ">
+            <div className="ps-[10px] md:ps-0 py-[10px] pr-[10px] ">
               <h3 className="font-extrabold text-xl">
                 <Link href="/">
                   Niska annonce son premier méga concert au Congo, le même jour
@@ -283,7 +243,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className=" mt-7 flex gap-5 result-box-shadaw">
+          <div className=" mt-7 block md:flex  gap-5 result-box-shadaw">
             <div>
               <Image
                 className=" w-full h-auto"
@@ -292,7 +252,7 @@ export default function Home() {
                 alt="search result image"
               />
             </div>
-            <div className=" py-[10px] pr-[10px] ">
+            <div className="ps-[10px] md:ps-0 py-[10px] pr-[10px] ">
               <h3 className="font-extrabold text-xl">
                 <Link href="/">
                   Niska annonce son premier méga concert au Congo, le même jour
@@ -322,7 +282,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className=" mt-7 flex gap-5 result-box-shadaw">
+          <div className=" mt-7 block md:flex  gap-5 result-box-shadaw">
             <div>
               <Image
                 className=" w-full h-auto"
@@ -331,7 +291,7 @@ export default function Home() {
                 alt="search result image"
               />
             </div>
-            <div className=" py-[10px] pr-[10px] ">
+            <div className="ps-[10px] md:ps-0 py-[10px] pr-[10px] ">
               <h3 className="font-extrabold text-xl">
                 <Link href="/">
                   Niska annonce son premier méga concert au Congo, le même jour
@@ -361,7 +321,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className=" mt-7 flex gap-5 result-box-shadaw">
+          <div className=" mt-7 block md:flex  gap-5 result-box-shadaw">
             <div>
               <Image
                 className=" w-full h-auto"
@@ -370,7 +330,7 @@ export default function Home() {
                 alt="search result image"
               />
             </div>
-            <div className=" py-[10px] pr-[10px] ">
+            <div className="ps-[10px] md:ps-0 py-[10px] pr-[10px] ">
               <h3 className="font-extrabold text-xl">
                 <Link href="/">
                   Niska annonce son premier méga concert au Congo, le même jour
@@ -400,7 +360,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className=" mt-7 flex gap-5 result-box-shadaw">
+          <div className=" mt-7 block md:flex  gap-5 result-box-shadaw">
             <div>
               <Image
                 className=" w-full h-auto"
@@ -409,7 +369,46 @@ export default function Home() {
                 alt="search result image"
               />
             </div>
-            <div className=" py-[10px] pr-[10px] ">
+            <div className="ps-[10px] md:ps-0 py-[10px] pr-[10px] ">
+              <h3 className="font-extrabold text-xl">
+                <Link href="/">
+                  Niska annonce son premier méga concert au Congo, le même jour
+                  que...
+                </Link>
+              </h3>
+              <div className="mt-2">
+                <div className="flex gap-2">
+                  <div>
+                    <Link
+                      className=" uppercase py-2 px-4 bg-[#fdab09] text-sm font-bold "
+                      href="/"
+                    >
+                      Événements
+                    </Link>
+                  </div>
+                  <span className=" text-sm font-normal">
+                    <time>mai 15, 2024</time>
+                  </span>
+                </div>
+                <div className=" mt-5">
+                  <span className=" text-[#555] text-sm ">
+                    Le 10 août prochain, c'est un événement inédit qui se
+                    déroulera ...
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className=" mt-7 block md:flex  gap-5 result-box-shadaw">
+            <div>
+              <Image
+                className=" w-full h-auto"
+                src={SearchImg}
+                objectFit="contain"
+                alt="search result image"
+              />
+            </div>
+            <div className="ps-[10px] md:ps-0 py-[10px] pr-[10px] ">
               <h3 className="font-extrabold text-xl">
                 <Link href="/">
                   Niska annonce son premier méga concert au Congo, le même jour
