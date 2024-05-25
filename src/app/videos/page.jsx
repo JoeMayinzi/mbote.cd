@@ -48,8 +48,8 @@ export default function Videos() {
               </div>
             </div>
           </div>
-          <div className="flex">
-            <aside className="bg-[#000] w-[450px] ">
+          <div className="block lg:flex">
+            <aside className="bg-[#000] w-full mb-6 lg:mb-0 lg:w-[450px] ">
               <div className="p-5">
                 <div className="pt-4 border-b border-[#888888] w-[180px] ">
                   <h2 className="mb-4  text-white font-bold text-3xl">
@@ -120,7 +120,7 @@ export default function Videos() {
                   alt="video article"
                 />
               </Link>
-              <div className=" absolute top-[40%] left-[45%] ">
+              <div className=" absolute top-[5px] md:top-[40%] left-[30%] md:left-[45%] ">
                 <svg
                   width="130"
                   height="131"
@@ -194,7 +194,7 @@ export default function Videos() {
                 </svg>
               </div>
               <div className="gradient mt-9 absolute bottom-0 p-10">
-                <h3 className="text-white font-extrabold text-[49px] leading-[1.2] ">
+                <h3 className="text-white font-extrabold text-lg lg:text-[49px] leading-[1.2] ">
                   <Link className="" href="/">
                     Le Doc. : Voici comment Fally Ipupa a pu restaurer à lui
                     seul les concerts congolais en Europe
@@ -208,7 +208,7 @@ export default function Videos() {
 
       <section className=" mt-[30px] ">
         <div className="container mx-auto">
-          <div className="grid grid-cols-3 gap-x-[10px] gap-y-10">
+          <div className=" grid  grid-cols-1 md:grid-cols-3 gap-x-[10px] gap-y-10">
             <VideoArticle />
             <VideoArticle />
             <VideoArticle />

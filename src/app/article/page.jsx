@@ -12,21 +12,21 @@ export default function Article() {
     <>
       <section>
         <div className="container mx-auto py-[30px]">
-          <div className="w-[953px] ">
+          <div className=" w-full md:w-[953px] ">
             <div class=" mb-5 ">
               <a class="bg-[#FDAB09] font-bold text-xs uppercase p-2" href="/">
                 Buzz
               </a>
             </div>
             <div>
-              <h1 className="font-extrabold text-[52px] leading-[1.2] ">
+              <h1 className="font-extrabold text-[36px] lg:text-[52px] leading-[1.2] ">
                 Michel Bakenda sur le concert de moïse mbiye : « Je prie pour
                 que ce concert soit une réussite et que le Dieu de ta vie
                 t’honore devant 80 000 personnes »
               </h1>
             </div>
           </div>
-          <div className="flex gap-[20px] ">
+          <div className=" block md:flex gap-[20px] ">
             <div className="px-[10px]">
               <div>
                 <time class=" text-xs">mai 16, 2023</time>
@@ -171,7 +171,7 @@ export default function Article() {
                           <time datetime="">mai 19, 2024</time>
                         </span>
                       </div>
-                      <div className=" mt-5">
+                      <div className="hidden md:block mt-5">
                         <p className=" text-xs leading-[1.2] text-[#767676] ">
                           La star de la musique chrétienne congolaise, Micheline
                           Shabani, a apporté son soutien au pasteur Mike
@@ -200,7 +200,7 @@ export default function Article() {
                           <time datetime="">mai 19, 2024</time>
                         </span>
                       </div>
-                      <div className=" mt-5">
+                      <div className="hidden md:block mt-5">
                         <p className=" text-xs leading-[1.2] text-[#767676] ">
                           La star de la musique chrétienne congolaise, Micheline
                           Shabani, a apporté son soutien au pasteur Mike
@@ -229,7 +229,7 @@ export default function Article() {
                           <time datetime="">mai 19, 2024</time>
                         </span>
                       </div>
-                      <div className=" mt-5">
+                      <div className="hidden md:block mt-5">
                         <p className=" text-xs leading-[1.2] text-[#767676] ">
                           La star de la musique chrétienne congolaise, Micheline
                           Shabani, a apporté son soutien au pasteur Mike
@@ -539,7 +539,7 @@ export default function Article() {
               <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px] ">
                 <div className=" w-full">
                   <Image
-                    className=" w-full h-auto"
+                    className=" w-[130px] h-[78.1167px] md:w-full md:h-auto"
                     src={smallArticle}
                     objectFit="contain"
                     alt="image"
@@ -564,7 +564,7 @@ export default function Article() {
               <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px]">
                 <div className=" w-full">
                   <Image
-                    className=" w-full h-auto"
+                    className=" w-[130px] h-[78.1167px] md:w-full md:h-auto"
                     src={smallArticle}
                     objectFit="contain"
                     alt="image"
@@ -589,7 +589,7 @@ export default function Article() {
               <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px]">
                 <div className=" w-full">
                   <Image
-                    className=" w-full h-auto"
+                    className=" w-[130px] h-[78.1167px] md:w-full md:h-auto"
                     src={smallArticle}
                     objectFit="contain"
                     alt="image"
@@ -614,7 +614,7 @@ export default function Article() {
               <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px]">
                 <div className=" w-full">
                   <Image
-                    className=" w-full h-auto"
+                    className=" w-[130px] h-[78.1167px] md:w-full md:h-auto"
                     src={smallArticle}
                     objectFit="contain"
                     alt="image"
@@ -639,7 +639,7 @@ export default function Article() {
               <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px]">
                 <div className=" w-full">
                   <Image
-                    className=" w-full h-auto"
+                    className=" w-[130px] h-[78.1167px] md:w-full md:h-auto"
                     src={smallArticle}
                     objectFit="contain"
                     alt="image"
@@ -664,7 +664,7 @@ export default function Article() {
               <div className="flex gap-y-[15px] gap-x-[15px]">
                 <div className=" w-full">
                   <Image
-                    className=" w-full h-auto"
+                    className=" w-[130px] h-[78.1167px] md:w-full md:h-auto"
                     src={smallArticle}
                     objectFit="contain"
                     alt="image"
