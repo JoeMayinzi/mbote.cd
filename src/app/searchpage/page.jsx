@@ -127,7 +127,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className=" mt-7 flex gap-5 result-box-shadaw">
+          <div className=" mt-7 block md:flex  gap-5 result-box-shadaw">
             <div>
               <Image
                 className=" w-full h-auto"
@@ -136,7 +136,7 @@ export default function Home() {
                 alt="search result image"
               />
             </div>
-            <div className=" py-[10px] pr-[10px] ">
+            <div className="ps-[10px] md:ps-0 py-[10px] pr-[10px] ">
               <h3 className="font-extrabold text-xl">
                 <Link href="/">
                   Niska annonce son premier méga concert au Congo, le même jour
