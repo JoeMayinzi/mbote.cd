@@ -430,8 +430,8 @@ export default function Article() {
                 </div>
                 <div className=" mb-4">
                   <div className="flex gap-x-[15px] gap-y-[15px] ">
-                    <div>
-                      <div className=" w-full">
+                    <div className="w-[50%] md:w-fit ">
+                      <div>
                         <Image
                           className=" w-full h-auto"
                           src={LastArticlesImg}
@@ -440,9 +440,9 @@ export default function Article() {
                         />
                       </div>
                     </div>
-                    <div className=" py-4">
+                    <div className="w-[50%] md:w-fit py-4">
                       <div>
-                        <h3 className="text-sm font-extrabold leading-[1.2]">
+                        <h3 className="text-xs md:text-sm font-extrabold leading-[1.2]">
                           Kérozene : « Il renversa le stade des martyrs, bravo
                           au pasteur Moise Mbiye, bravo à tous les congol...
                         </h3>
@@ -452,7 +452,7 @@ export default function Article() {
                           <time datetime="">mai 20, 2024</time>
                         </span>
                       </div>
-                      <div className=" mt-4">
+                      <div className="hidden md:block mt-4">
                         <p className="text-xs leading-[1.2] text-[#767676] ">
                           Le méga concert donné hier par le pasteur gospel Moïse
                           Mbiye au stade des Martyrs de Kinshasa a fait le tour
@@ -465,8 +465,8 @@ export default function Article() {
                 </div>
                 <div className=" mb-4">
                   <div className="flex gap-x-[15px] gap-y-[15px] ">
-                    <div>
-                      <div className=" w-full">
+                    <div className="w-[50%] md:w-fit ">
+                      <div>
                         <Image
                           className=" w-full h-auto"
                           src={LastArticlesImg}
@@ -475,9 +475,9 @@ export default function Article() {
                         />
                       </div>
                     </div>
-                    <div className=" py-4">
+                    <div className="w-[50%] md:w-fit py-4">
                       <div>
-                        <h3 className="text-sm font-extrabold leading-[1.2]">
+                        <h3 className="text-xs md:text-sm font-extrabold leading-[1.2]">
                           Kérozene : « Il renversa le stade des martyrs, bravo
                           au pasteur Moise Mbiye, bravo à tous les congol...
                         </h3>
@@ -487,7 +487,7 @@ export default function Article() {
                           <time datetime="">mai 20, 2024</time>
                         </span>
                       </div>
-                      <div className=" mt-4">
+                      <div className="hidden md:block mt-4">
                         <p className="text-xs leading-[1.2] text-[#767676] ">
                           Le méga concert donné hier par le pasteur gospel Moïse
                           Mbiye au stade des Martyrs de Kinshasa a fait le tour
@@ -498,10 +498,10 @@ export default function Article() {
                     </div>
                   </div>
                 </div>
-                <div>
-                  <div className="flex  gap-x-[10px] gap-y-10 ">
-                    <div>
-                      <div className=" w-full">
+                <div className=" mb-4">
+                  <div className="flex gap-x-[15px] gap-y-[15px] ">
+                    <div className="w-[50%] md:w-fit ">
+                      <div>
                         <Image
                           className=" w-full h-auto"
                           src={LastArticlesImg}
@@ -510,9 +510,9 @@ export default function Article() {
                         />
                       </div>
                     </div>
-                    <div className=" py-4">
+                    <div className="w-[50%] md:w-fit py-4">
                       <div>
-                        <h3 className="text-sm font-extrabold leading-[1.2]">
+                        <h3 className="text-xs md:text-sm font-extrabold leading-[1.2]">
                           Kérozene : « Il renversa le stade des martyrs, bravo
                           au pasteur Moise Mbiye, bravo à tous les congol...
                         </h3>
@@ -522,7 +522,7 @@ export default function Article() {
                           <time datetime="">mai 20, 2024</time>
                         </span>
                       </div>
-                      <div className=" mt-4">
+                      <div className="hidden md:block mt-4">
                         <p className="text-xs leading-[1.2] text-[#767676] ">
                           Le méga concert donné hier par le pasteur gospel Moïse
                           Mbiye au stade des Martyrs de Kinshasa a fait le tour
@@ -539,7 +539,7 @@ export default function Article() {
               <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px] ">
                 <div className=" w-full">
                   <Image
-                    className=" w-[130px] h-[78.1167px] md:w-full md:h-auto"
+                    className=" w-full md:w-[130px] h-[78.1167px]  md:h-auto"
                     src={smallArticle}
                     objectFit="contain"
                     alt="image"
@@ -547,7 +547,7 @@ export default function Article() {
                 </div>
                 <div>
                   <div>
-                    <h3 className=" text-sm font-extrabold leading-[1.2] ">
+                    <h3 className=" text-xs lg:text-sm font-extrabold leading-[1.2] ">
                       <Link href="/">
                         Polémique sur les réseaux sociaux après l’entrée
                         spectaculaire sur scène de Moïse Mbiye au Sta...
@@ -564,7 +564,7 @@ export default function Article() {
               <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px]">
                 <div className=" w-full">
                   <Image
-                    className=" w-[130px] h-[78.1167px] md:w-full md:h-auto"
+                    className=" w-full md:w-[130px] h-[78.1167px] md:h-auto"
                     src={smallArticle}
                     objectFit="contain"
                     alt="image"
@@ -572,7 +572,7 @@ export default function Article() {
                 </div>
                 <div>
                   <div>
-                    <h3 className=" text-sm font-extrabold leading-[1.2] ">
+                    <h3 className=" text-xs lg:text-sm font-extrabold leading-[1.2] ">
                       <Link href="/">
                         Polémique sur les réseaux sociaux après l’entrée
                         spectaculaire sur scène de Moïse Mbiye au Sta...
@@ -589,7 +589,7 @@ export default function Article() {
               <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px]">
                 <div className=" w-full">
                   <Image
-                    className=" w-[130px] h-[78.1167px] md:w-full md:h-auto"
+                    className="w-full md:w-[130px] h-[78.1167px] md:h-auto"
                     src={smallArticle}
                     objectFit="contain"
                     alt="image"
@@ -597,7 +597,7 @@ export default function Article() {
                 </div>
                 <div>
                   <div>
-                    <h3 className=" text-sm font-extrabold leading-[1.2] ">
+                    <h3 className=" text-xs lg:text-sm font-extrabold leading-[1.2] ">
                       <Link href="/">
                         Polémique sur les réseaux sociaux après l’entrée
                         spectaculaire sur scène de Moïse Mbiye au Sta...
@@ -614,7 +614,7 @@ export default function Article() {
               <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px]">
                 <div className=" w-full">
                   <Image
-                    className=" w-[130px] h-[78.1167px] md:w-full md:h-auto"
+                    className="w-full md:w-[130px] h-[78.1167px] md:h-auto"
                     src={smallArticle}
                     objectFit="contain"
                     alt="image"
@@ -622,7 +622,7 @@ export default function Article() {
                 </div>
                 <div>
                   <div>
-                    <h3 className=" text-sm font-extrabold leading-[1.2] ">
+                    <h3 className="text-xs lg:text-sm font-extrabold leading-[1.2] ">
                       <Link href="/">
                         Polémique sur les réseaux sociaux après l’entrée
                         spectaculaire sur scène de Moïse Mbiye au Sta...
@@ -639,7 +639,7 @@ export default function Article() {
               <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px]">
                 <div className=" w-full">
                   <Image
-                    className=" w-[130px] h-[78.1167px] md:w-full md:h-auto"
+                    className="w-full md:w-[130px] h-[78.1167px] md:h-auto"
                     src={smallArticle}
                     objectFit="contain"
                     alt="image"
@@ -647,7 +647,7 @@ export default function Article() {
                 </div>
                 <div>
                   <div>
-                    <h3 className=" text-sm font-extrabold leading-[1.2] ">
+                    <h3 className=" text-xs lg:text-sm font-extrabold leading-[1.2] ">
                       <Link href="/">
                         Polémique sur les réseaux sociaux après l’entrée
                         spectaculaire sur scène de Moïse Mbiye au Sta...
@@ -664,7 +664,7 @@ export default function Article() {
               <div className="flex gap-y-[15px] gap-x-[15px]">
                 <div className=" w-full">
                   <Image
-                    className=" w-[130px] h-[78.1167px] md:w-full md:h-auto"
+                    className="w-full md:w-[130px] h-[78.1167px] md:h-auto"
                     src={smallArticle}
                     objectFit="contain"
                     alt="image"
@@ -672,7 +672,7 @@ export default function Article() {
                 </div>
                 <div>
                   <div>
-                    <h3 className=" text-sm font-extrabold leading-[1.2] ">
+                    <h3 className="text-xs lg:text-sm font-extrabold leading-[1.2] ">
                       <Link href="/">
                         Polémique sur les réseaux sociaux après l’entrée
                         spectaculaire sur scène de Moïse Mbiye au Sta...
