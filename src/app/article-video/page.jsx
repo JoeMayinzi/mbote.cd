@@ -9,7 +9,7 @@ export default function VideoArticle() {
   return (
     <>
       <section className="bg-[#222] py-[30px]">
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4 md:px-0">
           <div className="flex pt-[21px]">
             <div className="px-6 w-full">
               <div>
@@ -337,7 +337,7 @@ export default function VideoArticle() {
         </div>
       </section>
       <section className="bg-[#1D1D1D] py-[30px]">
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4 md:px-0">
           <div className=" text-center mb-[26px] ">
             <a class="bg-[#FDAB09] font-bold text-base uppercase p-2" href="/">
               Plus de vidéos

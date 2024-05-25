@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <section className="bg">
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4 md:px-0">
           <div className=" ps-[20px] pr-[600px] pb-[100px] ">
             <div>
               <a

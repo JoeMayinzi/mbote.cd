@@ -10,7 +10,7 @@ const Montserat = Montserrat({
 export default function Home() {
   return (
     <main className={`${Montserat.className}`}>
-      <div className="container mx-auto  mb-5 py-[50px]  not-found-shadaw mt-10">
+      <div className="container mx-auto px-4 md:px-0  mb-5 py-[50px]  not-found-shadaw mt-10">
         <div className="flex pb-52">
           <div className="w-[50%] "></div>
           <div className="w-[50%] ">

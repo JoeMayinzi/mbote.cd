@@ -14,7 +14,7 @@ export default function Archive() {
   return (
     <>
       <section className={`${font.className}`}>
-        <div className="container mx-auto">
+        <div className="container mx-auto  px-4 md:px-0">
           <div className="mt-7 py-[30px]">
             <div>
               <div className=" p-[5px] mb-3 bg-[rgba(73,73,73,.2)] flex items-center w-fit">
@@ -70,7 +70,7 @@ export default function Archive() {
         </div>
       </section>
       <section className=" mt-[30px] ">
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4 md:px-0">
           <div className=" grid grid-cols-1 md:grid-cols-3 gap-x-[10px] gap-y-10">
             <Article />
             <Article />

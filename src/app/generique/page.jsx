@@ -1,7 +1,7 @@
 export default function Generique() {
   return (
-    <section className="mt-3 pt-[21px] px-6">
-      <div className="container mx-auto">
+    <section className="mt-3 pt-[21px] px-0 md:px-6">
+      <div className="container mx-auto px-5 md:px-0">
         <div>
           <h1 className="mb-[19px] text-3xl ">Qui sommes nous</h1>
         </div>

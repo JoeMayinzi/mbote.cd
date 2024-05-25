@@ -11,7 +11,7 @@ export default function Article() {
   return (
     <>
       <section>
-        <div className="container mx-auto py-[30px]">
+        <div className="container mx-auto py-[30px] px-4 md:px-0">
           <div className=" w-full md:w-[953px] ">
             <div class=" mb-5 ">
               <a class="bg-[#FDAB09] font-bold text-xs uppercase p-2" href="/">
@@ -27,7 +27,7 @@ export default function Article() {
             </div>
           </div>
           <div className=" block md:flex gap-[20px] ">
-            <div className="px-[10px]">
+            <div className=" px-0 md:px-[10px]">
               <div>
                 <time class=" text-xs">mai 16, 2023</time>
               </div>
