@@ -162,7 +162,7 @@ export default function Article() {
                       />
                     </div>
                     <div>
-                      <h3 className="mt-[10px] mb-[5px] text-sm leading-[1.2] font-extrabold ">
+                      <h3 className="mt-[10px] mb-[5px] text-xs lg:text-sm leading-[1.2] font-extrabold ">
                         Micheline Shabani affiche son soutien à Mike Kalambay
                         pour s...
                       </h3>
@@ -191,7 +191,7 @@ export default function Article() {
                       />
                     </div>
                     <div>
-                      <h3 className="mt-[10px] mb-[5px] text-sm leading-[1.2] font-extrabold ">
+                      <h3 className="mt-[10px] mb-[5px] text-xs lg:text-sm leading-[1.2] font-extrabold ">
                         Micheline Shabani affiche son soutien à Mike Kalambay
                         pour s...
                       </h3>
@@ -220,7 +220,7 @@ export default function Article() {
                       />
                     </div>
                     <div>
-                      <h3 className="mt-[10px] mb-[5px] text-sm leading-[1.2] font-extrabold ">
+                      <h3 className="mt-[10px] mb-[5px] text-xs lg:text-sm leading-[1.2] font-extrabold ">
                         Micheline Shabani affiche son soutien à Mike Kalambay
                         pour s...
                       </h3>
@@ -362,20 +362,20 @@ export default function Article() {
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
                       >
-                        <g clip-path="url(#clip0_1_114)">
+                        <g clip-path="url(#clip0_1_513)">
                           <path
-                            d="M13.9307 12.9448V6.52881C13.7549 6.72412 13.5596 6.90967 13.3447 7.08545C11.8604 8.22803 10.6738 9.16553 9.78516 9.89795C9.50195 10.1421 9.27246 10.3325 9.09668 10.4692C8.91113 10.6157 8.66699 10.7524 8.36426 10.8794C8.07129 11.0063 7.78809 11.0698 7.51465 11.0698H7.48535C7.22168 11.0698 6.93848 11.0063 6.63574 10.8794C6.32324 10.7524 6.0791 10.6157 5.90332 10.4692C5.73731 10.3325 5.50781 10.1421 5.21485 9.89795C4.33594 9.16553 3.14942 8.22803 1.65528 7.08545C1.44043 6.90967 1.24512 6.72412 1.06934 6.52881V12.9448C1.06934 13.0229 1.09863 13.0913 1.15723 13.1499C1.21582 13.1987 1.27442 13.2231 1.33301 13.2231H13.667C13.7354 13.2231 13.7939 13.1987 13.8428 13.1499C13.8916 13.0913 13.9209 13.0229 13.9307 12.9448ZM13.9307 4.15576V3.95068L13.916 3.84814C13.9063 3.77979 13.9014 3.74561 13.9014 3.74561C13.9014 3.74561 13.8867 3.71631 13.8574 3.65771C13.8281 3.60889 13.8037 3.58936 13.7842 3.59912C13.7647 3.60889 13.7256 3.59912 13.667 3.56982H1.33301C1.26465 3.56982 1.20606 3.59912 1.15723 3.65771C1.1084 3.72607 1.0791 3.78955 1.06934 3.84814C1.06934 4.78564 1.47949 5.58154 2.29981 6.23584C3.37403 7.08545 4.49219 7.96924 5.6543 8.88721C5.69336 8.90674 5.7959 8.98486 5.96192 9.12158C6.11817 9.2583 6.24024 9.36572 6.32813 9.44385C6.41602 9.51221 6.54297 9.6001 6.70899 9.70752C6.86524 9.81494 7.00195 9.88818 7.11914 9.92725C7.2461 9.97607 7.36817 10.0054 7.48535 10.0151H7.51465C7.62207 10.0151 7.74414 9.98584 7.88086 9.92725C8.00781 9.87842 8.14453 9.80518 8.29102 9.70752C8.44727 9.60986 8.57422 9.52197 8.67188 9.44385C8.76953 9.35596 8.8916 9.24854 9.03809 9.12158C9.19434 8.99463 9.29688 8.9165 9.3457 8.88721C10.5078 7.96924 11.626 7.08545 12.7002 6.23584C13.0029 5.9917 13.2861 5.66455 13.5498 5.25439C13.8037 4.84424 13.9307 4.47803 13.9307 4.15576ZM15 3.84814V12.9448C15 13.3159 14.8682 13.6333 14.6045 13.897C14.3506 14.1509 14.0381 14.2827 13.667 14.2925H1.33301C0.971681 14.2925 0.659181 14.1606 0.395509 13.897C0.122072 13.6235 -0.00976405 13.3062 1.57849e-06 12.9448V3.84814C1.57849e-06 3.47705 0.131838 3.15967 0.395509 2.896C0.649416 2.64209 0.961916 2.51514 1.33301 2.51514H13.667C14.0381 2.51514 14.3506 2.64209 14.6045 2.896C14.8682 3.15967 15 3.47705 15 3.84814Z"
+                            d="M3.43268 13.6333H10.9327V11.4946H3.43268V13.6333ZM3.43268 8.27197H10.9327V5.06396H9.59967C9.37506 5.06396 9.18463 4.98584 9.02838 4.82959C8.87213 4.67334 8.79401 4.48291 8.79401 4.2583V2.91064H3.43268V8.27197ZM13.086 8.81396C13.086 8.66748 13.0323 8.54053 12.9249 8.43311C12.8174 8.32568 12.6905 8.27197 12.544 8.27197C12.3975 8.27197 12.273 8.32568 12.1705 8.43311C12.0679 8.54053 12.0167 8.66748 12.0167 8.81396C12.0167 8.96045 12.0679 9.08496 12.1705 9.1875C12.273 9.29004 12.3975 9.34131 12.544 9.34131C12.6905 9.34131 12.8174 9.29004 12.9249 9.1875C13.0323 9.08496 13.086 8.96045 13.086 8.81396ZM14.1553 8.81396V12.2856C14.1553 12.3638 14.1285 12.4297 14.0748 12.4834C14.0211 12.5371 13.96 12.564 13.8917 12.564H12.0167V13.897C12.0167 14.1216 11.9361 14.312 11.775 14.4683C11.6138 14.6245 11.4258 14.7026 11.211 14.7026H3.16901C2.9444 14.7026 2.75397 14.6245 2.59772 14.4683C2.44147 14.312 2.36334 14.1216 2.36334 13.897V12.564H0.488342C0.419983 12.564 0.358948 12.5371 0.305237 12.4834C0.251526 12.4297 0.22467 12.3638 0.22467 12.2856V8.81396C0.22467 8.37451 0.383362 7.99609 0.700745 7.67871C1.01813 7.36133 1.39655 7.20264 1.836 7.20264H2.36334V2.64697C2.36334 2.42236 2.44147 2.23193 2.59772 2.07568C2.75397 1.91943 2.9444 1.84131 3.16901 1.84131H8.79401C9.01862 1.84131 9.2652 1.89746 9.53375 2.00977C9.80231 2.12207 10.0147 2.25635 10.171 2.4126L11.4454 3.68701C11.6016 3.84326 11.7359 4.05566 11.8482 4.32422C11.9605 4.59277 12.0167 4.83936 12.0167 5.06396V7.20264H12.544C12.9835 7.20264 13.3619 7.36133 13.6793 7.67871C13.9966 7.99609 14.1553 8.37451 14.1553 8.81396Z"
                             fill="white"
-                          ></path>
+                          />
                         </g>
                         <defs>
-                          <clipPath id="clip0_1_114">
+                          <clipPath id="clip0_1_513">
                             <rect
-                              width="15"
+                              width="13.94"
                               height="15"
                               fill="white"
-                              transform="matrix(1 0 0 -1 0 15.23)"
-                            ></rect>
+                              transform="matrix(1 0 0 -1 0.220001 15.6401)"
+                            />
                           </clipPath>
                         </defs>
                       </svg>
@@ -430,7 +430,7 @@ export default function Article() {
                 </div>
                 <div className=" mb-4">
                   <div className="flex gap-x-[15px] gap-y-[15px] ">
-                    <div className="w-[50%] md:w-fit ">
+                    <div className="w-[30%] md:w-fit ">
                       <div>
                         <Image
                           className=" w-full h-auto"
@@ -440,7 +440,7 @@ export default function Article() {
                         />
                       </div>
                     </div>
-                    <div className="w-[50%] md:w-fit py-4">
+                    <div className="w-[70%] md:w-fit py-0 md:py-4">
                       <div>
                         <h3 className="text-xs md:text-sm font-extrabold leading-[1.2]">
                           Kérozene : « Il renversa le stade des martyrs, bravo
@@ -465,7 +465,7 @@ export default function Article() {
                 </div>
                 <div className=" mb-4">
                   <div className="flex gap-x-[15px] gap-y-[15px] ">
-                    <div className="w-[50%] md:w-fit ">
+                    <div className="w-[30%] md:w-fit ">
                       <div>
                         <Image
                           className=" w-full h-auto"
@@ -475,7 +475,7 @@ export default function Article() {
                         />
                       </div>
                     </div>
-                    <div className="w-[50%] md:w-fit py-4">
+                    <div className="w-[70%] md:w-fit py-0 md:py-4">
                       <div>
                         <h3 className="text-xs md:text-sm font-extrabold leading-[1.2]">
                           Kérozene : « Il renversa le stade des martyrs, bravo
@@ -500,7 +500,7 @@ export default function Article() {
                 </div>
                 <div className=" mb-4">
                   <div className="flex gap-x-[15px] gap-y-[15px] ">
-                    <div className="w-[50%] md:w-fit ">
+                    <div className="w-[30%] md:w-fit ">
                       <div>
                         <Image
                           className=" w-full h-auto"
@@ -510,7 +510,7 @@ export default function Article() {
                         />
                       </div>
                     </div>
-                    <div className="w-[50%] md:w-fit py-4">
+                    <div className="w-[70%] md:w-fit py-0 md:py-4">
                       <div>
                         <h3 className="text-xs md:text-sm font-extrabold leading-[1.2]">
                           Kérozene : « Il renversa le stade des martyrs, bravo
@@ -541,7 +541,8 @@ export default function Article() {
                   <Image
                     className=" w-full md:w-[130px] h-[78.1167px]  md:h-auto"
                     src={smallArticle}
-                    objectFit="contain"
+                    width="130px"
+                    height="78.1167"
                     alt="image"
                   />
                 </div>

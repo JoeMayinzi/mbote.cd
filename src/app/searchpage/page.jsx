@@ -53,7 +53,8 @@ export default function Home() {
               <Image
                 className=" w-full h-auto"
                 src={SearchImg}
-                ob
+                width="410"
+                height="246"
                 alt="search result image"
               />
             </div>
