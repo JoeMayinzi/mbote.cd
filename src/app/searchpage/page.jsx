@@ -10,7 +10,7 @@ export default function Home() {
       <div className="container mx-auto mt-5 p-[30px] ">
         <div className="w-full lg:w-[834px] ">
           <div>
-            <h4 className=" text-[32px] font-bold mb-6">
+            <h4 className=" text-xl md:text-[32px] font-bold mb-6">
               Résultats de recherche
             </h4>
           </div>
