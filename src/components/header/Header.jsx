@@ -14,7 +14,7 @@ export default function Header() {
       className={`bg-[#000000] header-shadaw sticky top-0 z-10 ${FiraSans.className}`}
     >
       <div className="container mx-auto">
-        <div className="flex justify-between items-center py-4">
+        <div className="flex justify-between items-center py-0 md:py-4">
           <div className="flex gap-3 items-center">
             <div className="block md:hidden">
               <svg
