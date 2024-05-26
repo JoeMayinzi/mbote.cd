@@ -68,7 +68,46 @@ export default function SearchPage() {
                 <div className="flex gap-2">
                   <div>
                     <Link
-                      className=" uppercase py-2 px-4 bg-[#fdab09] text-sm font-bold "
+                      className=" uppercase py-2 px-4 bg-[#fdab09] text-[10px] md:text-sm font-bold "
+                      href="/"
+                    >
+                      buzz
+                    </Link>
+                  </div>
+                  <span className=" text-sm font-normal">
+                    <time>mai 15, 2024</time>
+                  </span>
+                </div>
+                <div className=" mt-5">
+                  <span className=" text-[#555] text-sm ">
+                    Le 10 août prochain, c'est un événement inédit qui se
+                    déroulera ...
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className=" mt-7 block md:flex  gap-5 result-box-shadaw">
+            <div>
+              <Image
+                className=" w-full h-auto"
+                src={SearchImg}
+                objectFit="contain"
+                alt="search result image"
+              />
+            </div>
+            <div className="ps-[10px] md:ps-0 py-[10px] pr-[10px] ">
+              <h3 className="font-extrabold text-base md:text-xl ">
+                <Link href="/">
+                  Niska annonce son premier méga concert au Congo, le même jour
+                  que...
+                </Link>
+              </h3>
+              <div className="mt-2">
+                <div className="flex gap-2">
+                  <div>
+                    <Link
+                      className=" uppercase py-2 px-4 bg-[#fdab09] text-[10px] md:text-sm font-bold "
                       href="/"
                     >
                       Événements
@@ -107,7 +146,7 @@ export default function SearchPage() {
                 <div className="flex gap-2">
                   <div>
                     <Link
-                      className=" uppercase py-2 px-4 bg-[#fdab09] text-sm font-bold "
+                      className=" uppercase py-2 px-4 bg-[#fdab09] text-[10px] md:text-sm font-bold "
                       href="/"
                     >
                       Événements
@@ -146,7 +185,7 @@ export default function SearchPage() {
                 <div className="flex gap-2">
                   <div>
                     <Link
-                      className=" uppercase py-2 px-4 bg-[#fdab09] text-sm font-bold "
+                      className=" uppercase py-2 px-4 bg-[#fdab09] text-[10px] md:text-sm font-bold "
                       href="/"
                     >
                       Événements
@@ -185,7 +224,7 @@ export default function SearchPage() {
                 <div className="flex gap-2">
                   <div>
                     <Link
-                      className=" uppercase py-2 px-4 bg-[#fdab09] text-sm font-bold "
+                      className=" uppercase py-2 px-4 bg-[#fdab09] text-[10px] md:text-sm font-bold "
                       href="/"
                     >
                       Événements
@@ -224,7 +263,7 @@ export default function SearchPage() {
                 <div className="flex gap-2">
                   <div>
                     <Link
-                      className=" uppercase py-2 px-4 bg-[#fdab09] text-sm font-bold "
+                      className=" uppercase py-2 px-4 bg-[#fdab09] text-[10px] md:text-sm font-bold "
                       href="/"
                     >
                       Événements
@@ -263,7 +302,7 @@ export default function SearchPage() {
                 <div className="flex gap-2">
                   <div>
                     <Link
-                      className=" uppercase py-2 px-4 bg-[#fdab09] text-sm font-bold "
+                      className=" uppercase py-2 px-4 bg-[#fdab09] text-[10px] md:text-sm font-bold "
                       href="/"
                     >
                       Événements
@@ -302,7 +341,7 @@ export default function SearchPage() {
                 <div className="flex gap-2">
                   <div>
                     <Link
-                      className=" uppercase py-2 px-4 bg-[#fdab09] text-sm font-bold "
+                      className=" uppercase py-2 px-4 bg-[#fdab09] text-[10px] md:text-sm font-bold "
                       href="/"
                     >
                       Événements
@@ -341,7 +380,7 @@ export default function SearchPage() {
                 <div className="flex gap-2">
                   <div>
                     <Link
-                      className=" uppercase py-2 px-4 bg-[#fdab09] text-sm font-bold "
+                      className=" uppercase py-2 px-4 bg-[#fdab09] text-[10px] md:text-sm font-bold "
                       href="/"
                     >
                       Événements
@@ -380,46 +419,7 @@ export default function SearchPage() {
                 <div className="flex gap-2">
                   <div>
                     <Link
-                      className=" uppercase py-2 px-4 bg-[#fdab09] text-sm font-bold "
-                      href="/"
-                    >
-                      Événements
-                    </Link>
-                  </div>
-                  <span className=" text-sm font-normal">
-                    <time>mai 15, 2024</time>
-                  </span>
-                </div>
-                <div className=" mt-5">
-                  <span className=" text-[#555] text-sm ">
-                    Le 10 août prochain, c'est un événement inédit qui se
-                    déroulera ...
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className=" mt-7 block md:flex  gap-5 result-box-shadaw">
-            <div>
-              <Image
-                className=" w-full h-auto"
-                src={SearchImg}
-                objectFit="contain"
-                alt="search result image"
-              />
-            </div>
-            <div className="ps-[10px] md:ps-0 py-[10px] pr-[10px] ">
-              <h3 className="font-extrabold text-base md:text-xl ">
-                <Link href="/">
-                  Niska annonce son premier méga concert au Congo, le même jour
-                  que...
-                </Link>
-              </h3>
-              <div className="mt-2">
-                <div className="flex gap-2">
-                  <div>
-                    <Link
-                      className=" uppercase py-2 px-4 bg-[#fdab09] text-sm font-bold "
+                      className=" uppercase py-2 px-4 bg-[#fdab09] text-[10px] md:text-sm font-bold "
                       href="/"
                     >
                       Événements

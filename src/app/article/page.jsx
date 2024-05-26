@@ -26,7 +26,7 @@ export default function Article() {
               </h1>
             </div>
           </div>
-          <div className=" block md:flex gap-[20px] ">
+          <div className=" block lg:flex gap-[20px] ">
             <div className=" px-0 md:px-[10px]">
               <div>
                 <time class=" text-xs">mai 16, 2023</time>
@@ -145,17 +145,45 @@ export default function Article() {
                   </div>
                 </div>
               </div>
+              <div className=" my-5">
+                <div className="flex gap-[5px] ">
+                  <div>
+                    <a
+                      className="bg-[#FDAB09] font-bold text-[11px] p-2"
+                      href="/"
+                    >
+                      Thematique :
+                    </a>
+                  </div>
+                  <div>
+                    <a
+                      className="bg-[#FDAB09] font-bold text-[11px] p-2 hover:text-white border hover:border-black"
+                      href="/"
+                    >
+                      Michel Bakenda
+                    </a>
+                  </div>
+                  <div>
+                    <a
+                      className="bg-[#FDAB09] font-bold text-[11px] p-2 hover:text-white border hover:border-black"
+                      href="/"
+                    >
+                      Moise Mbiye
+                    </a>
+                  </div>
+                </div>
+              </div>
               <div>
                 <div className="text-center">
                   <h4 className="text-[32px] font-bold mb-4">
                     Articles similaires
                   </h4>
                 </div>
-                <div className="grid grid-cols-3 gap-[10px] ">
-                  <div>
+                <div className="flex gap-[10px] ">
+                  <div className=" w-full h-full md:w-[269.467px] ">
                     <div>
                       <Image
-                        className=" w-full h-auto"
+                        className=" h-auto md:h-[161px] "
                         src={smilaryImg}
                         objectFit="contain"
                         alt="similary image"
@@ -181,10 +209,10 @@ export default function Article() {
                       </div>
                     </div>
                   </div>
-                  <div>
+                  <div className=" w-full h-full md:w-[269.467px] ">
                     <div>
                       <Image
-                        className=" w-full h-auto"
+                        className=" h-auto md:h-[161px] "
                         src={smilaryImg}
                         objectFit="contain"
                         alt="similary image"
@@ -210,10 +238,10 @@ export default function Article() {
                       </div>
                     </div>
                   </div>
-                  <div>
+                  <div className=" w-full h-full md:w-[269.467px] ">
                     <div>
                       <Image
-                        className=" w-full h-auto"
+                        className=" h-auto md:h-[161px] "
                         src={smilaryImg}
                         objectFit="contain"
                         alt="similary image"
@@ -505,7 +533,44 @@ export default function Article() {
                         <Image
                           className=" w-full h-auto"
                           src={LastArticlesImg}
-                          objectFit="contain"
+                          width="269"
+                          height="161"
+                          alt="img"
+                        />
+                      </div>
+                    </div>
+                    <div className="w-[70%] md:w-fit py-0 md:py-4">
+                      <div>
+                        <h3 className="text-xs md:text-sm font-extrabold leading-[1.2]">
+                          Kérozene : « Il renversa le stade des martyrs, bravo
+                          au pasteur Moise Mbiye, bravo à tous les congol...
+                        </h3>
+                      </div>
+                      <div>
+                        <span className="text-[#e3382b] text-xs  font-medium tracking-[.5px] uppercase">
+                          <time datetime="">mai 20, 2024</time>
+                        </span>
+                      </div>
+                      <div className="hidden md:block mt-4">
+                        <p className="text-xs leading-[1.2] text-[#767676] ">
+                          Le méga concert donné hier par le pasteur gospel Moïse
+                          Mbiye au stade des Martyrs de Kinshasa a fait le tour
+                          des réseaux sociaux. Parmi les nombreuses réactions,
+                          celle de la star ivoirienne Kerozene ...
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className=" mb-4">
+                  <div className="flex gap-x-[15px] gap-y-[15px] ">
+                    <div className="w-[30%] md:w-fit ">
+                      <div>
+                        <Image
+                          className=" w-full h-auto"
+                          src={LastArticlesImg}
+                          width="269"
+                          height="161"
                           alt="img"
                         />
                       </div>
@@ -537,7 +602,7 @@ export default function Article() {
             </div>
             <div className="sticky top-0 mt-24 ">
               <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px] ">
-                <div className=" w-full">
+                <div className=" md:flex-1 w-full">
                   <Image
                     className=" w-full md:w-[130px] h-[78.1167px]  md:h-auto"
                     src={smallArticle}
@@ -563,7 +628,7 @@ export default function Article() {
                 </div>
               </div>
               <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px]">
-                <div className=" w-full">
+                <div className="md:flex-1 w-full">
                   <Image
                     className=" w-full md:w-[130px] h-[78.1167px] md:h-auto"
                     src={smallArticle}
@@ -588,7 +653,7 @@ export default function Article() {
                 </div>
               </div>
               <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px]">
-                <div className=" w-full">
+                <div className="md:flex-1 w-full">
                   <Image
                     className="w-full md:w-[130px] h-[78.1167px] md:h-auto"
                     src={smallArticle}
@@ -613,7 +678,7 @@ export default function Article() {
                 </div>
               </div>
               <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px]">
-                <div className=" w-full">
+                <div className="md:flex-1 w-full">
                   <Image
                     className="w-full md:w-[130px] h-[78.1167px] md:h-auto"
                     src={smallArticle}
@@ -638,7 +703,7 @@ export default function Article() {
                 </div>
               </div>
               <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px]">
-                <div className=" w-full">
+                <div className="md:flex-1 w-full">
                   <Image
                     className="w-full md:w-[130px] h-[78.1167px] md:h-auto"
                     src={smallArticle}
@@ -663,7 +728,7 @@ export default function Article() {
                 </div>
               </div>
               <div className="flex gap-y-[15px] gap-x-[15px]">
-                <div className=" w-full">
+                <div className="md:flex-1 w-full">
                   <Image
                     className="w-full md:w-[130px] h-[78.1167px] md:h-auto"
                     src={smallArticle}
