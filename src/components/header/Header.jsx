@@ -107,8 +107,7 @@ export default function Header() {
             <Link href="https://mbote.cd/">
               <Image
                 src={logo}
-                width={250}
-                height={58}
+                objectFit="contain"
                 alt="The mbote website official logo"
               />
             </Link>
