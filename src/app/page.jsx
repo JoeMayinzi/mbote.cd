@@ -133,7 +133,7 @@ export default function Home() {
         </div>
       </section>
       <section className=" mt-10">
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4 md:px-0">
           <div>
             <h4 className="mb-4 text-[32px] font-bold  ">Top Stories</h4>
           </div>
@@ -238,7 +238,7 @@ export default function Home() {
         </div>
       </section>
       <section className=" mt-10">
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4 md:px-0">
           <div className="grid grid-cols-1 md:grid-cols-3 md:gap-[5px] lg:gap-0 ">
             <div className="article-bg-2">
               <div className=" p-4 text-center absolute bottom-0">
