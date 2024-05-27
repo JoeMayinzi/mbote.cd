@@ -6,10 +6,12 @@ import articleBG from "../../assets/images/article-bg.jpeg";
 import smallArticle from "../../assets/images/small-article.webp";
 import smilaryImg from "../../assets/images/smilary-article.webp";
 import LastArticlesImg from "../../assets/images/last-articles-img.png";
+import ProgressBar from "@/components/progress/ProgressBar";
 
 export default function Article() {
   return (
     <>
+      <ProgressBar />
       <section>
         <div className="container mx-auto py-[30px] px-4 md:px-0">
           <div className=" w-full md:w-[953px] ">

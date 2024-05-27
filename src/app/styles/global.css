@@ -108,3 +108,15 @@ body {
   height: 715px;
   position: relative;
 }
+
+progress::-moz-progress-bar {
+  background: #fdab09;
+  width: 100%;
+}
+progress::-webkit-progress-value {
+  width: 100%;
+  background: #fdab09;
+}
+progress {
+  color: #fdab09;
+}

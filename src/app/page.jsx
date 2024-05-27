@@ -291,14 +291,14 @@ export default function Home() {
         </div>
       </section>
       <section className="mt-10 py-[30px] mb-[60px] bg-[#121212] ">
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4 md:px-0">
           <div>
             <h4 className="text-[32px] font-bold mb-4 text-white ">
               Vidéos tendances
             </h4>
           </div>
           <div>
-            <div className="flex">
+            <div className="block md:flex">
               <div className="w-full">
                 <Link href="/">
                   <div className=" relative top-[2px] ">
@@ -391,7 +391,7 @@ export default function Home() {
                   </div>
                 </Link>
                 <div className="py-4">
-                  <h3 className="text-white text-[32px] font-extrabold leading-[1.2]  ">
+                  <h3 className="text-white text-lg md:text-[32px] font-extrabold leading-[1.2]  ">
                     Le Doc. : Voici comment Fally Ipupa a pu restaurer à lui
                     seul les concerts congolais en Europe
                   </h3>
@@ -517,107 +517,6 @@ export default function Home() {
                             alt="article img"
                           />
                           <div class=" absolute top-[200%] left-[36%] ">
-                            <svg
-                              width="53"
-                              height="53"
-                              viewBox="0 0 53 53"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <g filter="url(#filter0_d_1_38)">
-                                <rect
-                                  x="6.97998"
-                                  y="6.31006"
-                                  width="40"
-                                  height="40"
-                                  rx="20"
-                                  fill="black"
-                                  fill-opacity="0.86"
-                                  shape-rendering="crispEdges"
-                                ></rect>
-                                <g clip-path="url(#clip0_1_38)">
-                                  <path
-                                    d="M22.8925 18.9331V32.9331L34.2675 25.9331L22.8925 18.9331Z"
-                                    fill="white"
-                                  ></path>
-                                </g>
-                              </g>
-                              <defs>
-                                <filter
-                                  id="filter0_d_1_38"
-                                  x="0.97998"
-                                  y="0.310059"
-                                  width="52"
-                                  height="52"
-                                  filterUnits="userSpaceOnUse"
-                                  color-interpolation-filters="sRGB"
-                                >
-                                  <feFlood
-                                    flood-opacity="0"
-                                    result="BackgroundImageFix"
-                                  ></feFlood>
-                                  <feColorMatrix
-                                    in="SourceAlpha"
-                                    type="matrix"
-                                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                                    result="hardAlpha"
-                                  ></feColorMatrix>
-                                  <feOffset></feOffset>
-                                  <feGaussianBlur stdDeviation="3"></feGaussianBlur>
-                                  <feComposite
-                                    in2="hardAlpha"
-                                    operator="out"
-                                  ></feComposite>
-                                  <feColorMatrix
-                                    type="matrix"
-                                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.4 0"
-                                  ></feColorMatrix>
-                                  <feBlend
-                                    mode="normal"
-                                    in2="BackgroundImageFix"
-                                    result="effect1_dropShadow_1_38"
-                                  ></feBlend>
-                                  <feBlend
-                                    mode="normal"
-                                    in="SourceGraphic"
-                                    in2="effect1_dropShadow_1_38"
-                                    result="shape"
-                                  ></feBlend>
-                                </filter>
-                                <clipPath id="clip0_1_38">
-                                  <rect
-                                    width="11.38"
-                                    height="14"
-                                    fill="white"
-                                    transform="matrix(1 0 0 -1 22.89 32.8101)"
-                                  ></rect>
-                                </clipPath>
-                              </defs>
-                            </svg>
-                          </div>
-                        </div>
-                      </Link>
-                    </div>
-                    <div>
-                      <h3 className="  text-white text-sm leading-[1.4] font-extrabold ">
-                        <Link href="/">
-                          KS Bloom à Kinshasa – Résumé du concert 
-                        </Link>
-                      </h3>
-                    </div>
-                  </div>
-                  <div className="h-fit flex items-center gap-5 mb-1 ">
-                    <div>
-                      <Link href="/">
-                        <div className=" relative top-[2px] ">
-                          <Image
-                            className="rounded-[5px] w-full"
-                            src={videoArticle2}
-                            width="135"
-                            height="94"
-                            alt="article img"
-                          />
-                          <div class=" absolute top-[20%] left-[35%] ">
                             <svg
                               width="53"
                               height="53"
@@ -1088,7 +987,7 @@ export default function Home() {
                   <h4 className=" absolute top-[-53px] text-[#f3f3f3] uppercase tracking-[10px] text-[52px] font-normal ">
                     Vos stars
                   </h4>
-                  <h4 className=" text-center text-[26px] font-extrabold mb-[26px] tracking-[-.6px] ">
+                  <h4 className=" text-center text-[32px] font-extrabold mb-[26px] tracking-[-.6px] ">
                     Célébrités
                   </h4>
                 </div>
@@ -1152,7 +1051,7 @@ export default function Home() {
           <div>
             <h4 className="mb-4 text-[32px] font-bold  ">International</h4>
           </div>
-          <div className="grid grid-cols-2 gap-5">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             <div className="article-bg-2 H-auto">
               <div className=" p-4 text-center absolute bottom-0">
                 <div className="mb-4">
@@ -1174,7 +1073,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="grid grid-cols-2  ">
+            <div className="grid grid-cols-1 md:grid-cols-2  ">
               <article className=" w-[288px] mb-4 ">
                 <Link href="/">
                   <div className=" relative top-[2px] ">
