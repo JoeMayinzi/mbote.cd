@@ -38,11 +38,11 @@ export default function Home() {
               toujours à la une !
             </h3>
           </div>
-          <div className="border-t header-border py-[30px] ">
+          <div className="border-t header-border pt-[30px] md:py-[30px] ">
             <div className=" block md:flex">
               <div className="flex gap-5">
-                <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px] ">
-                  <div className=" w-full">
+                <div className="flex items-center md:items-start gap-y-[15px] gap-x-[15px] mb-[15px] ">
+                  <div className=" w-[50%] md:w-full ">
                     <Image
                       className=" rounded-[5px] w-full h-auto"
                       src={smallArticle}
@@ -50,7 +50,7 @@ export default function Home() {
                       alt="image"
                     />
                   </div>
-                  <div>
+                  <div className=" w-[50%] md:w-full ">
                     <div>
                       <h3 className=" text-white text-sm font-extrabold leading-[1.2] ">
                         <Link href="/">
@@ -63,8 +63,8 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex gap-5">
-                <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px] ">
-                  <div className=" w-full">
+                <div className="flex items-center md:items-start gap-y-[15px] gap-x-[15px] mb-[15px] ">
+                  <div className=" w-[50%] md:w-full ">
                     <Image
                       className=" rounded-[5px] w-full h-auto"
                       src={smallArticle}
@@ -72,7 +72,7 @@ export default function Home() {
                       alt="image"
                     />
                   </div>
-                  <div>
+                  <div className=" w-[50%] md:w-full ">
                     <div>
                       <h3 className=" text-white text-sm font-extrabold leading-[1.2] ">
                         <Link href="/">
@@ -85,8 +85,8 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex gap-5">
-                <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px] ">
-                  <div className=" w-full">
+                <div className="flex items-center md:items-start gap-y-[15px] gap-x-[15px] mb-[15px] ">
+                  <div className=" w-[50%] md:w-full ">
                     <Image
                       className=" rounded-[5px] w-full h-auto"
                       src={smallArticle}
@@ -94,7 +94,7 @@ export default function Home() {
                       alt="image"
                     />
                   </div>
-                  <div>
+                  <div className=" w-[50%] md:w-full ">
                     <div>
                       <h3 className=" text-white text-sm font-extrabold leading-[1.2] ">
                         <Link href="/">
@@ -107,8 +107,8 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex gap-5">
-                <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px] ">
-                  <div className=" w-full">
+                <div className="flex items-center md:items-start gap-y-[15px] gap-x-[15px] mb-[15px] ">
+                  <div className=" w-[50%] md:w-full ">
                     <Image
                       className=" rounded-[5px] w-full h-auto"
                       src={smallArticle}
@@ -116,7 +116,7 @@ export default function Home() {
                       alt="image"
                     />
                   </div>
-                  <div>
+                  <div className=" w-[50%] md:w-full ">
                     <div>
                       <h3 className=" text-white text-sm font-extrabold leading-[1.2] ">
                         <Link href="/">
