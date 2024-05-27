@@ -15,7 +15,7 @@ export default function Home() {
     <>
       <section className="bg mt-2">
         <div className="px-4 md:px-0 pt-28 md:pt-0">
-          <div className=" ps-5 md:ps-[20px] pr-5 md:pr-[600px] pb-[100px] ">
+          <div className="  md:ps-[20px] md:pr-[600px] pb-[100px] ">
             <div className=" mb-5">
               <a
                 className="bg-[#FDAB09] font-bold text-xs uppercase p-2"
