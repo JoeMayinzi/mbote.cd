@@ -1502,8 +1502,8 @@ export default function Home() {
             </h4>
             <div className="flex justify-center  in-actu"></div>
           </div>
-          <div className=" mt-5 grid grid-cols-1 md:grid-cols-2  ">
-            <div className=" pb-[18px] w-full md:w-[581px] ">
+          <div className=" mt-5 grid grid-cols-1 md:grid-cols-2 gap-[30px]  ">
+            <div className=" pb-[18px] w-full ">
               <div>
                 <Image
                   className=" w-full h-[223px] md:h-full "
@@ -1513,7 +1513,7 @@ export default function Home() {
                   alt="lorem"
                 />
               </div>
-              <div className="relative top-[-80px] w-[267px] md:w-[424.8px] mx-auto bg-white last-block-shadaw py-[10px] md:py-10 px-[15px] md:px-5 rounded-[5px] ">
+              <div className="relative mt-[-80px] md:mt-[-80px] w-[267px] md:w-[424.8px] mx-auto bg-white last-block-shadaw py-[10px] md:py-10 px-[15px] md:px-5 rounded-[5px] ">
                 <div>
                   <h3 className=" text-lg md:text-xl font-extrabold leading-[1.2] mb-[6px] ">
                     <Link href="/">
@@ -1540,7 +1540,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className=" pb-[18px] w-full md:w-[581px] ">
+            <div className=" pb-[18px] w-full ">
               <div>
                 <Image
                   className=" w-full h-[223px] md:h-full "
@@ -1550,7 +1550,7 @@ export default function Home() {
                   alt="lorem"
                 />
               </div>
-              <div className="relative top-[-55px] md:top-[-80px] w-[267px] md:w-[424.8px] mx-auto bg-white last-block-shadaw py-[10px] md:py-10 px-[15px] md:px-5 rounded-[5px] ">
+              <div className="relative mt-[-55px] md:mt-[-80px] w-[267px] md:w-[424.8px] mx-auto bg-white last-block-shadaw py-[10px] md:py-10 px-[15px] md:px-5 rounded-[5px] ">
                 <div>
                   <h3 className=" text-lg md:text-xl font-extrabold leading-[1.2] mb-[6px] ">
                     <Link href="/">
@@ -1577,11 +1577,17 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className=" pb-[18px] w-full md:w-[581px] ">
+            <div className=" pb-[18px] w-full ">
               <div>
-                <Image src={lastBlocImg} width="581" height="348" alt="lorem" />
+                <Image
+                  className=" w-full h-[223px] md:h-full "
+                  src={lastBlocImg}
+                  width="581"
+                  height="348"
+                  alt="lorem"
+                />
               </div>
-              <div className="relative top-[-55px] md:top-[-80px] w-[267px] md:w-[424.8px] mx-auto bg-white last-block-shadaw py-[10px] md:py-10 px-[15px] md:px-5 rounded-[5px] ">
+              <div className="relative mt-[-55px] md:mt-[-80px] w-[267px] mt:w-[424.8px] mx-auto bg-white last-block-shadaw py-[10px] md:py-10 px-[15px] md:px-5 rounded-[5px] ">
                 <div>
                   <h3 className=" text-lg md:text-xl font-extrabold leading-[1.2] mb-[6px] ">
                     <Link href="/">
@@ -1608,7 +1614,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className=" pb-[18px] w-full md:w-[581px] ">
+            <div className=" pb-[18px] w-full ">
               <div>
                 <Image
                   className=" w-full h-[223px] md:h-full "
@@ -1618,12 +1624,13 @@ export default function Home() {
                   alt="lorem"
                 />
               </div>
-              <div className="relative top-[-55px] md:top-[-80px] w-[267px] md:w-[424.8px] mx-auto bg-white last-block-shadaw py-[10px] md:py-10 px-[15px] md:px-5 rounded-[5px] ">
+              <div className="relative mt-[-55px] md:mt-[-80px] w-[267px] md:w-[424.8px] mx-auto bg-white last-block-shadaw py-[10px] md:py-10 px-[15px] md:px-5 rounded-[5px] ">
                 <div>
                   <h3 className=" text-lg md:text-xl font-extrabold leading-[1.2] mb-[6px] ">
                     <Link href="/">
-                      Concert Adidas aréna: Félix wazekwa remercie Fally Ipupa,
-                      Innoss’B et Fabregas le Métis Noir e...
+                      Denis Lessie sur le concert de Moïse Mbiye : « Beaucoup de
+                      gens ont réclamé qu’il n’y avait pas d’exhortation, or
+                      notre objectif est de gagner des âmes à Dieu »
                     </Link>
                   </h3>
                 </div>
