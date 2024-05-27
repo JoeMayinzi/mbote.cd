@@ -1497,17 +1497,25 @@ export default function Home() {
       <section className=" mt-10">
         <div className="container mx-auto px-4 md:px-0">
           <div className="text-center">
-            <h4 className="mb-4 text-[50px] font-bold  ">Dans l'actu !</h4>
+            <h4 className="mb-4 text-[40px] md:text-[50px] font-bold  ">
+              Dans l'actu !
+            </h4>
             <div className="flex justify-center  in-actu"></div>
           </div>
           <div className=" mt-5 grid grid-cols-1 md:grid-cols-2  ">
             <div className=" pb-[18px] w-full md:w-[581px] ">
               <div>
-                <Image src={lastBlocImg} width="581" height="348" alt="lorem" />
+                <Image
+                  className=" w-full h-[223px] md:h-full "
+                  src={lastBlocImg}
+                  width="581"
+                  height="348"
+                  alt="lorem"
+                />
               </div>
               <div className="relative top-[-80px] w-[267px] md:w-[424.8px] mx-auto bg-white last-block-shadaw py-[10px] md:py-10 px-[15px] md:px-5 rounded-[5px] ">
                 <div>
-                  <h3 className=" text-xl font-extrabold leading-[1.2] mb-[6px] ">
+                  <h3 className=" text-lg md:text-xl font-extrabold leading-[1.2] mb-[6px] ">
                     <Link href="/">
                       Denis Lessie sur le concert de Moïse Mbiye : « Beaucoup de
                       gens ont réclamé qu’il n’y avait pas d’exhortation, or
@@ -1522,7 +1530,44 @@ export default function Home() {
                   <span className="text-xs text-[#767676]">-</span>
                   <span className="text-xs text-[#767676]">mai 22, 2024</span>
                 </div>
+                <div className="flex">
+                  <a
+                    class="bg-[#FDAB09] text-xs font-bold px-[15px] p-[10px] "
+                    href="/"
+                  >
+                    Lire la suite
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className=" pb-[18px] w-full md:w-[581px] ">
+              <div>
+                <Image
+                  className=" w-full h-[223px] md:h-full "
+                  src={lastBlocImg}
+                  width="581"
+                  height="348"
+                  alt="lorem"
+                />
+              </div>
+              <div className="relative top-[-55px] md:top-[-80px] w-[267px] md:w-[424.8px] mx-auto bg-white last-block-shadaw py-[10px] md:py-10 px-[15px] md:px-5 rounded-[5px] ">
                 <div>
+                  <h3 className=" text-lg md:text-xl font-extrabold leading-[1.2] mb-[6px] ">
+                    <Link href="/">
+                      Denis Lessie sur le concert de Moïse Mbiye : « Beaucoup de
+                      gens ont réclamé qu’il n’y avait pas d’exhortation, or
+                      notre objectif est de gagner des âmes à Dieu »
+                    </Link>
+                  </h3>
+                </div>
+                <div className="flex mb-5">
+                  <span className=" text-xs text-[#000] ">
+                    <Link href="/">Redaction Mbote</Link>
+                  </span>
+                  <span className="text-xs text-[#767676]">-</span>
+                  <span className="text-xs text-[#767676]">mai 22, 2024</span>
+                </div>
+                <div className="flex">
                   <a
                     class="bg-[#FDAB09] text-xs font-bold px-[15px] p-[10px] "
                     href="/"
@@ -1536,9 +1581,9 @@ export default function Home() {
               <div>
                 <Image src={lastBlocImg} width="581" height="348" alt="lorem" />
               </div>
-              <div className="relative top-[-80px] w-[267px] md:w-[424.8px] mx-auto bg-white last-block-shadaw py-[10px] md:py-10 px-[15px] md:px-5 rounded-[5px] ">
+              <div className="relative top-[-55px] md:top-[-80px] w-[267px] md:w-[424.8px] mx-auto bg-white last-block-shadaw py-[10px] md:py-10 px-[15px] md:px-5 rounded-[5px] ">
                 <div>
-                  <h3 className=" text-xl font-extrabold leading-[1.2] mb-[6px] ">
+                  <h3 className=" text-lg md:text-xl font-extrabold leading-[1.2] mb-[6px] ">
                     <Link href="/">
                       Denis Lessie sur le concert de Moïse Mbiye : « Beaucoup de
                       gens ont réclamé qu’il n’y avait pas d’exhortation, or
@@ -1553,7 +1598,7 @@ export default function Home() {
                   <span className="text-xs text-[#767676]">-</span>
                   <span className="text-xs text-[#767676]">mai 22, 2024</span>
                 </div>
-                <div>
+                <div className="flex">
                   <a
                     class="bg-[#FDAB09] text-xs font-bold px-[15px] p-[10px] "
                     href="/"
@@ -1565,15 +1610,20 @@ export default function Home() {
             </div>
             <div className=" pb-[18px] w-full md:w-[581px] ">
               <div>
-                <Image src={lastBlocImg} width="581" height="348" alt="lorem" />
+                <Image
+                  className=" w-full h-[223px] md:h-full "
+                  src={lastBlocImg}
+                  width="581"
+                  height="348"
+                  alt="lorem"
+                />
               </div>
-              <div className="relative top-[-80px] w-[267px] md:w-[424.8px] mx-auto bg-white last-block-shadaw py-[10px] md:py-10 px-[15px] md:px-5 rounded-[5px] ">
+              <div className="relative top-[-55px] md:top-[-80px] w-[267px] md:w-[424.8px] mx-auto bg-white last-block-shadaw py-[10px] md:py-10 px-[15px] md:px-5 rounded-[5px] ">
                 <div>
-                  <h3 className=" text-xl font-extrabold leading-[1.2] mb-[6px] ">
+                  <h3 className=" text-lg md:text-xl font-extrabold leading-[1.2] mb-[6px] ">
                     <Link href="/">
-                      Denis Lessie sur le concert de Moïse Mbiye : « Beaucoup de
-                      gens ont réclamé qu’il n’y avait pas d’exhortation, or
-                      notre objectif est de gagner des âmes à Dieu »
+                      Concert Adidas aréna: Félix wazekwa remercie Fally Ipupa,
+                      Innoss’B et Fabregas le Métis Noir e...
                     </Link>
                   </h3>
                 </div>
@@ -1584,38 +1634,7 @@ export default function Home() {
                   <span className="text-xs text-[#767676]">-</span>
                   <span className="text-xs text-[#767676]">mai 22, 2024</span>
                 </div>
-                <div>
-                  <a
-                    class="bg-[#FDAB09] text-xs font-bold px-[15px] p-[10px] "
-                    href="/"
-                  >
-                    Lire la suite
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className=" pb-[18px] w-full md:w-[581px] ">
-              <div>
-                <Image src={lastBlocImg} width="581" height="348" alt="lorem" />
-              </div>
-              <div className="relative top-[-80px] w-[267px] md:w-[424.8px] mx-auto bg-white last-block-shadaw py-[10px] md:py-10 px-[15px] md:px-5 rounded-[5px] ">
-                <div>
-                  <h3 className=" text-xl font-extrabold leading-[1.2] mb-[6px] ">
-                    <Link href="/">
-                      Denis Lessie sur le concert de Moïse Mbiye : « Beaucoup de
-                      gens ont réclamé qu’il n’y avait pas d’exhortation, or
-                      notre objectif est de gagner des âmes à Dieu »
-                    </Link>
-                  </h3>
-                </div>
-                <div className="flex mb-5">
-                  <span className=" text-xs text-[#000] ">
-                    <Link href="/">Redaction Mbote</Link>
-                  </span>
-                  <span className="text-xs text-[#767676]">-</span>
-                  <span className="text-xs text-[#767676]">mai 22, 2024</span>
-                </div>
-                <div>
+                <div className="flex">
                   <a
                     class="bg-[#FDAB09] text-xs font-bold px-[15px] p-[10px] "
                     href="/"
