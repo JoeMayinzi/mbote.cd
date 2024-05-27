@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <section className="bg mt-2">
-        <div className="container mx-auto px-4 md:px-0 pt-28 md:pt-0">
+        <div className="px-4 md:px-0 pt-28 md:pt-0">
           <div className=" ps-5 md:ps-[20px] pr-5 md:pr-[600px] pb-[100px] ">
             <div className=" mb-5">
               <a
@@ -31,6 +31,8 @@ export default function Home() {
               </h3>
             </div>
           </div>
+        </div>
+        <div className=" bg-black md:bg-transparent px-4 md:px-0 py-[30px] md:py-0 ">
           <div>
             <h3 className="mt-[10px] mb-[10px] text-white text-[15px] leading-[1.2] font-bold uppercase tracking-[.5px] ">
               toujours à la une !
@@ -128,7 +130,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div></div>
         </div>
       </section>
       <section className=" mt-10">
