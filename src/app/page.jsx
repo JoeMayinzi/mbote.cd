@@ -13,10 +13,10 @@ import smallArticle from "../assets/images/osias-gola.webp";
 export default function Home() {
   return (
     <>
-      <section className="bg">
-        <div className="container mx-auto px-4 md:px-0">
-          <div className=" ps-[20px] pr-[600px] pb-[100px] ">
-            <div>
+      <section className="bg mt-2">
+        <div className="container mx-auto px-4 md:px-0 pt-28 md:pt-0">
+          <div className=" ps-5 md:ps-[20px] pr-5 md:pr-[600px] pb-[100px] ">
+            <div className=" mb-5">
               <a
                 className="bg-[#FDAB09] font-bold text-xs uppercase p-2"
                 href="/"
@@ -25,7 +25,7 @@ export default function Home() {
               </a>
             </div>
             <div>
-              <h3 className=" text-5xl leading-[1.2] font-extrabold text-white ">
+              <h3 className=" text-[32px] md:text-5xl leading-[1.2] font-extrabold text-white ">
                 Football : Jean-Philippe Mateta tourne définitivement le dos à
                 la RD Congo pour rejoindre la FRANCE
               </h3>
@@ -37,12 +37,12 @@ export default function Home() {
             </h3>
           </div>
           <div className="border-t header-border py-[30px] ">
-            <div className="flex">
+            <div className=" block md:flex">
               <div className="flex gap-5">
                 <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px] ">
                   <div className=" w-full">
                     <Image
-                      className=" w-full h-auto"
+                      className=" rounded-[5px] w-full h-auto"
                       src={smallArticle}
                       objectFit="contain"
                       alt="image"
@@ -50,7 +50,7 @@ export default function Home() {
                   </div>
                   <div>
                     <div>
-                      <h3 className=" text-sm font-extrabold leading-[1.2] ">
+                      <h3 className=" text-white text-sm font-extrabold leading-[1.2] ">
                         <Link href="/">
                           Polémique sur les réseaux sociaux après l’entrée
                           spectaculaire sur scène de Moïse Mbiye au Sta...
@@ -61,54 +61,69 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex gap-5">
-                <div className=" w-full">
-                  <Image
-                    className="w-full h-auto rounded-[5px] "
-                    src={heroArtImg}
-                    width="124"
-                    height="87"
-                    alt="img"
-                  />
-                </div>
-                <div>
-                  <h3 className=" mt-[10px] text-sm leading-[1.4] font-extrabold text-white ">
-                    Héritier Watanabe : « Je suis entrain de calculer de faire
-                    un concert qui rester...
-                  </h3>
-                </div>
-              </div>
-              <div className="flex gap-5">
-                <div className=" w-full">
-                  <Image
-                    className="w-full h-auto rounded-[5px] "
-                    src={heroArtImg}
-                    width="124"
-                    height="87"
-                    alt="img"
-                  />
-                </div>
-                <div>
-                  <h3 className=" mt-[10px] text-sm leading-[1.4] font-extrabold text-white ">
-                    Héritier Watanabe : « Je suis entrain de calculer de faire
-                    un concert qui rester...
-                  </h3>
+                <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px] ">
+                  <div className=" w-full">
+                    <Image
+                      className=" rounded-[5px] w-full h-auto"
+                      src={smallArticle}
+                      objectFit="contain"
+                      alt="image"
+                    />
+                  </div>
+                  <div>
+                    <div>
+                      <h3 className=" text-white text-sm font-extrabold leading-[1.2] ">
+                        <Link href="/">
+                          Polémique sur les réseaux sociaux après l’entrée
+                          spectaculaire sur scène de Moïse Mbiye au Sta...
+                        </Link>
+                      </h3>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="flex gap-5">
-                <div className=" w-full">
-                  <Image
-                    className="w-full h-auto rounded-[5px] "
-                    src={heroArtImg}
-                    width="124"
-                    height="87"
-                    alt="img"
-                  />
+                <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px] ">
+                  <div className=" w-full">
+                    <Image
+                      className=" rounded-[5px] w-full h-auto"
+                      src={smallArticle}
+                      objectFit="contain"
+                      alt="image"
+                    />
+                  </div>
+                  <div>
+                    <div>
+                      <h3 className=" text-white text-sm font-extrabold leading-[1.2] ">
+                        <Link href="/">
+                          Polémique sur les réseaux sociaux après l’entrée
+                          spectaculaire sur scène de Moïse Mbiye au Sta...
+                        </Link>
+                      </h3>
+                    </div>
+                  </div>
                 </div>
-                <div>
-                  <h3 className=" mt-[10px] text-sm leading-[1.4] font-extrabold text-white ">
-                    Héritier Watanabe : « Je suis entrain de calculer de faire
-                    un concert qui rester...
-                  </h3>
+              </div>
+              <div className="flex gap-5">
+                <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px] ">
+                  <div className=" w-full">
+                    <Image
+                      className=" rounded-[5px] w-full h-auto"
+                      src={smallArticle}
+                      objectFit="contain"
+                      alt="image"
+                    />
+                  </div>
+                  <div>
+                    <div>
+                      <h3 className=" text-white text-sm font-extrabold leading-[1.2] ">
+                        <Link href="/">
+                          Polémique sur les réseaux sociaux après l’entrée
+                          spectaculaire sur scène de Moïse Mbiye au Sta...
+                        </Link>
+                      </h3>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -121,23 +136,23 @@ export default function Home() {
           <div>
             <h4 className="mb-4 text-[32px] font-bold  ">Top Stories</h4>
           </div>
-          <div className="grid grid-cols-2">
-            <div className="flex">
-              <div className="bg-[#000] py-10 px-10">
+          <div className="grid grid-cols-1 md:grid-cols-2">
+            <div className=" block md:flex md:h-[195px] lg:h-full">
+              <div className="bg-[#000] py-10 md:py-1 lg:py-10 px-10 md:px-5 lg:px-10 w-full md:w-[50%] lg:w-[50%] ">
                 <Link
                   href="/"
                   className="text-white text-xs font-normal uppercase tracking-[.5px] "
                 >
                   A la une
                 </Link>
-                <h3 className="text-white text-xl leading-[1.2] font-extrabold mt-[15px] ">
+                <h3 className="text-white text-xl md:text-xs lg:text-xl leading-[1.2] font-extrabold mt-[15px]  lg:mt-[15px]  ">
                   <Link href="/">
                     Réaction Naomi Campbell après avoir vue les images de la
                     prestation d’Innoss’B à Kindu
                   </Link>
                 </h3>
               </div>
-              <div className="article-bg">
+              <div className="article-bg md:h-auto lg:h-full w-full md:w-[50%] lg:w-[50%]">
                 <p className=" invisible">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Deserunt adipisci, ex molestiae odit accusamus laudantium
@@ -146,22 +161,22 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="flex">
-              <div className="bg-[#000] py-10 px-10">
+            <div className=" block md:flex md:h-[195px] lg:h-full">
+              <div className="bg-[#000] py-10 md:py-1 lg:py-10 px-10 md:px-5 lg:px-10 w-full md:w-[50%] lg:w-[50%]">
                 <Link
                   href="/"
                   className="text-white text-xs font-normal uppercase tracking-[.5px] "
                 >
                   A la une
                 </Link>
-                <h3 className="text-white text-xl leading-[1.2] font-extrabold mt-[15px] ">
+                <h3 className="text-white text-xl md:text-xs lg:text-xl leading-[1.2] font-extrabold mt-[15px]  lg:mt-[15px] ">
                   <Link href="/">
                     Réaction Naomi Campbell après avoir vue les images de la
                     prestation d’Innoss’B à Kindu
                   </Link>
                 </h3>
               </div>
-              <div className="article-bg">
+              <div className="article-bg md:h-auto lg:h-full w-full md:w-[50%] lg:w-[50%]">
                 <p className=" invisible">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Deserunt adipisci, ex molestiae odit accusamus laudantium
@@ -170,22 +185,22 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="flex">
-              <div className="bg-[#000] py-10 px-10">
+            <div className=" block md:flex md:h-[195px] lg:h-full">
+              <div className="bg-[#000] py-10 md:py-1 lg:py-10 px-10 md:px-5 lg:px-10 w-full md:w-[50%] lg:w-[50%]">
                 <Link
                   href="/"
                   className="text-white text-xs font-normal uppercase tracking-[.5px] "
                 >
                   A la une
                 </Link>
-                <h3 className="text-white text-xl leading-[1.2] font-extrabold mt-[15px] ">
+                <h3 className="text-white text-xl md:text-xs lg:text-xl leading-[1.2] font-extrabold mt-[15px]  lg:mt-[15px]">
                   <Link href="/">
                     Réaction Naomi Campbell après avoir vue les images de la
                     prestation d’Innoss’B à Kindu
                   </Link>
                 </h3>
               </div>
-              <div className="article-bg">
+              <div className="article-bg md:h-auto lg:h-full w-full md:w-[50%] lg:w-[50%]">
                 <p className=" invisible">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Deserunt adipisci, ex molestiae odit accusamus laudantium
@@ -194,22 +209,22 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="flex">
-              <div className="bg-[#000] py-10 px-10">
+            <div className=" block md:flex md:h-[195px] lg:h-full">
+              <div className="bg-[#000] py-10 md:py-1 lg:py-10 px-10 md:px-5 lg:px-10 w-full md:w-[50%] lg:w-[50%]">
                 <Link
                   href="/"
                   className="text-white text-xs font-normal uppercase tracking-[.5px] "
                 >
                   A la une
                 </Link>
-                <h3 className="text-white text-xl leading-[1.2] font-extrabold mt-[15px] ">
+                <h3 className="text-white text-xl md:text-xs lg:text-xl leading-[1.2] font-extrabold mt-[15px]  lg:mt-[15px] ">
                   <Link href="/">
                     Réaction Naomi Campbell après avoir vue les images de la
                     prestation d’Innoss’B à Kindu
                   </Link>
                 </h3>
               </div>
-              <div className="article-bg">
+              <div className="article-bg md:h-auto lg:h-full w-full md:w-[50%] lg:w-[50%]">
                 <p className=" invisible">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Deserunt adipisci, ex molestiae odit accusamus laudantium
@@ -223,7 +238,7 @@ export default function Home() {
       </section>
       <section className=" mt-10">
         <div className="container mx-auto">
-          <div className="grid grid-cols-3">
+          <div className="grid grid-cols-1 md:grid-cols-3 md:gap-[5px] lg:gap-0 ">
             <div className="article-bg-2">
               <div className=" p-4 text-center absolute bottom-0">
                 <div className="mb-4">
@@ -237,7 +252,7 @@ export default function Home() {
                 <div>
                   <Link
                     href="/"
-                    className="text-white text-xl leading-[1.2] font-extrabold mt-[15px]"
+                    className="text-white text-xl md:text-base lg:text-xl leading-[1.2] font-extrabold mt-[15px]"
                   >
                     Osée Gola, le fils de Ferre Gola aperçu dans un studio
                     d’enregistrement, prépare-t-il un projet ?
@@ -258,7 +273,7 @@ export default function Home() {
                 <div>
                   <Link
                     href="/"
-                    className="text-white text-xl leading-[1.2] font-extrabold mt-[15px]"
+                    className="text-white text-xl md:text-base lg:text-xl leading-[1.2] font-extrabold mt-[15px]"
                   >
                     Osée Gola, le fils de Ferre Gola aperçu dans un studio
                     d’enregistrement, prépare-t-il un projet ?
@@ -279,7 +294,7 @@ export default function Home() {
                 <div>
                   <Link
                     href="/"
-                    className="text-white text-xl leading-[1.2] font-extrabold mt-[15px]"
+                    className="text-white text-xl md:text-base lg:text-xl leading-[1.2] font-extrabold mt-[15px]"
                   >
                     Osée Gola, le fils de Ferre Gola aperçu dans un studio
                     d’enregistrement, prépare-t-il un projet ?
@@ -827,8 +842,8 @@ export default function Home() {
         </div>
       </section>
       <section className=" mt-10">
-        <div className="container mx-auto">
-          <div className="grid grid-cols-3">
+        <div className="container mx-auto px-4 md:px-0">
+          <div className="grid grid-cols-1 md:grid-cols-3">
             <div>
               <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px] ">
                 <div className=" w-full">
@@ -981,10 +996,10 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className=" px-5">
+            <div className="px-0 md:px-5">
               <div>
-                <div className="relative">
-                  <h4 className=" absolute top-[-53px] text-[#f3f3f3] uppercase tracking-[10px] text-[52px] font-normal ">
+                <div className="relative mt-16 md:mt-0">
+                  <h4 className="absolute top-[-30px] md:top-[-53px] left-[10px] md:left-0 text-center  text-[#f3f3f3] uppercase tracking-[10px] text-[40px] md:text-[52px] font-normal ">
                     Vos stars
                   </h4>
                   <h4 className=" text-center text-[32px] font-extrabold mb-[26px] tracking-[-.6px] ">
@@ -1020,7 +1035,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className=" px-5">
+            <div className="px-0 md:px-5">
               <div className="article-bg-2">
                 <div className=" p-4 text-center absolute bottom-0">
                   <div className="mb-4">
@@ -1047,7 +1062,7 @@ export default function Home() {
         </div>
       </section>
       <section className=" mt-10">
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4 md:px-0">
           <div>
             <h4 className="mb-4 text-[32px] font-bold  ">International</h4>
           </div>
@@ -1074,7 +1089,7 @@ export default function Home() {
               </div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2  ">
-              <article className=" w-[288px] mb-4 ">
+              <article className="w-full md:w-[288px] mb-4 ">
                 <Link href="/">
                   <div className=" relative top-[2px] ">
                     <Image
@@ -1102,7 +1117,7 @@ export default function Home() {
                   </h3>
                 </div>
               </article>
-              <article className=" w-[288px] mb-4 ">
+              <article className="w-full md:w-[288px] mb-4 ">
                 <Link href="/">
                   <div className=" relative top-[2px] ">
                     <Image
@@ -1130,7 +1145,7 @@ export default function Home() {
                   </h3>
                 </div>
               </article>
-              <article className=" w-[288px] mb-4 ">
+              <article className="w-full md:w-[288px] mb-4 ">
                 <Link href="/">
                   <div className=" relative top-[2px] ">
                     <Image
@@ -1158,7 +1173,7 @@ export default function Home() {
                   </h3>
                 </div>
               </article>
-              <article className=" w-[288px] mb-4 ">
+              <article className="w-full md:w-[288px] mb-4 ">
                 <Link href="/">
                   <div className=" relative top-[2px] ">
                     <Image
@@ -1191,11 +1206,11 @@ export default function Home() {
         </div>
       </section>
       <section className=" mt-10">
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4 md:px-0">
           <div>
             <h4 className="mb-4 text-[32px] font-bold  ">Musiques</h4>
           </div>
-          <div className="grid grid-cols-2 gap-5">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             <div className="article-bg-2 H-auto">
               <div className=" p-4 text-center absolute bottom-0">
                 <div className="mb-4">
@@ -1217,8 +1232,8 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="grid grid-cols-2  ">
-              <article className=" w-[288px] mb-4 ">
+            <div className="grid grid-cols-1 md:grid-cols-2  ">
+              <article className="w-full md:w-[288px] mb-4 ">
                 <Link href="/">
                   <div className=" relative top-[2px] ">
                     <Image
@@ -1246,7 +1261,7 @@ export default function Home() {
                   </h3>
                 </div>
               </article>
-              <article className=" w-[288px] mb-4 ">
+              <article className="w-full md:w-[288px] mb-4 ">
                 <Link href="/">
                   <div className=" relative top-[2px] ">
                     <Image
@@ -1274,7 +1289,7 @@ export default function Home() {
                   </h3>
                 </div>
               </article>
-              <article className=" w-[288px] mb-4 ">
+              <article className="w-full md:w-[288px] mb-4 ">
                 <Link href="/">
                   <div className=" relative top-[2px] ">
                     <Image
@@ -1302,7 +1317,7 @@ export default function Home() {
                   </h3>
                 </div>
               </article>
-              <article className=" w-[288px] mb-4 ">
+              <article className="w-full md:w-[288px] mb-4 ">
                 <Link href="/">
                   <div className=" relative top-[2px] ">
                     <Image
@@ -1335,11 +1350,11 @@ export default function Home() {
         </div>
       </section>
       <section className=" mt-10">
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4 md:px-0">
           <div>
             <h4 className="mb-4 text-[32px] font-bold  ">Sports</h4>
           </div>
-          <div className="grid grid-cols-2 gap-5">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             <div className="article-bg-2 H-auto">
               <div className=" p-4 text-center absolute bottom-0">
                 <div className="mb-4">
@@ -1361,8 +1376,8 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="grid grid-cols-2  ">
-              <article className=" w-[288px] mb-4 ">
+            <div className="grid grid-cols-1 md:grid-cols-2  ">
+              <article className="w-full md:w-[288px] mb-4 ">
                 <Link href="/">
                   <div className=" relative top-[2px] ">
                     <Image
@@ -1390,7 +1405,7 @@ export default function Home() {
                   </h3>
                 </div>
               </article>
-              <article className=" w-[288px] mb-4 ">
+              <article className="w-full md:w-[288px] mb-4 ">
                 <Link href="/">
                   <div className=" relative top-[2px] ">
                     <Image
@@ -1418,7 +1433,7 @@ export default function Home() {
                   </h3>
                 </div>
               </article>
-              <article className=" w-[288px] mb-4 ">
+              <article className="w-full md:w-[288px] mb-4 ">
                 <Link href="/">
                   <div className=" relative top-[2px] ">
                     <Image
@@ -1446,7 +1461,7 @@ export default function Home() {
                   </h3>
                 </div>
               </article>
-              <article className=" w-[288px] mb-4 ">
+              <article className="w-full md:w-[288px] mb-4 ">
                 <Link href="/">
                   <div className=" relative top-[2px] ">
                     <Image
@@ -1479,17 +1494,17 @@ export default function Home() {
         </div>
       </section>
       <section className=" mt-10">
-        <div className="container mx-auto">
+        <div className="container mx-auto px-4 md:px-0">
           <div className="text-center">
             <h4 className="mb-4 text-[50px] font-bold  ">Dans l'actu !</h4>
             <div className="flex justify-center  in-actu"></div>
           </div>
-          <div className=" mt-5 grid grid-cols-2  ">
-            <div className=" pb-[18px] w-[581px] ">
+          <div className=" mt-5 grid grid-cols-1 md:grid-cols-2  ">
+            <div className=" pb-[18px] w-full md:w-[581px] ">
               <div>
                 <Image src={lastBlocImg} width="581" height="348" alt="lorem" />
               </div>
-              <div className="relative top-[-80px] w-[424.8px] mx-auto bg-white last-block-shadaw py-10 px-5 rounded-[5px] ">
+              <div className="relative top-[-80px] w-[267px] md:w-[424.8px] mx-auto bg-white last-block-shadaw py-[10px] md:py-10 px-[15px] md:px-5 rounded-[5px] ">
                 <div>
                   <h3 className=" text-xl font-extrabold leading-[1.2] mb-[6px] ">
                     <Link href="/">
@@ -1516,11 +1531,11 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className=" pb-[18px] w-[581px] ">
+            <div className=" pb-[18px] w-full md:w-[581px] ">
               <div>
                 <Image src={lastBlocImg} width="581" height="348" alt="lorem" />
               </div>
-              <div className="relative top-[-80px] w-[424.8px] mx-auto bg-white last-block-shadaw py-10 px-5 rounded-[5px] ">
+              <div className="relative top-[-80px] w-[267px] md:w-[424.8px] mx-auto bg-white last-block-shadaw py-[10px] md:py-10 px-[15px] md:px-5 rounded-[5px] ">
                 <div>
                   <h3 className=" text-xl font-extrabold leading-[1.2] mb-[6px] ">
                     <Link href="/">
@@ -1547,11 +1562,11 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className=" pb-[18px] w-[581px] ">
+            <div className=" pb-[18px] w-full md:w-[581px] ">
               <div>
                 <Image src={lastBlocImg} width="581" height="348" alt="lorem" />
               </div>
-              <div className="relative top-[-80px] w-[424.8px] mx-auto bg-white last-block-shadaw py-10 px-5 rounded-[5px] ">
+              <div className="relative top-[-80px] w-[267px] md:w-[424.8px] mx-auto bg-white last-block-shadaw py-[10px] md:py-10 px-[15px] md:px-5 rounded-[5px] ">
                 <div>
                   <h3 className=" text-xl font-extrabold leading-[1.2] mb-[6px] ">
                     <Link href="/">
@@ -1578,11 +1593,11 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className=" pb-[18px] w-[581px] ">
+            <div className=" pb-[18px] w-full md:w-[581px] ">
               <div>
                 <Image src={lastBlocImg} width="581" height="348" alt="lorem" />
               </div>
-              <div className="relative top-[-80px] w-[424.8px] mx-auto bg-white last-block-shadaw py-10 px-5 rounded-[5px] ">
+              <div className="relative top-[-80px] w-[267px] md:w-[424.8px] mx-auto bg-white last-block-shadaw py-[10px] md:py-10 px-[15px] md:px-5 rounded-[5px] ">
                 <div>
                   <h3 className=" text-xl font-extrabold leading-[1.2] mb-[6px] ">
                     <Link href="/">

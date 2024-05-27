@@ -7,8 +7,8 @@ export default function ProgressBar() {
 
   useEffect(() => {
     const lastValueScrolledY = document.body.offsetHeight - window.innerHeight;
-
     setLastValue(lastValueScrolledY);
+
     document.addEventListener("scroll", () => {
       const scrollValue = window.scrollY;
       setSrcollY(scrollValue);

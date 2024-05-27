@@ -118,5 +118,5 @@ progress::-webkit-progress-value {
   background: #fdab09;
 }
 progress {
-  color: #fdab09;
+  background: transparent !important;
 }
