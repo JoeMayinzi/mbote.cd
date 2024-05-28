@@ -877,7 +877,7 @@ export default function Home() {
                     <h3 className=" text-sm font-extrabold leading-[1.2] ">
                       <Link href="/">
                         Polémique sur les réseaux sociaux après l’entrée
-                        spectaculaire sur scène de Moïse Mbiye au Sta...
+                        spectaculaire
                       </Link>
                     </h3>
                   </div>
@@ -897,7 +897,7 @@ export default function Home() {
                     <h3 className=" text-sm font-extrabold leading-[1.2] ">
                       <Link href="/">
                         Polémique sur les réseaux sociaux après l’entrée
-                        spectaculaire sur scène de Moïse Mbiye au Sta...
+                        spectaculaire
                       </Link>
                     </h3>
                   </div>
@@ -917,7 +917,7 @@ export default function Home() {
                     <h3 className=" text-sm font-extrabold leading-[1.2] ">
                       <Link href="/">
                         Polémique sur les réseaux sociaux après l’entrée
-                        spectaculaire sur scène de Moïse Mbiye au Sta...
+                        spectaculaire
                       </Link>
                     </h3>
                   </div>
@@ -937,7 +937,7 @@ export default function Home() {
                     <h3 className=" text-sm font-extrabold leading-[1.2] ">
                       <Link href="/">
                         Polémique sur les réseaux sociaux après l’entrée
-                        spectaculaire sur scène de Moïse Mbiye au Sta...
+                        spectaculaire
                       </Link>
                     </h3>
                   </div>
@@ -957,7 +957,7 @@ export default function Home() {
                     <h3 className=" text-sm font-extrabold leading-[1.2] ">
                       <Link href="/">
                         Polémique sur les réseaux sociaux après l’entrée
-                        spectaculaire sur scène de Moïse Mbiye au Sta...
+                        spectaculaire
                       </Link>
                     </h3>
                   </div>
@@ -1086,8 +1086,8 @@ export default function Home() {
                     />
                   </div>
                 </Link>
-                <div className=" bg-[#000000] px-[10px] pt-[50px] pb-[20px] ">
-                  <div className="relative top-[-55px] ">
+                <div className="relative bg-[#000000] px-[10px] pt-[50px] pb-[20px] ">
+                  <div className="relative mt-[-60px] mb-5  ">
                     <a
                       class="bg-[#FDAB09] font-bold text-xs uppercase px-4 py-2"
                       href="/"
@@ -1114,8 +1114,8 @@ export default function Home() {
                     />
                   </div>
                 </Link>
-                <div className=" bg-[#000000] px-[10px] pt-[50px] pb-[20px] ">
-                  <div className="relative top-[-55px] ">
+                <div className="relative bg-[#000000] px-[10px] pt-[50px] pb-[20px] ">
+                  <div className="relative mt-[-60px] mb-5  ">
                     <a
                       class="bg-[#FDAB09] font-bold text-xs uppercase px-4 py-2"
                       href="/"
@@ -1142,8 +1142,8 @@ export default function Home() {
                     />
                   </div>
                 </Link>
-                <div className=" bg-[#000000] px-[10px] pt-[50px] pb-[20px] ">
-                  <div className="relative top-[-55px] ">
+                <div className="relative bg-[#000000] px-[10px] pt-[50px] pb-[20px] ">
+                  <div className="relative mt-[-60px] mb-5 ">
                     <a
                       class="bg-[#FDAB09] font-bold text-xs uppercase px-4 py-2"
                       href="/"
@@ -1170,8 +1170,8 @@ export default function Home() {
                     />
                   </div>
                 </Link>
-                <div className=" bg-[#000000] px-[10px] pt-[50px] pb-[20px] ">
-                  <div className="relative top-[-55px] ">
+                <div className=" relative bg-[#000000] px-[10px] pt-[50px] pb-[20px] ">
+                  <div className="relative mt-[-60px] mb-5 ">
                     <a
                       class="bg-[#FDAB09] font-bold text-xs uppercase px-4 py-2"
                       href="/"
@@ -1232,8 +1232,8 @@ export default function Home() {
                     />
                   </div>
                 </Link>
-                <div className=" bg-[#000000] px-[10px] pt-[50px] pb-[20px] ">
-                  <div className="relative top-[-55px] ">
+                <div className="relative bg-[#000000] px-[10px] pt-[50px] pb-[20px] ">
+                  <div className="relative mt-[-60px] mb-5  ">
                     <a
                       class="bg-[#FDAB09] font-bold text-xs uppercase px-4 py-2"
                       href="/"
@@ -1260,8 +1260,8 @@ export default function Home() {
                     />
                   </div>
                 </Link>
-                <div className=" bg-[#000000] px-[10px] pt-[50px] pb-[20px] ">
-                  <div className="relative top-[-55px] ">
+                <div className="relative bg-[#000000] px-[10px] pt-[50px] pb-[20px] ">
+                  <div className="relative mt-[-60px] mb-5  ">
                     <a
                       class="bg-[#FDAB09] font-bold text-xs uppercase px-4 py-2"
                       href="/"
@@ -1288,8 +1288,8 @@ export default function Home() {
                     />
                   </div>
                 </Link>
-                <div className=" bg-[#000000] px-[10px] pt-[50px] pb-[20px] ">
-                  <div className="relative top-[-55px] ">
+                <div className="relative bg-[#000000] px-[10px] pt-[50px] pb-[20px] ">
+                  <div className="relative mt-[-60px] mb-5 ">
                     <a
                       class="bg-[#FDAB09] font-bold text-xs uppercase px-4 py-2"
                       href="/"
@@ -1316,8 +1316,8 @@ export default function Home() {
                     />
                   </div>
                 </Link>
-                <div className=" bg-[#000000] px-[10px] pt-[50px] pb-[20px] ">
-                  <div className="relative top-[-55px] ">
+                <div className=" relative bg-[#000000] px-[10px] pt-[50px] pb-[20px] ">
+                  <div className="relative mt-[-60px] mb-5 ">
                     <a
                       class="bg-[#FDAB09] font-bold text-xs uppercase px-4 py-2"
                       href="/"
@@ -1376,8 +1376,8 @@ export default function Home() {
                     />
                   </div>
                 </Link>
-                <div className=" bg-[#000000] px-[10px] pt-[50px] pb-[20px] ">
-                  <div className="relative top-[-55px] ">
+                <div className="relative bg-[#000000] px-[10px] pt-[50px] pb-[20px] ">
+                  <div className="relative mt-[-60px] mb-5 ">
                     <a
                       class="bg-[#FDAB09] font-bold text-xs uppercase px-4 py-2"
                       href="/"
@@ -1404,8 +1404,8 @@ export default function Home() {
                     />
                   </div>
                 </Link>
-                <div className=" bg-[#000000] px-[10px] pt-[50px] pb-[20px] ">
-                  <div className="relative top-[-55px] ">
+                <div className="relative bg-[#000000] px-[10px] pt-[50px] pb-[20px] ">
+                  <div className="relative mt-[-60px] mb-5 ">
                     <a
                       class="bg-[#FDAB09] font-bold text-xs uppercase px-4 py-2"
                       href="/"
@@ -1432,8 +1432,8 @@ export default function Home() {
                     />
                   </div>
                 </Link>
-                <div className=" bg-[#000000] px-[10px] pt-[50px] pb-[20px] ">
-                  <div className="relative top-[-55px] ">
+                <div className="relative bg-[#000000] px-[10px] pt-[50px] pb-[20px] ">
+                  <div className="relative mt-[-60px] mb-5 ">
                     <a
                       class="bg-[#FDAB09] font-bold text-xs uppercase px-4 py-2"
                       href="/"
@@ -1460,8 +1460,8 @@ export default function Home() {
                     />
                   </div>
                 </Link>
-                <div className=" bg-[#000000] px-[10px] pt-[50px] pb-[20px] ">
-                  <div className="relative top-[-55px] ">
+                <div className="relative bg-[#000000] px-[10px] pt-[50px] pb-[20px] ">
+                  <div className="relative mt-[-60px] mb-5 ">
                     <a
                       class="bg-[#FDAB09] font-bold text-xs uppercase px-4 py-2"
                       href="/"
