@@ -9,6 +9,8 @@ import Link from "next/link";
 import articleImg from "../assets/images/article-img.png";
 import lastBlocImg from "../assets/images/IMG_1556.webp";
 import smallArticle from "../assets/images/osias-gola.webp";
+import yourStars from "../assets/images/your-stars.webp";
+import endImgSection from "../assets/images/end-img-section.webp";
 
 export default function Home() {
   return (
@@ -138,7 +140,7 @@ export default function Home() {
             <h4 className="mb-4 text-[32px] font-bold  ">Top Stories</h4>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2">
-            <div className=" block md:flex md:h-[195px] lg:h-full">
+            <div className="flex flex-col-reverse md:flex-row md:h-[195px] lg:h-full">
               <div className="bg-[#000] py-10 md:py-1 lg:py-10 px-10 md:px-5 lg:px-10 w-full md:w-[50%] lg:w-[50%] ">
                 <Link
                   href="/"
@@ -162,15 +164,15 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className=" block md:flex md:h-[195px] lg:h-full">
-              <div className="bg-[#000] py-10 md:py-1 lg:py-10 px-10 md:px-5 lg:px-10 w-full md:w-[50%] lg:w-[50%]">
+            <div className="flex flex-col-reverse md:flex-row md:h-[195px] lg:h-full">
+              <div className="bg-[#000] py-10 md:py-1 lg:py-10 px-10 md:px-5 lg:px-10 w-full md:w-[50%] lg:w-[50%] ">
                 <Link
                   href="/"
                   className="text-white text-xs font-normal uppercase tracking-[.5px] "
                 >
                   A la une
                 </Link>
-                <h3 className="text-white text-xl md:text-xs lg:text-xl leading-[1.2] font-extrabold mt-[15px]  lg:mt-[15px] ">
+                <h3 className="text-white text-xl md:text-xs lg:text-xl leading-[1.2] font-extrabold mt-[15px]  lg:mt-[15px]  ">
                   <Link href="/">
                     Réaction Naomi Campbell après avoir vue les images de la
                     prestation d’Innoss’B à Kindu
@@ -186,15 +188,15 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className=" block md:flex md:h-[195px] lg:h-full">
-              <div className="bg-[#000] py-10 md:py-1 lg:py-10 px-10 md:px-5 lg:px-10 w-full md:w-[50%] lg:w-[50%]">
+            <div className="flex flex-col-reverse md:flex-row md:h-[195px] lg:h-full">
+              <div className="bg-[#000] py-10 md:py-1 lg:py-10 px-10 md:px-5 lg:px-10 w-full md:w-[50%] lg:w-[50%] ">
                 <Link
                   href="/"
                   className="text-white text-xs font-normal uppercase tracking-[.5px] "
                 >
                   A la une
                 </Link>
-                <h3 className="text-white text-xl md:text-xs lg:text-xl leading-[1.2] font-extrabold mt-[15px]  lg:mt-[15px]">
+                <h3 className="text-white text-xl md:text-xs lg:text-xl leading-[1.2] font-extrabold mt-[15px]  lg:mt-[15px]  ">
                   <Link href="/">
                     Réaction Naomi Campbell après avoir vue les images de la
                     prestation d’Innoss’B à Kindu
@@ -210,15 +212,15 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className=" block md:flex md:h-[195px] lg:h-full">
-              <div className="bg-[#000] py-10 md:py-1 lg:py-10 px-10 md:px-5 lg:px-10 w-full md:w-[50%] lg:w-[50%]">
+            <div className="flex flex-col-reverse md:flex-row md:h-[195px] lg:h-full">
+              <div className="bg-[#000] py-10 md:py-1 lg:py-10 px-10 md:px-5 lg:px-10 w-full md:w-[50%] lg:w-[50%] ">
                 <Link
                   href="/"
                   className="text-white text-xs font-normal uppercase tracking-[.5px] "
                 >
                   A la une
                 </Link>
-                <h3 className="text-white text-xl md:text-xs lg:text-xl leading-[1.2] font-extrabold mt-[15px]  lg:mt-[15px] ">
+                <h3 className="text-white text-xl md:text-xs lg:text-xl leading-[1.2] font-extrabold mt-[15px]  lg:mt-[15px]  ">
                   <Link href="/">
                     Réaction Naomi Campbell après avoir vue les images de la
                     prestation d’Innoss’B à Kindu
@@ -238,7 +240,7 @@ export default function Home() {
         </div>
       </section>
       <section className=" mt-10">
-        <div className="container mx-auto px-4 md:px-0">
+        <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 md:gap-[5px] lg:gap-0 ">
             <div className="article-bg-2">
               <div className=" p-4 text-center absolute bottom-0">
@@ -325,7 +327,7 @@ export default function Home() {
                       height="240"
                       alt="article img"
                     />
-                    <div class=" absolute top-[40%] left-[45%] ">
+                    <div class=" absolute top-[20%] md:top-[40%] left-[30%] md:left-[45%] ">
                       <svg
                         width="130"
                         height="131"
@@ -425,7 +427,7 @@ export default function Home() {
                           height="94"
                           alt="article img"
                         />
-                        <div class=" absolute top-[20%] left-[35%] ">
+                        <div className=" absolute top-[10%] md:top-[20%] left-[30%] md:left-[35%] ">
                           <svg
                             width="53"
                             height="53"
@@ -633,7 +635,7 @@ export default function Home() {
                             height="94"
                             alt="article img"
                           />
-                          <div class=" absolute top-[20%] left-[35%] ">
+                          <div className=" absolute top-[10%] md:top-[20%] left-[30%] md:left-[35%] ">
                             <svg
                               width="53"
                               height="53"
@@ -734,7 +736,7 @@ export default function Home() {
                             height="94"
                             alt="article img"
                           />
-                          <div class=" absolute top-[20%] left-[35%] ">
+                          <div className=" absolute top-[10%] md:top-[20%] left-[30%] md:left-[35%] ">
                             <svg
                               width="53"
                               height="53"
@@ -843,17 +845,12 @@ export default function Home() {
         </div>
       </section>
       <section className=" mt-10">
-        <div className="container mx-auto px-4 md:px-0">
-          <div className="grid grid-cols-1 md:grid-cols-3">
-            <div>
+        <div className="container mx-auto">
+          <div className="flex flex-col md:flex-row">
+            <div className="w-full order-2 mt-5 md:mt-0 md:w-[25%] px-4 md:px-0 md:order-none">
               <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px] ">
-                <div className=" w-full">
-                  <Image
-                    className=" w-full h-auto"
-                    src={smallArticle}
-                    objectFit="contain"
-                    alt="image"
-                  />
+                <div>
+                  <Image src={smallArticle} objectFit="contain" alt="image" />
                 </div>
                 <div>
                   <div>
@@ -871,14 +868,9 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px]">
-                <div className=" w-full">
-                  <Image
-                    className=" w-full h-auto"
-                    src={smallArticle}
-                    objectFit="contain"
-                    alt="image"
-                  />
+              <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px] ">
+                <div>
+                  <Image src={smallArticle} objectFit="contain" alt="image" />
                 </div>
                 <div>
                   <div>
@@ -896,14 +888,9 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px]">
-                <div className=" w-full">
-                  <Image
-                    className=" w-full h-auto"
-                    src={smallArticle}
-                    objectFit="contain"
-                    alt="image"
-                  />
+              <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px] ">
+                <div>
+                  <Image src={smallArticle} objectFit="contain" alt="image" />
                 </div>
                 <div>
                   <div>
@@ -921,14 +908,9 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px]">
-                <div className=" w-full">
-                  <Image
-                    className=" w-full h-auto"
-                    src={smallArticle}
-                    objectFit="contain"
-                    alt="image"
-                  />
+              <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px] ">
+                <div>
+                  <Image src={smallArticle} objectFit="contain" alt="image" />
                 </div>
                 <div>
                   <div>
@@ -946,14 +928,9 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px]">
-                <div className=" w-full">
-                  <Image
-                    className=" w-full h-auto"
-                    src={smallArticle}
-                    objectFit="contain"
-                    alt="image"
-                  />
+              <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px] ">
+                <div>
+                  <Image src={smallArticle} objectFit="contain" alt="image" />
                 </div>
                 <div>
                   <div>
@@ -971,14 +948,9 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="flex gap-y-[15px] gap-x-[15px]">
-                <div className=" w-full">
-                  <Image
-                    className=" w-full h-auto"
-                    src={smallArticle}
-                    objectFit="contain"
-                    alt="image"
-                  />
+              <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px] ">
+                <div>
+                  <Image src={smallArticle} objectFit="contain" alt="image" />
                 </div>
                 <div>
                   <div>
@@ -997,46 +969,56 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="px-0 md:px-5">
+            <div className="px-4  md:px-5 mt-9 w-full md:w-[50%] ">
               <div>
-                <div className="relative mt-16 md:mt-0">
-                  <h4 className="absolute top-[-30px] md:top-[-53px] left-[10px] md:left-0 text-center  text-[#f3f3f3] uppercase tracking-[10px] text-[40px] md:text-[52px] font-normal ">
-                    Vos stars
-                  </h4>
-                  <h4 className=" text-center text-[32px] font-extrabold mb-[26px] tracking-[-.6px] ">
-                    Célébrités
-                  </h4>
-                </div>
-              </div>
-              <div className="article-bg-2">
-                <div className=" p-4 text-center absolute bottom-0">
-                  <div className="mb-4 flex justify-center">
-                    <a
-                      class="rounded-[5px] bg-[#FDAB09] px-4 py-2 font-bold text-xs uppercase"
-                      href="/"
-                    >
+                <div>
+                  <div className="relative mt-16 md:mt-0">
+                    <h4 className="absolute top-[-30px] md:top-[-53px] left-[10px] md:left-0 text-center  text-[#f3f3f3] uppercase tracking-[10px] text-[40px] md:text-[52px] font-normal ">
+                      Vos stars
+                    </h4>
+                    <h4 className=" relative z-10 text-center text-[32px] font-extrabold mb-[26px] tracking-[-.6px] ">
                       Célébrités
-                    </a>
+                    </h4>
+                  </div>
+                </div>
+                <div className="relative">
+                  <div className=" w-full">
+                    <Image
+                      className="w-full"
+                      src={yourStars}
+                      objectFit="contain"
+                      alt="image"
+                    />
+                  </div>
+                  <div className=" p-4 text-center absolute bottom-0">
+                    <div className="mb-4 flex justify-center">
+                      <a
+                        class="rounded-[5px] bg-[#FDAB09] px-4 py-2 font-bold text-xs uppercase"
+                        href="/"
+                      >
+                        Célébrités
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="pt-[13px]  mb-5">
+                  <h3>
+                    <Link
+                      href="/"
+                      className="text-xl leading-[1.2] font-extrabold mt-[15px]"
+                    >
+                      Didistone voit un air de famille avec le fils de Rihanna
+                    </Link>
+                  </h3>
+                  <div>
+                    <span className="text-[#e3382b] text-xs  font-medium tracking-[.5px] uppercase ">
+                      <time datetime="">mai 19, 2024</time>
+                    </span>
                   </div>
                 </div>
               </div>
-              <div className="pt-[13px] ">
-                <h3>
-                  <Link
-                    href="/"
-                    className="text-xl leading-[1.2] font-extrabold mt-[15px]"
-                  >
-                    Didistone voit un air de famille avec le fils de Rihanna
-                  </Link>
-                </h3>
-                <div>
-                  <span className="text-[#e3382b] text-xs  font-medium tracking-[.5px] uppercase ">
-                    <time datetime="">mai 19, 2024</time>
-                  </span>
-                </div>
-              </div>
             </div>
-            <div className="px-0 md:px-5">
+            <div className="px-0  md:px-5 w-full md:w-[25%] ">
               <div className="article-bg-2">
                 <div className=" p-4 text-center absolute bottom-0">
                   <div className="mb-4">
@@ -1063,12 +1045,14 @@ export default function Home() {
         </div>
       </section>
       <section className=" mt-10">
-        <div className="container mx-auto px-4 md:px-0">
+        <div className="container mx-auto">
           <div>
-            <h4 className="mb-4 text-[32px] font-bold  ">International</h4>
+            <h4 className="mb-4 text-[32px] font-bold  px-4 md:px-0">
+              International
+            </h4>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-            <div className="article-bg-2 H-auto">
+            <div className="article-bg-2">
               <div className=" p-4 text-center absolute bottom-0">
                 <div className="mb-4">
                   <a
@@ -1089,7 +1073,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2  ">
+            <div className="grid grid-cols-1 md:grid-cols-2 px-4 md:px-0 ">
               <article className="w-full md:w-[288px] mb-4 ">
                 <Link href="/">
                   <div className=" relative top-[2px] ">
@@ -1207,12 +1191,14 @@ export default function Home() {
         </div>
       </section>
       <section className=" mt-10">
-        <div className="container mx-auto px-4 md:px-0">
+        <div className="container mx-auto">
           <div>
-            <h4 className="mb-4 text-[32px] font-bold  ">Musiques</h4>
+            <h4 className="mb-4 text-[32px] font-bold  px-4 md:px-0">
+              Musique
+            </h4>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-            <div className="article-bg-2 H-auto">
+            <div className="article-bg-2">
               <div className=" p-4 text-center absolute bottom-0">
                 <div className="mb-4">
                   <a
@@ -1233,7 +1219,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2  ">
+            <div className="grid grid-cols-1 md:grid-cols-2 px-4 md:px-0 ">
               <article className="w-full md:w-[288px] mb-4 ">
                 <Link href="/">
                   <div className=" relative top-[2px] ">
@@ -1351,12 +1337,12 @@ export default function Home() {
         </div>
       </section>
       <section className=" mt-10">
-        <div className="container mx-auto px-4 md:px-0">
+        <div className="container mx-auto">
           <div>
-            <h4 className="mb-4 text-[32px] font-bold  ">Sports</h4>
+            <h4 className="mb-4 text-[32px] font-bold  px-4 md:px-0">Sports</h4>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-            <div className="article-bg-2 H-auto">
+            <div className="article-bg-2">
               <div className=" p-4 text-center absolute bottom-0">
                 <div className="mb-4">
                   <a
@@ -1377,7 +1363,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2  ">
+            <div className="grid grid-cols-1 md:grid-cols-2 px-4 md:px-0 ">
               <article className="w-full md:w-[288px] mb-4 ">
                 <Link href="/">
                   <div className=" relative top-[2px] ">
