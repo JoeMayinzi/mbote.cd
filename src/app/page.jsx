@@ -308,7 +308,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="mt-10 py-[30px] mb-[60px] bg-[#121212] ">
+      <section className="mt-10 py-[30px] mb-0 md:mb-[60px] bg-[#121212] ">
         <div className="container mx-auto px-4 md:px-0">
           <div>
             <h4 className="text-[32px] font-bold mb-4 text-white ">
@@ -849,10 +849,10 @@ export default function Home() {
           <div className="flex flex-col md:flex-row">
             <div className="w-full order-2 mt-5 md:mt-0 md:w-[25%] px-4 md:px-0 md:order-none">
               <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px] ">
-                <div>
+                <div className=" w-[50%] md:w-full ">
                   <Image src={smallArticle} objectFit="contain" alt="image" />
                 </div>
-                <div>
+                <div className=" w-[50%] md:w-full ">
                   <div>
                     <h3 className=" text-sm font-extrabold leading-[1.2] ">
                       <Link href="/">
@@ -869,10 +869,10 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px] ">
-                <div>
+                <div className=" w-[50%] md:w-full ">
                   <Image src={smallArticle} objectFit="contain" alt="image" />
                 </div>
-                <div>
+                <div className=" w-[50%] md:w-full ">
                   <div>
                     <h3 className=" text-sm font-extrabold leading-[1.2] ">
                       <Link href="/">
@@ -889,10 +889,10 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px] ">
-                <div>
+                <div className=" w-[50%] md:w-full ">
                   <Image src={smallArticle} objectFit="contain" alt="image" />
                 </div>
-                <div>
+                <div className=" w-[50%] md:w-full ">
                   <div>
                     <h3 className=" text-sm font-extrabold leading-[1.2] ">
                       <Link href="/">
@@ -909,10 +909,10 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px] ">
-                <div>
+                <div className=" w-[50%] md:w-full ">
                   <Image src={smallArticle} objectFit="contain" alt="image" />
                 </div>
-                <div>
+                <div className=" w-[50%] md:w-full ">
                   <div>
                     <h3 className=" text-sm font-extrabold leading-[1.2] ">
                       <Link href="/">
@@ -929,10 +929,10 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px] ">
-                <div>
+                <div className=" w-[50%] md:w-full ">
                   <Image src={smallArticle} objectFit="contain" alt="image" />
                 </div>
-                <div>
+                <div className=" w-[50%] md:w-full ">
                   <div>
                     <h3 className=" text-sm font-extrabold leading-[1.2] ">
                       <Link href="/">
@@ -949,10 +949,10 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px] ">
-                <div>
+                <div className=" w-[50%] md:w-full ">
                   <Image src={smallArticle} objectFit="contain" alt="image" />
                 </div>
-                <div>
+                <div className=" w-[50%] md:w-full ">
                   <div>
                     <h3 className=" text-sm font-extrabold leading-[1.2] ">
                       <Link href="/">
@@ -969,7 +969,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="px-4  md:px-5 mt-9 w-full md:w-[50%] ">
+            <div className="px-4  md:px-5 mt-0 md:mt-9 w-full md:w-[50%] ">
               <div>
                 <div>
                   <div className="relative mt-16 md:mt-0">
