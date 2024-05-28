@@ -848,7 +848,27 @@ export default function Home() {
         <div className="container mx-auto">
           <div className="flex flex-col md:flex-row">
             <div className="w-full order-2 mt-5 md:mt-0 md:w-[25%] px-4 md:px-0 md:order-none">
-              <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px] ">
+              <div className="flex items-center gap-y-[15px] gap-x-[15px] mb-[15px] ">
+                <div className=" w-[50%] md:w-full ">
+                  <Image src={smallArticle} objectFit="contain" alt="image" />
+                </div>
+                <div className=" w-[50%] md:w-full ">
+                  <div>
+                    <h3 className=" text-sm font-extrabold leading-[1.2] ">
+                      <Link href="/">
+                        Polémique sur les réseaux sociaux après l’entrée
+                        spectaculaire
+                      </Link>
+                    </h3>
+                  </div>
+                  <div>
+                    <span className="text-[#e3382b] text-xs  font-medium tracking-[.5px] uppercase ">
+                      <time datetime="">mai 19, 2024</time>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div className="flex items-center gap-y-[15px] gap-x-[15px] mb-[15px] ">
                 <div className=" w-[50%] md:w-full ">
                   <Image src={smallArticle} objectFit="contain" alt="image" />
                 </div>
@@ -868,7 +888,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px] ">
+              <div className="flex items-center gap-y-[15px] gap-x-[15px] mb-[15px] ">
                 <div className=" w-[50%] md:w-full ">
                   <Image src={smallArticle} objectFit="contain" alt="image" />
                 </div>
@@ -888,7 +908,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px] ">
+              <div className="flex items-center gap-y-[15px] gap-x-[15px] mb-[15px] ">
                 <div className=" w-[50%] md:w-full ">
                   <Image src={smallArticle} objectFit="contain" alt="image" />
                 </div>
@@ -908,7 +928,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px] ">
+              <div className="flex items-center gap-y-[15px] gap-x-[15px] mb-[15px] ">
                 <div className=" w-[50%] md:w-full ">
                   <Image src={smallArticle} objectFit="contain" alt="image" />
                 </div>
@@ -928,27 +948,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px] ">
-                <div className=" w-[50%] md:w-full ">
-                  <Image src={smallArticle} objectFit="contain" alt="image" />
-                </div>
-                <div className=" w-[50%] md:w-full ">
-                  <div>
-                    <h3 className=" text-sm font-extrabold leading-[1.2] ">
-                      <Link href="/">
-                        Polémique sur les réseaux sociaux après l’entrée
-                        spectaculaire sur scène de Moïse Mbiye au Sta...
-                      </Link>
-                    </h3>
-                  </div>
-                  <div>
-                    <span className="text-[#e3382b] text-xs  font-medium tracking-[.5px] uppercase ">
-                      <time datetime="">mai 19, 2024</time>
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px] ">
+              <div className="flex items-center gap-y-[15px] gap-x-[15px] mb-[15px] ">
                 <div className=" w-[50%] md:w-full ">
                   <Image src={smallArticle} objectFit="contain" alt="image" />
                 </div>
