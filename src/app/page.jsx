@@ -16,8 +16,8 @@ export default function Home() {
   return (
     <>
       <section className="bg mt-2">
-        <div className="px-4 md:px-0 pt-28 md:pt-0">
-          <div className="  md:ps-[20px] md:pr-[600px] pb-[100px] ">
+        <div className="px-4 md:px-0 pt-28 md:pt-[20%] ">
+          <div className="  md:ps-[20px] md:pr-[160px] lg:pr-[600px] md:pb-[80px] lg:pb-[100px] ">
             <div className=" mb-5">
               <a
                 className="bg-[#FDAB09] font-bold text-xs uppercase p-2"
@@ -34,7 +34,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className=" bg-black md:bg-transparent px-4 md:px-0 py-[30px] md:py-0 ">
+        <div className=" bg-black md:bg-transparent px-4  py-[30px] md:py-0 ">
           <div>
             <h3 className="mt-[10px] mb-[10px] text-white text-[15px] leading-[1.2] font-bold uppercase tracking-[.5px] ">
               toujours à la une !
@@ -1052,7 +1052,7 @@ export default function Home() {
             </h4>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-            <div className="article-bg-2">
+            <div className="article-bg-2 lg:h-[615px] ">
               <div className=" p-4 text-center absolute bottom-0">
                 <div className="mb-4">
                   <a
@@ -1073,8 +1073,8 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 px-4 md:px-0 ">
-              <article className="w-full md:w-[288px] mb-4 ">
+            <div className="grid grid-cols-1 md:grid-cols-2 px-4 md:px-0 md:gap-y-[10px] md:gap-x-[10px] ">
+              <article className="w-full lg:w-[288px] lg:mb-4 ">
                 <Link href="/">
                   <div className=" relative top-[2px] ">
                     <Image
@@ -1102,7 +1102,7 @@ export default function Home() {
                   </h3>
                 </div>
               </article>
-              <article className="w-full md:w-[288px] mb-4 ">
+              <article className="w-full lg:w-[288px] mb-4 ">
                 <Link href="/">
                   <div className=" relative top-[2px] ">
                     <Image
@@ -1130,7 +1130,7 @@ export default function Home() {
                   </h3>
                 </div>
               </article>
-              <article className="w-full md:w-[288px] mb-4 ">
+              <article className="w-full lg:w-[288px] mb-4 ">
                 <Link href="/">
                   <div className=" relative top-[2px] ">
                     <Image
@@ -1158,7 +1158,7 @@ export default function Home() {
                   </h3>
                 </div>
               </article>
-              <article className="w-full md:w-[288px] mb-4 ">
+              <article className="w-full lg:w-[288px] mb-4 ">
                 <Link href="/">
                   <div className=" relative top-[2px] ">
                     <Image
@@ -1198,7 +1198,7 @@ export default function Home() {
             </h4>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-            <div className="article-bg-2">
+            <div className="article-bg-2 lg:h-[615px] ">
               <div className=" p-4 text-center absolute bottom-0">
                 <div className="mb-4">
                   <a
@@ -1219,8 +1219,8 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 px-4 md:px-0 ">
-              <article className="w-full md:w-[288px] mb-4 ">
+            <div className="grid grid-cols-1 md:grid-cols-2 px-4 md:px-0 md:gap-y-[10px] md:gap-x-[10px] ">
+              <article className="w-full lg:w-[288px] lg:mb-4 ">
                 <Link href="/">
                   <div className=" relative top-[2px] ">
                     <Image
@@ -1248,7 +1248,7 @@ export default function Home() {
                   </h3>
                 </div>
               </article>
-              <article className="w-full md:w-[288px] mb-4 ">
+              <article className="w-full lg:w-[288px] mb-4 ">
                 <Link href="/">
                   <div className=" relative top-[2px] ">
                     <Image
@@ -1276,7 +1276,7 @@ export default function Home() {
                   </h3>
                 </div>
               </article>
-              <article className="w-full md:w-[288px] mb-4 ">
+              <article className="w-full lg:w-[288px] mb-4 ">
                 <Link href="/">
                   <div className=" relative top-[2px] ">
                     <Image
@@ -1304,7 +1304,7 @@ export default function Home() {
                   </h3>
                 </div>
               </article>
-              <article className="w-full md:w-[288px] mb-4 ">
+              <article className="w-full lg:w-[288px] mb-4 ">
                 <Link href="/">
                   <div className=" relative top-[2px] ">
                     <Image
@@ -1342,7 +1342,7 @@ export default function Home() {
             <h4 className="mb-4 text-[32px] font-bold  px-4 md:px-0">Sports</h4>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-            <div className="article-bg-2">
+            <div className="article-bg-2 lg:h-[615px] ">
               <div className=" p-4 text-center absolute bottom-0">
                 <div className="mb-4">
                   <a
@@ -1363,8 +1363,64 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 px-4 md:px-0 ">
-              <article className="w-full md:w-[288px] mb-4 ">
+            <div className="grid grid-cols-1 md:grid-cols-2 px-4 md:px-0 md:gap-y-[10px] md:gap-x-[10px] ">
+              <article className="w-full lg:w-[288px] lg:mb-4 ">
+                <Link href="/">
+                  <div className=" relative top-[2px] ">
+                    <Image
+                      className="w-full"
+                      src={articleImg}
+                      width="390"
+                      height="240"
+                      alt="article img"
+                    />
+                  </div>
+                </Link>
+                <div className="relative bg-[#000000] px-[10px] pt-[50px] pb-[20px] ">
+                  <div className="relative mt-[-60px] mb-5  ">
+                    <a
+                      class="bg-[#FDAB09] font-bold text-xs uppercase px-4 py-2"
+                      href="/"
+                    >
+                      cameroun
+                    </a>
+                  </div>
+                  <h3 className="text-white text-base font-extrabold">
+                    <Link className="transition-all .2s ease" href="/">
+                      Gaz Mawete dévoile le teaser du clip « Fondi lifindi »
+                    </Link>
+                  </h3>
+                </div>
+              </article>
+              <article className="w-full lg:w-[288px] mb-4 ">
+                <Link href="/">
+                  <div className=" relative top-[2px] ">
+                    <Image
+                      className="w-full"
+                      src={articleImg}
+                      width="390"
+                      height="240"
+                      alt="article img"
+                    />
+                  </div>
+                </Link>
+                <div className="relative bg-[#000000] px-[10px] pt-[50px] pb-[20px] ">
+                  <div className="relative mt-[-60px] mb-5  ">
+                    <a
+                      class="bg-[#FDAB09] font-bold text-xs uppercase px-4 py-2"
+                      href="/"
+                    >
+                      cameroun
+                    </a>
+                  </div>
+                  <h3 className="text-white text-base font-extrabold">
+                    <Link className="transition-all .2s ease" href="/">
+                      Gaz Mawete dévoile le teaser du clip « Fondi lifindi »
+                    </Link>
+                  </h3>
+                </div>
+              </article>
+              <article className="w-full lg:w-[288px] mb-4 ">
                 <Link href="/">
                   <div className=" relative top-[2px] ">
                     <Image
@@ -1392,7 +1448,7 @@ export default function Home() {
                   </h3>
                 </div>
               </article>
-              <article className="w-full md:w-[288px] mb-4 ">
+              <article className="w-full lg:w-[288px] mb-4 ">
                 <Link href="/">
                   <div className=" relative top-[2px] ">
                     <Image
@@ -1404,63 +1460,7 @@ export default function Home() {
                     />
                   </div>
                 </Link>
-                <div className="relative bg-[#000000] px-[10px] pt-[50px] pb-[20px] ">
-                  <div className="relative mt-[-60px] mb-5 ">
-                    <a
-                      class="bg-[#FDAB09] font-bold text-xs uppercase px-4 py-2"
-                      href="/"
-                    >
-                      cameroun
-                    </a>
-                  </div>
-                  <h3 className="text-white text-base font-extrabold">
-                    <Link className="transition-all .2s ease" href="/">
-                      Gaz Mawete dévoile le teaser du clip « Fondi lifindi »
-                    </Link>
-                  </h3>
-                </div>
-              </article>
-              <article className="w-full md:w-[288px] mb-4 ">
-                <Link href="/">
-                  <div className=" relative top-[2px] ">
-                    <Image
-                      className="w-full"
-                      src={articleImg}
-                      width="390"
-                      height="240"
-                      alt="article img"
-                    />
-                  </div>
-                </Link>
-                <div className="relative bg-[#000000] px-[10px] pt-[50px] pb-[20px] ">
-                  <div className="relative mt-[-60px] mb-5 ">
-                    <a
-                      class="bg-[#FDAB09] font-bold text-xs uppercase px-4 py-2"
-                      href="/"
-                    >
-                      cameroun
-                    </a>
-                  </div>
-                  <h3 className="text-white text-base font-extrabold">
-                    <Link className="transition-all .2s ease" href="/">
-                      Gaz Mawete dévoile le teaser du clip « Fondi lifindi »
-                    </Link>
-                  </h3>
-                </div>
-              </article>
-              <article className="w-full md:w-[288px] mb-4 ">
-                <Link href="/">
-                  <div className=" relative top-[2px] ">
-                    <Image
-                      className="w-full"
-                      src={articleImg}
-                      width="390"
-                      height="240"
-                      alt="article img"
-                    />
-                  </div>
-                </Link>
-                <div className="relative bg-[#000000] px-[10px] pt-[50px] pb-[20px] ">
+                <div className=" relative bg-[#000000] px-[10px] pt-[50px] pb-[20px] ">
                   <div className="relative mt-[-60px] mb-5 ">
                     <a
                       class="bg-[#FDAB09] font-bold text-xs uppercase px-4 py-2"
@@ -1499,7 +1499,7 @@ export default function Home() {
                   alt="lorem"
                 />
               </div>
-              <div className="relative mt-[-80px] md:mt-[-80px] w-[267px] md:w-[424.8px] mx-auto bg-white last-block-shadaw py-[10px] md:py-10 px-[15px] md:px-5 rounded-[5px] ">
+              <div className="relative mt-[-55px] md:mt-[-80px] w-[267px] md:w-[270px] lg:w-[424.8px] mx-auto bg-white last-block-shadaw py-[10px] md:py-10 px-[15px] md:px-5 rounded-[5px] ">
                 <div>
                   <h3 className=" text-lg md:text-xl font-extrabold leading-[1.2] mb-[6px] ">
                     <Link href="/">
@@ -1536,7 +1536,7 @@ export default function Home() {
                   alt="lorem"
                 />
               </div>
-              <div className="relative mt-[-55px] md:mt-[-80px] w-[267px] md:w-[424.8px] mx-auto bg-white last-block-shadaw py-[10px] md:py-10 px-[15px] md:px-5 rounded-[5px] ">
+              <div className="relative mt-[-55px] md:mt-[-80px] w-[267px] md:w-[270px] lg:w-[424.8px] mx-auto bg-white last-block-shadaw py-[10px] md:py-10 px-[15px] md:px-5 rounded-[5px] ">
                 <div>
                   <h3 className=" text-lg md:text-xl font-extrabold leading-[1.2] mb-[6px] ">
                     <Link href="/">
@@ -1573,7 +1573,7 @@ export default function Home() {
                   alt="lorem"
                 />
               </div>
-              <div className="relative mt-[-55px] md:mt-[-80px] w-[267px] mt:w-[424.8px] mx-auto bg-white last-block-shadaw py-[10px] md:py-10 px-[15px] md:px-5 rounded-[5px] ">
+              <div className="relative mt-[-55px] md:mt-[-80px] w-[267px] md:w-[270px] lg:w-[424.8px]  mx-auto bg-white last-block-shadaw py-[10px] md:py-10 px-[15px] md:px-5 rounded-[5px] ">
                 <div>
                   <h3 className=" text-lg md:text-xl font-extrabold leading-[1.2] mb-[6px] ">
                     <Link href="/">
@@ -1610,7 +1610,7 @@ export default function Home() {
                   alt="lorem"
                 />
               </div>
-              <div className="relative mt-[-55px] md:mt-[-80px] w-[267px] md:w-[424.8px] mx-auto bg-white last-block-shadaw py-[10px] md:py-10 px-[15px] md:px-5 rounded-[5px] ">
+              <div className="relative mt-[-55px] md:mt-[-80px] w-[267px] md:w-[270px] lg:w-[424.8px] mx-auto bg-white last-block-shadaw py-[10px] md:py-10 px-[15px] md:px-5 rounded-[5px] ">
                 <div>
                   <h3 className=" text-lg md:text-xl font-extrabold leading-[1.2] mb-[6px] ">
                     <Link href="/">
