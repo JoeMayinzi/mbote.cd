@@ -14,7 +14,7 @@ export default function Article() {
       <ProgressBar />
       <section>
         <div className="container mx-auto py-[30px] px-4 md:px-0">
-          <div className=" w-full md:w-[953px] ">
+          <div className=" w-full lg:w-[953px] ">
             <div class=" mb-5 ">
               <a class="bg-[#FDAB09] font-bold text-xs uppercase p-2" href="/">
                 Buzz
@@ -28,8 +28,8 @@ export default function Article() {
               </h1>
             </div>
           </div>
-          <div className=" block lg:flex gap-[20px] ">
-            <div className=" px-0 md:px-[10px]">
+          <div className=" block md:flex gap-[20px] ">
+            <div className=" px-0 md:px-[10px] w-full md:w-[848px] ">
               <div>
                 <time class=" text-xs">mai 16, 2023</time>
               </div>
@@ -182,7 +182,7 @@ export default function Article() {
                   </h4>
                 </div>
                 <div className="flex gap-[10px] ">
-                  <div className=" w-full h-full md:w-[269.467px] ">
+                  <div className=" w-full h-full ">
                     <div>
                       <Image
                         className=" h-auto md:h-[161px] "
@@ -211,7 +211,7 @@ export default function Article() {
                       </div>
                     </div>
                   </div>
-                  <div className=" w-full h-full md:w-[269.467px] ">
+                  <div className=" w-full h-full ">
                     <div>
                       <Image
                         className=" h-auto md:h-[161px] "
@@ -240,7 +240,7 @@ export default function Article() {
                       </div>
                     </div>
                   </div>
-                  <div className=" w-full h-full md:w-[269.467px] ">
+                  <div className=" w-full h-full ">
                     <div>
                       <Image
                         className=" h-auto md:h-[161px] "
@@ -602,23 +602,23 @@ export default function Article() {
                 </div>
               </div>
             </div>
-            <div className="sticky top-0 mt-24 ">
-              <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px] ">
-                <div className=" md:flex-1 w-full">
+            <div className="sticky top-0 mt-24 w-full md:w-[343px] ">
+              <div className="flex items-center gap-y-[15px] gap-x-[15px] mb-[15px] ">
+                <div className=" w-full md:w-[50%] ">
                   <Image
-                    className=" w-full md:w-[130px] h-[78.1167px]  md:h-auto"
+                    className=" w-full md:w-[130px] h-[78.1167px]  md:h-auto lg:w-full lg:h-auto"
                     src={smallArticle}
                     width="130px"
                     height="78.1167"
                     alt="image"
                   />
                 </div>
-                <div>
+                <div className=" w-full md:w-[50%] ">
                   <div>
                     <h3 className=" text-xs lg:text-sm font-extrabold leading-[1.2] ">
                       <Link href="/">
-                        Polémique sur les réseaux sociaux après l’entrée
-                        spectaculaire sur scène de Moïse Mbiye au Sta...
+                        Tiakola prévoit de se produire à Kinshasa pour la
+                        première fois
                       </Link>
                     </h3>
                   </div>
@@ -629,21 +629,22 @@ export default function Article() {
                   </div>
                 </div>
               </div>
-              <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px]">
-                <div className="md:flex-1 w-full">
+              <div className="flex items-center gap-y-[15px] gap-x-[15px] mb-[15px] ">
+                <div className=" w-full md:w-[50%] ">
                   <Image
-                    className=" w-full md:w-[130px] h-[78.1167px] md:h-auto"
+                    className=" w-full md:w-[130px] h-[78.1167px]  md:h-auto lg:w-full lg:h-auto"
                     src={smallArticle}
-                    objectFit="contain"
+                    width="130px"
+                    height="78.1167"
                     alt="image"
                   />
                 </div>
-                <div>
+                <div className=" w-full md:w-[50%] ">
                   <div>
                     <h3 className=" text-xs lg:text-sm font-extrabold leading-[1.2] ">
                       <Link href="/">
-                        Polémique sur les réseaux sociaux après l’entrée
-                        spectaculaire sur scène de Moïse Mbiye au Sta...
+                        Tiakola prévoit de se produire à Kinshasa pour la
+                        première fois
                       </Link>
                     </h3>
                   </div>
@@ -654,21 +655,22 @@ export default function Article() {
                   </div>
                 </div>
               </div>
-              <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px]">
-                <div className="md:flex-1 w-full">
+              <div className="flex items-center gap-y-[15px] gap-x-[15px] mb-[15px] ">
+                <div className=" w-full md:w-[50%] ">
                   <Image
-                    className="w-full md:w-[130px] h-[78.1167px] md:h-auto"
+                    className=" w-full md:w-[130px] h-[78.1167px]  md:h-auto lg:w-full lg:h-auto"
                     src={smallArticle}
-                    objectFit="contain"
+                    width="130px"
+                    height="78.1167"
                     alt="image"
                   />
                 </div>
-                <div>
+                <div className=" w-full md:w-[50%] ">
                   <div>
                     <h3 className=" text-xs lg:text-sm font-extrabold leading-[1.2] ">
                       <Link href="/">
-                        Polémique sur les réseaux sociaux après l’entrée
-                        spectaculaire sur scène de Moïse Mbiye au Sta...
+                        Tiakola prévoit de se produire à Kinshasa pour la
+                        première fois
                       </Link>
                     </h3>
                   </div>
@@ -679,46 +681,22 @@ export default function Article() {
                   </div>
                 </div>
               </div>
-              <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px]">
-                <div className="md:flex-1 w-full">
+              <div className="flex items-center gap-y-[15px] gap-x-[15px] mb-[15px] ">
+                <div className=" w-full md:w-[50%] ">
                   <Image
-                    className="w-full md:w-[130px] h-[78.1167px] md:h-auto"
+                    className=" w-full md:w-[130px] h-[78.1167px]  md:h-auto lg:w-full lg:h-auto"
                     src={smallArticle}
-                    objectFit="contain"
+                    width="130px"
+                    height="78.1167"
                     alt="image"
                   />
                 </div>
-                <div>
-                  <div>
-                    <h3 className="text-xs lg:text-sm font-extrabold leading-[1.2] ">
-                      <Link href="/">
-                        Polémique sur les réseaux sociaux après l’entrée
-                        spectaculaire sur scène de Moïse Mbiye au Sta...
-                      </Link>
-                    </h3>
-                  </div>
-                  <div>
-                    <span className="text-[#e3382b] text-xs  font-medium tracking-[.5px] uppercase ">
-                      <time datetime="">mai 19, 2024</time>
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div className="flex gap-y-[15px] gap-x-[15px] mb-[15px]">
-                <div className="md:flex-1 w-full">
-                  <Image
-                    className="w-full md:w-[130px] h-[78.1167px] md:h-auto"
-                    src={smallArticle}
-                    objectFit="contain"
-                    alt="image"
-                  />
-                </div>
-                <div>
+                <div className=" w-full md:w-[50%] ">
                   <div>
                     <h3 className=" text-xs lg:text-sm font-extrabold leading-[1.2] ">
                       <Link href="/">
-                        Polémique sur les réseaux sociaux après l’entrée
-                        spectaculaire sur scène de Moïse Mbiye au Sta...
+                        Tiakola prévoit de se produire à Kinshasa pour la
+                        première fois
                       </Link>
                     </h3>
                   </div>
@@ -729,21 +707,48 @@ export default function Article() {
                   </div>
                 </div>
               </div>
-              <div className="flex gap-y-[15px] gap-x-[15px]">
-                <div className="md:flex-1 w-full">
+              <div className="flex items-center gap-y-[15px] gap-x-[15px] mb-[15px] ">
+                <div className=" w-full md:w-[50%] ">
                   <Image
-                    className="w-full md:w-[130px] h-[78.1167px] md:h-auto"
+                    className=" w-full md:w-[130px] h-[78.1167px]  md:h-auto lg:w-full lg:h-auto"
                     src={smallArticle}
-                    objectFit="contain"
+                    width="130px"
+                    height="78.1167"
                     alt="image"
                   />
                 </div>
-                <div>
+                <div className=" w-full md:w-[50%] ">
                   <div>
-                    <h3 className="text-xs lg:text-sm font-extrabold leading-[1.2] ">
+                    <h3 className=" text-xs lg:text-sm font-extrabold leading-[1.2] ">
                       <Link href="/">
-                        Polémique sur les réseaux sociaux après l’entrée
-                        spectaculaire sur scène de Moïse Mbiye au Sta...
+                        Tiakola prévoit de se produire à Kinshasa pour la
+                        première fois
+                      </Link>
+                    </h3>
+                  </div>
+                  <div>
+                    <span className="text-[#e3382b] text-xs  font-medium tracking-[.5px] uppercase ">
+                      <time datetime="">mai 19, 2024</time>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div className="flex items-center gap-y-[15px] gap-x-[15px] mb-[15px] ">
+                <div className=" w-full md:w-[50%] ">
+                  <Image
+                    className=" w-full md:w-[130px] h-[78.1167px]  md:h-auto lg:w-full lg:h-auto"
+                    src={smallArticle}
+                    width="130px"
+                    height="78.1167"
+                    alt="image"
+                  />
+                </div>
+                <div className=" w-full md:w-[50%] ">
+                  <div>
+                    <h3 className=" text-xs lg:text-sm font-extrabold leading-[1.2] ">
+                      <Link href="/">
+                        Tiakola prévoit de se produire à Kinshasa pour la
+                        première fois
                       </Link>
                     </h3>
                   </div>

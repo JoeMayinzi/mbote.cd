@@ -854,14 +854,14 @@ export default function Home() {
                 </div>
                 <div className=" w-[50%] md:w-full ">
                   <div>
-                    <h3 className=" text-sm font-extrabold leading-[1.2] ">
+                    <h3 className=" text-sm md:text-[11px] lg:text-sm font-extrabold leading-[1.2] ">
                       <Link href="/">
                         Polémique sur les réseaux sociaux après l’entrée
                         spectaculaire
                       </Link>
                     </h3>
                   </div>
-                  <div>
+                  <div className=" md:hidden lg:block">
                     <span className="text-[#e3382b] text-xs  font-medium tracking-[.5px] uppercase ">
                       <time datetime="">mai 19, 2024</time>
                     </span>
@@ -874,14 +874,14 @@ export default function Home() {
                 </div>
                 <div className=" w-[50%] md:w-full ">
                   <div>
-                    <h3 className=" text-sm font-extrabold leading-[1.2] ">
+                    <h3 className=" text-sm md:text-[11px] lg:text-sm font-extrabold leading-[1.2] ">
                       <Link href="/">
                         Polémique sur les réseaux sociaux après l’entrée
                         spectaculaire
                       </Link>
                     </h3>
                   </div>
-                  <div>
+                  <div className=" md:hidden lg:block">
                     <span className="text-[#e3382b] text-xs  font-medium tracking-[.5px] uppercase ">
                       <time datetime="">mai 19, 2024</time>
                     </span>
@@ -894,14 +894,14 @@ export default function Home() {
                 </div>
                 <div className=" w-[50%] md:w-full ">
                   <div>
-                    <h3 className=" text-sm font-extrabold leading-[1.2] ">
+                    <h3 className=" text-sm md:text-[11px] lg:text-sm font-extrabold leading-[1.2] ">
                       <Link href="/">
                         Polémique sur les réseaux sociaux après l’entrée
                         spectaculaire
                       </Link>
                     </h3>
                   </div>
-                  <div>
+                  <div className=" md:hidden lg:block">
                     <span className="text-[#e3382b] text-xs  font-medium tracking-[.5px] uppercase ">
                       <time datetime="">mai 19, 2024</time>
                     </span>
@@ -914,14 +914,14 @@ export default function Home() {
                 </div>
                 <div className=" w-[50%] md:w-full ">
                   <div>
-                    <h3 className=" text-sm font-extrabold leading-[1.2] ">
+                    <h3 className=" text-sm md:text-[11px] lg:text-sm font-extrabold leading-[1.2] ">
                       <Link href="/">
                         Polémique sur les réseaux sociaux après l’entrée
                         spectaculaire
                       </Link>
                     </h3>
                   </div>
-                  <div>
+                  <div className=" md:hidden lg:block">
                     <span className="text-[#e3382b] text-xs  font-medium tracking-[.5px] uppercase ">
                       <time datetime="">mai 19, 2024</time>
                     </span>
@@ -934,14 +934,14 @@ export default function Home() {
                 </div>
                 <div className=" w-[50%] md:w-full ">
                   <div>
-                    <h3 className=" text-sm font-extrabold leading-[1.2] ">
+                    <h3 className=" text-sm md:text-[11px] lg:text-sm font-extrabold leading-[1.2] ">
                       <Link href="/">
                         Polémique sur les réseaux sociaux après l’entrée
                         spectaculaire
                       </Link>
                     </h3>
                   </div>
-                  <div>
+                  <div className=" md:hidden lg:block">
                     <span className="text-[#e3382b] text-xs  font-medium tracking-[.5px] uppercase ">
                       <time datetime="">mai 19, 2024</time>
                     </span>
@@ -954,14 +954,14 @@ export default function Home() {
                 </div>
                 <div className=" w-[50%] md:w-full ">
                   <div>
-                    <h3 className=" text-sm font-extrabold leading-[1.2] ">
+                    <h3 className=" text-sm md:text-[11px] lg:text-sm font-extrabold leading-[1.2] ">
                       <Link href="/">
                         Polémique sur les réseaux sociaux après l’entrée
                         spectaculaire
                       </Link>
                     </h3>
                   </div>
-                  <div>
+                  <div className=" md:hidden lg:block">
                     <span className="text-[#e3382b] text-xs  font-medium tracking-[.5px] uppercase ">
                       <time datetime="">mai 19, 2024</time>
                     </span>
@@ -973,7 +973,7 @@ export default function Home() {
               <div>
                 <div>
                   <div className="relative mt-16 md:mt-0">
-                    <h4 className="absolute top-[-30px] md:top-[-53px] left-[10px] md:left-0 text-center  text-[#f3f3f3] uppercase tracking-[10px] text-[40px] md:text-[52px] font-normal ">
+                    <h4 className="absolute top-[-30px] md:top-[-53px] lg:top-[-45px] left-[10px] md:left-0 lg:left-[105px] text-center  text-[#f3f3f3] uppercase tracking-[10px] text-[40px] md:text-[44px] lg:text-[52px] font-normal ">
                       Vos stars
                     </h4>
                     <h4 className=" relative z-10 text-center text-[32px] font-extrabold mb-[26px] tracking-[-.6px] ">
@@ -1019,7 +1019,7 @@ export default function Home() {
               </div>
             </div>
             <div className="px-0  md:px-5 w-full md:w-[25%] ">
-              <div className="article-bg-2">
+              <div className="article-bg-2 md:h-[470px] lg:h-[596px]">
                 <div className=" p-4 text-center absolute bottom-0">
                   <div className="mb-4">
                     <a
@@ -1032,7 +1032,7 @@ export default function Home() {
                   <div>
                     <Link
                       href="/"
-                      className="text-white text-xl leading-[1.2] font-extrabold mt-[15px]"
+                      className="text-white text-xl md:text-sm lg:text-xl leading-[1.2] font-extrabold mt-[15px]"
                     >
                       Osée Gola, le fils de Ferre Gola aperçu dans un studio
                       d’enregistrement, prépare-t-il un projet ?
