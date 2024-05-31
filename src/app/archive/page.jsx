@@ -60,7 +60,7 @@ export default function Archive() {
       <section>
         <div className="archive-bg container mx-auto">
           <div className="gradient mt-9 absolute bottom-0 p-10">
-            <h3 className="text-white font-extrabold text-[49px] leading-[1.2] ">
+            <h3 className="text-white font-extrabold text-[30px] lg:text-[49px] leading-[1.2] ">
               <Link className="" href="/">
                 Le Doc. : Voici comment Fally Ipupa a pu restaurer à lui seul
                 les concerts congolais en Europe
