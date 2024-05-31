@@ -13,7 +13,7 @@ export default function Header() {
     <header
       className={`bg-[#000000] header-shadaw sticky top-0 z-10 ${FiraSans.className}`}
     >
-      <div className="container mx-auto px-4 md:px-0">
+      <div className="container-fluid mx-auto px-4 md:px-0">
         <div className="flex justify-between items-center py-0 md:py-4">
           <div className="flex gap-3 items-center">
             <div className="block md:hidden">

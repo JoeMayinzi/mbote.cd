@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <>
       <section className="bg mt-2">
-        <div className="px-4 md:px-0 pt-28 md:pt-[20%] ">
+        <div className="container-fluid px-4 md:px-0 pt-28 md:pt-[20%] ">
           <div className="  md:ps-[20px] md:pr-[160px] lg:pr-[600px] md:pb-[80px] lg:pb-[100px] ">
             <div className=" mb-5">
               <a

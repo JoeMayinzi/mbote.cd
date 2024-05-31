@@ -29,6 +29,14 @@ module.exports = {
             maxWidth: "1200px",
           },
         },
+        ".container-fluid": {
+          "@screen lg": {
+            maxWidth: "1400px",
+          },
+          "@screen xl": {
+            maxWidth: "1400px",
+          },
+        },
       });
     },
   ],
