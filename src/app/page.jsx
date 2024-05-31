@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <>
       <section className="bg mt-2">
-        <div className="container-fluid px-4 md:px-0 pt-28 md:pt-[20%] ">
+        <div className="container-fluid mx-auto px-4 md:px-0 pt-28 md:pt-[20%] ">
           <div className="  md:ps-[20px] md:pr-[160px] lg:pr-[600px] md:pb-[80px] lg:pb-[100px] ">
             <div className=" mb-5">
               <a
@@ -34,7 +34,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className=" bg-black md:bg-transparent px-4  py-[30px] md:py-0 ">
+        <div className=" bg-black container-fluid mx-auto  md:bg-transparent px-4  py-[30px] md:py-0 ">
           <div>
             <h3 className="mt-[10px] mb-[10px] text-white text-[15px] leading-[1.2] font-bold uppercase tracking-[.5px] ">
               toujours à la une !
