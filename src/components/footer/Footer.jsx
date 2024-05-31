@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
-import Logo from "../../assets/images/logo.png";
+import LogoFooter from "../../assets/images/logo-footer.png";
 import GooglePlay from "../../assets/images/playstore.png";
 import Link from "next/link";
 import { Montserrat } from "@next/font/google";
@@ -18,7 +18,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 pb-[26px] gap-6">
           <div>
             <div>
-              <Image src={Logo} objectFit="contain" alt="footer logo" />
+              <Image src={LogoFooter} objectFit="contain" alt="footer logo" />
             </div>
             <div>
               <div className=" mt-[10px] mb-[26px] ">
