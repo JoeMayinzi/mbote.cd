@@ -849,10 +849,10 @@ export default function Home() {
           <div className="flex flex-col md:flex-row">
             <div className="w-full order-2 mt-5 md:mt-0 md:w-[25%] px-4 md:px-0 md:order-none">
               <div className="flex items-center gap-y-[15px] gap-x-[15px] mb-[15px] ">
-                <div className=" w-[50%] md:w-full ">
+                <div>
                   <Image src={smallArticle} objectFit="contain" alt="image" />
                 </div>
-                <div className=" w-[50%] md:w-full ">
+                <div>
                   <div>
                     <h3 className=" text-sm md:text-[11px] lg:text-sm font-extrabold leading-[1.2] ">
                       <Link href="/">
@@ -869,10 +869,10 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex items-center gap-y-[15px] gap-x-[15px] mb-[15px] ">
-                <div className=" w-[50%] md:w-full ">
+                <div>
                   <Image src={smallArticle} objectFit="contain" alt="image" />
                 </div>
-                <div className=" w-[50%] md:w-full ">
+                <div>
                   <div>
                     <h3 className=" text-sm md:text-[11px] lg:text-sm font-extrabold leading-[1.2] ">
                       <Link href="/">
@@ -889,10 +889,10 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex items-center gap-y-[15px] gap-x-[15px] mb-[15px] ">
-                <div className=" w-[50%] md:w-full ">
+                <div>
                   <Image src={smallArticle} objectFit="contain" alt="image" />
                 </div>
-                <div className=" w-[50%] md:w-full ">
+                <div>
                   <div>
                     <h3 className=" text-sm md:text-[11px] lg:text-sm font-extrabold leading-[1.2] ">
                       <Link href="/">
@@ -909,10 +909,10 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex items-center gap-y-[15px] gap-x-[15px] mb-[15px] ">
-                <div className=" w-[50%] md:w-full ">
+                <div>
                   <Image src={smallArticle} objectFit="contain" alt="image" />
                 </div>
-                <div className=" w-[50%] md:w-full ">
+                <div>
                   <div>
                     <h3 className=" text-sm md:text-[11px] lg:text-sm font-extrabold leading-[1.2] ">
                       <Link href="/">
@@ -929,10 +929,10 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex items-center gap-y-[15px] gap-x-[15px] mb-[15px] ">
-                <div className=" w-[50%] md:w-full ">
+                <div>
                   <Image src={smallArticle} objectFit="contain" alt="image" />
                 </div>
-                <div className=" w-[50%] md:w-full ">
+                <div>
                   <div>
                     <h3 className=" text-sm md:text-[11px] lg:text-sm font-extrabold leading-[1.2] ">
                       <Link href="/">
@@ -949,10 +949,10 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex items-center gap-y-[15px] gap-x-[15px] mb-[15px] ">
-                <div className=" w-[50%] md:w-full ">
+                <div>
                   <Image src={smallArticle} objectFit="contain" alt="image" />
                 </div>
-                <div className=" w-[50%] md:w-full ">
+                <div>
                   <div>
                     <h3 className=" text-sm md:text-[11px] lg:text-sm font-extrabold leading-[1.2] ">
                       <Link href="/">

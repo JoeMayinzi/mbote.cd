@@ -604,7 +604,7 @@ export default function Article() {
             </div>
             <div className="sticky top-0 mt-24 w-full md:w-[343px] ">
               <div className="flex items-center gap-y-[15px] gap-x-[15px] mb-[15px] ">
-                <div className=" w-full md:w-[50%] ">
+                <div className="w-[30%] md:w-[50%] ">
                   <Image
                     className=" w-full md:w-[130px] h-[78.1167px]  md:h-auto lg:w-full lg:h-auto"
                     src={smallArticle}
@@ -613,7 +613,7 @@ export default function Article() {
                     alt="image"
                   />
                 </div>
-                <div className=" w-full md:w-[50%] ">
+                <div className=" w-[70%] md:w-[50%] ">
                   <div>
                     <h3 className=" text-xs lg:text-sm font-extrabold leading-[1.2] ">
                       <Link href="/">
@@ -630,7 +630,7 @@ export default function Article() {
                 </div>
               </div>
               <div className="flex items-center gap-y-[15px] gap-x-[15px] mb-[15px] ">
-                <div className=" w-full md:w-[50%] ">
+                <div className="w-[30%] md:w-[50%] ">
                   <Image
                     className=" w-full md:w-[130px] h-[78.1167px]  md:h-auto lg:w-full lg:h-auto"
                     src={smallArticle}
@@ -639,7 +639,7 @@ export default function Article() {
                     alt="image"
                   />
                 </div>
-                <div className=" w-full md:w-[50%] ">
+                <div className=" w-[70%] md:w-[50%] ">
                   <div>
                     <h3 className=" text-xs lg:text-sm font-extrabold leading-[1.2] ">
                       <Link href="/">
@@ -656,7 +656,7 @@ export default function Article() {
                 </div>
               </div>
               <div className="flex items-center gap-y-[15px] gap-x-[15px] mb-[15px] ">
-                <div className=" w-full md:w-[50%] ">
+                <div className="w-[30%] md:w-[50%] ">
                   <Image
                     className=" w-full md:w-[130px] h-[78.1167px]  md:h-auto lg:w-full lg:h-auto"
                     src={smallArticle}
@@ -665,7 +665,7 @@ export default function Article() {
                     alt="image"
                   />
                 </div>
-                <div className=" w-full md:w-[50%] ">
+                <div className=" w-[70%] md:w-[50%] ">
                   <div>
                     <h3 className=" text-xs lg:text-sm font-extrabold leading-[1.2] ">
                       <Link href="/">
@@ -682,7 +682,7 @@ export default function Article() {
                 </div>
               </div>
               <div className="flex items-center gap-y-[15px] gap-x-[15px] mb-[15px] ">
-                <div className=" w-full md:w-[50%] ">
+                <div className="w-[30%] md:w-[50%] ">
                   <Image
                     className=" w-full md:w-[130px] h-[78.1167px]  md:h-auto lg:w-full lg:h-auto"
                     src={smallArticle}
@@ -691,7 +691,7 @@ export default function Article() {
                     alt="image"
                   />
                 </div>
-                <div className=" w-full md:w-[50%] ">
+                <div className=" w-[70%] md:w-[50%] ">
                   <div>
                     <h3 className=" text-xs lg:text-sm font-extrabold leading-[1.2] ">
                       <Link href="/">
@@ -708,7 +708,7 @@ export default function Article() {
                 </div>
               </div>
               <div className="flex items-center gap-y-[15px] gap-x-[15px] mb-[15px] ">
-                <div className=" w-full md:w-[50%] ">
+                <div className="w-[30%] md:w-[50%] ">
                   <Image
                     className=" w-full md:w-[130px] h-[78.1167px]  md:h-auto lg:w-full lg:h-auto"
                     src={smallArticle}
@@ -717,7 +717,7 @@ export default function Article() {
                     alt="image"
                   />
                 </div>
-                <div className=" w-full md:w-[50%] ">
+                <div className=" w-[70%] md:w-[50%] ">
                   <div>
                     <h3 className=" text-xs lg:text-sm font-extrabold leading-[1.2] ">
                       <Link href="/">
@@ -734,7 +734,7 @@ export default function Article() {
                 </div>
               </div>
               <div className="flex items-center gap-y-[15px] gap-x-[15px] mb-[15px] ">
-                <div className=" w-full md:w-[50%] ">
+                <div className="w-[30%] md:w-[50%] ">
                   <Image
                     className=" w-full md:w-[130px] h-[78.1167px]  md:h-auto lg:w-full lg:h-auto"
                     src={smallArticle}
@@ -743,7 +743,7 @@ export default function Article() {
                     alt="image"
                   />
                 </div>
-                <div className=" w-full md:w-[50%] ">
+                <div className=" w-[70%] md:w-[50%] ">
                   <div>
                     <h3 className=" text-xs lg:text-sm font-extrabold leading-[1.2] ">
                       <Link href="/">
