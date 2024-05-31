@@ -170,7 +170,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="py-[10px] border-t border-[rgba(255,255,255,.12)]">
-          <div className="flex justify-between px-6">
+          <div className=" block text-center md:flex justify-between px-6">
             <div>
               <p className=" text-xs leading-[28px] font-normal text-[#828282] uppercase ">
                 © MBOTE.CD - MBOTE AFRICA SARL
