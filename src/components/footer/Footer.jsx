@@ -170,10 +170,20 @@ export default function Footer() {
           </div>
         </div>
         <div className="py-[10px] border-t border-[rgba(255,255,255,.12)]">
-          <div className=" px-6">
-            <p className=" text-xs leading-[28px] font-normal text-[#828282] ">
-              © MBOTE.CD - MBOTE AFRICA SARL
-            </p>
+          <div className="flex justify-between px-6">
+            <div>
+              <p className=" text-xs leading-[28px] font-normal text-[#828282] uppercase ">
+                © MBOTE.CD - MBOTE AFRICA SARL
+              </p>
+            </div>
+            <div>
+              <p className=" text-xs leading-[28px] font-normal text-[#828282] uppercase ">
+                by &nbsp;
+                <Link className=" text-[#fdab09] " href="https://mbote.africa/">
+                  mbote africa
+                </Link>
+              </p>
+            </div>
           </div>
         </div>
       </div>
