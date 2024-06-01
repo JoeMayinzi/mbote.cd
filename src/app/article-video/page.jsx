@@ -10,13 +10,12 @@ export default function VideoArticle() {
     <>
       <section className="bg-[#222] py-[30px]">
         <div className="container mx-auto px-4 md:px-0">
-          <div className="flex pt-[21px]">
+          <div className="flex flex-col lg:flex-row pt-[21px]">
             <div className="px-6 w-full">
               <div>
                 {" "}
                 <iframe
-                  width="560"
-                  height="315"
+                  className=" w-full lg:w-[560px] h-full lg:h-[315px] "
                   src="https://www.youtube.com/embed/5xjTMMV3uaQ?si=9EY3Bk_qjB8q_PoQ"
                   title="YouTube video player"
                   frameborder="0"
@@ -41,8 +40,7 @@ export default function VideoArticle() {
                 </div>
                 <div>
                   <iframe
-                    width="560"
-                    height="315"
+                    className=" w-full lg:w-[560px] h-full lg:h-[315px] "
                     src="https://www.youtube.com/embed/5xjTMMV3uaQ?si=SKS33L9TCiE2y9Yt"
                     title="YouTube video player"
                     frameborder="0"
@@ -51,11 +49,11 @@ export default function VideoArticle() {
                     allowfullscreen
                   ></iframe>
                 </div>
-                <div className="p-3 bg-white rounded-[5px] mt-10 h-[141px] ">
-                  <div className=" flex gap-10">
-                    <div className=" pb-[21px] ">
+                <div className="p-3 bg-white rounded-[5px] mt-10   h-full md:h-[141px] border border-[#000]">
+                  <div className=" block mx-auto md:flex gap-10">
+                    <div className="  pb-[21px] ">
                       <Image
-                        className=" rounded-[5px] "
+                        className="mx-auto md:mx-0 rounded-[5px] "
                         src={avatar3}
                         width="120"
                         height="120"
@@ -63,14 +61,14 @@ export default function VideoArticle() {
                       />
                     </div>
                     <div>
-                      <div className="mb-5">
+                      <div className="mb-5 text-center md:text-start">
                         <span className="text-[22px] font-semibold mb-5">
                           Redaction Mbote
                         </span>
                         <div className="mt-5">
                           <Link
                             href="/"
-                            className=" text-[#fdab09] text-lg flex items-center"
+                            className=" text-[#fdab09] text-lg flex justify-center md:justify-start items-center"
                           >
                             See Full Bio
                             <span className=" mt-1 ms-1">
@@ -295,7 +293,7 @@ export default function VideoArticle() {
                 </div>
               </div>
             </div>
-            <div className="px-6">
+            <div className="px-6 order-[-1] lg:order-none ">
               <div className=" mb-[5px] ">
                 <Link
                   className="bg-[#FDAB09] font-bold text-xs uppercase p-2"
@@ -313,7 +311,7 @@ export default function VideoArticle() {
               <div>
                 <time className=" text-xs text-white">décembre 16, 2023</time>
               </div>
-              <div className="flex gap-[6px] mt-4">
+              <div className="flex gap-[6px] mt-4 mb-[15px] ">
                 <div>
                   <Image
                     className="rounded-full"
@@ -343,7 +341,7 @@ export default function VideoArticle() {
               Plus de vidéos
             </a>
           </div>
-          <div className="grid grid-cols-4 gap-[10px] text-16">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-[10px] text-16">
             <article>
               <Link href="/">
                 <div className=" relative top-[2px] ">
