@@ -26,16 +26,14 @@ export default function VideoArticle() {
               </div>
               <div className="mt-20">
                 <div>
-                  <p className=" text-xl font-bold leading-[1.4] text-white mb-[26px] ">
-                    <strong>
-                      Yo, bienvenue dans notre docu spécial sur Fally Ipupa, le
-                      gars qui a tout défoncé pour ramener les concerts
-                      congolais en Europe malgré les combattants. La musique,
-                      c’est un langage universel, et Fally a joué un rôle de
-                      dingue pour briser les barrières et donner aux artistes
-                      congolais le droit de monter sur les scènes européennes.
-                      Viens voir avec nous comment il a tout mis en place.
-                    </strong>
+                  <p className=" text-xl font-normal leading-[1.4] text-white mb-[26px] ">
+                    Yo, bienvenue dans notre docu spécial sur Fally Ipupa, le
+                    gars qui a tout défoncé pour ramener les concerts congolais
+                    en Europe malgré les combattants. La musique, c’est un
+                    langage universel, et Fally a joué un rôle de dingue pour
+                    briser les barrières et donner aux artistes congolais le
+                    droit de monter sur les scènes européennes. Viens voir avec
+                    nous comment il a tout mis en place.
                   </p>
                 </div>
                 <div>
@@ -105,7 +103,7 @@ export default function VideoArticle() {
                 </div>
                 <div>
                   <div className=" text-center mt-4">
-                    <h2 className=" font-bold text-3xl text-white mb-4">
+                    <h2 className=" font-bold text-sm md:text-3xl text-white mb-4">
                       Partager la publication
                     </h2>
                   </div>
