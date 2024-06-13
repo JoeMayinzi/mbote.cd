@@ -1,12 +1,11 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
+import { useSelector } from "react-redux";
 
-//const API_URL = process.env.MBOTE_API_URL;
-
-export const fetchPosts = createAsyncThunk("posts/fetchPosts", async () => {
+export const fetchMedia = createAsyncThunk("media/fetchMedia", async () => {
   try {
     const response = await axios.get(
-      "https://backend.mbote.cd/wp-json/wp/v2/posts"
+      "https://backend.mbote.cd/wp-json/wp/v2/media"
     );
     return response.data;
   } catch (error) {
@@ -15,29 +14,29 @@ export const fetchPosts = createAsyncThunk("posts/fetchPosts", async () => {
   }
 });
 
-const postsSlice = createSlice({
-  name: "posts",
+const mediaSlice = createSlice({
+  name: "media",
   initialState: {
     isLoading: false,
-    posts: null,
+    media: null,
     error: null,
   },
   extraReducers: (builder) => {
-    builder.addCase(fetchPosts.pending, (state, action) => {
+    builder.addCase(fetchMedia.pending, (state, action) => {
       state.isLoading = true;
     });
 
-    builder.addCase(fetchPosts.fulfilled, (state, action) => {
-      state.posts = action.payload;
+    builder.addCase(fetchMedia.fulfilled, (state, action) => {
+      state.media = action.payload;
       state.isLoading = false;
       state.error = null;
     });
 
-    builder.addCase(fetchPosts.rejected, (state, action) => {
+    builder.addCase(fetchMedia.rejected, (state, action) => {
       state.isLoading = false;
       state.error = action.error; // Access error message
     });
   },
 });
 
-export default postsSlice.reducer;
+export default mediaSlice.reducer;

@@ -2,6 +2,7 @@ import Image from "next/image";
 import logo from "../../assets/images/logo.png";
 import { Fira_Sans } from "@next/font/google";
 import Link from "next/link";
+import Search from "../searchComponent/Search";
 
 const FiraSans = Fira_Sans({
   subsets: ["latin"],
@@ -113,6 +114,7 @@ export default function Header() {
             </Link>
           </div>
           <div>
+            <Search />
             <svg
               width="21"
               height="21"
@@ -252,7 +254,7 @@ export default function Header() {
           </Link>
         </div>
         <div>
-          <Link href="#" className="text-base font-normal text-white uppercase">
+          <Link href="" className="text-base font-normal text-white uppercase">
             SPORTS
           </Link>
         </div>

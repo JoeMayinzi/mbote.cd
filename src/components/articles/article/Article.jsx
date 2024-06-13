@@ -1,15 +1,20 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import articleImg from "../../../assets/images/article-img.png";
 
-export default function Article() {
+const media_api_url = "https://backend.mbote.cd/wp-json/wp/v2/media/161140";
+console.log(media_api_url);
+
+export default function Article({ title, featured_image, id }) {
+  const titleScliced = title.slice(0, 55) + "...";
   return (
     <article>
-      <Link href="/">
+      <Link href={`/posts/${id}`}>
         <div className=" relative top-[2px] ">
           <Image
-            className="w-full"
-            src={articleImg}
+            className="w-full h-[240px] "
+            src={featured_image}
             width="390"
             height="240"
             alt="article img"
@@ -17,11 +22,12 @@ export default function Article() {
         </div>
       </Link>
       <div className="bg-[#000000] px-[10px] py-5">
-        <h3 className="text-white text-xl font-extrabold">
-          <Link className="transition-all .2s ease" href="/">
-            Gaz Mawete dévoile le teaser du clip « Fondi lifindi »
-          </Link>
-        </h3>
+        <Link className="transition-all .2s ease" href="/">
+          <h3
+            dangerouslySetInnerHTML={{ __html: titleScliced }}
+            className="text-white text-xl font-extrabold"
+          ></h3>
+        </Link>
       </div>
     </article>
   );

@@ -1,12 +1,34 @@
+"use client";
 import { Montserrat } from "@next/font/google";
 import Image from "next/image";
 import Link from "next/link";
-import avatar from "../../assets/images/avatar.png";
-import articleImg from "../../assets/images/article-img.png";
+//import articleImg from "../../assets/images/article-img.png";
 import LoadMore from "@/components/load-more/More";
 import Article from "@/components/articles/article/Article";
+import { useDispatch, useSelector } from "react-redux";
+import { useEffect } from "react";
+import { fetchPosts } from "@/redux/slices/postsSlice";
+import useFetchPostsByAuthor from "@/hooks/useFetchPostsByAuthor";
+import { useParams } from "next/navigation";
+
+// id : post.id
+// title : post.title.rendered
+// content : post.content.rendered
+// categorie :
 
 export default function Author() {
+  const { author_name } = useParams();
+  const posts = useSelector((state) => state.posts.posts);
+  const dispatch = useDispatch();
+  const postsByAuthor = useFetchPostsByAuthor(316);
+  const authorId = postsByAuthor.map((postByAuthor) => postByAuthor.author);
+
+  console.log(decodeURIComponent(author_name));
+
+  useEffect(() => {
+    dispatch(fetchPosts());
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
   return (
     <section>
       <div className="container mx-auto px-4 md:px-0">
@@ -87,37 +109,34 @@ export default function Author() {
         <div className="relative mt-12 p-[80px] rounded-md bg-[#000000] ">
           <div className="absolute top-[-50px] left-[20%] md:left-[40%] text-center">
             <Image
-              className=" ml-10"
-              src={avatar}
+              className=" rounded-full ml-10"
+              src="https://secure.gravatar.com/avatar/e54ac24b7860f183d1322ac30dec35ea?s=800&d=mm&r=g"
               width="100"
               height="96"
               alt="author img avatar"
             />
             <p className=" font-bold text-xl text-white right-5">
-              Redaction Mbote
+              {author_name}
             </p>
           </div>
         </div>
         <div className="mt-10">
           <div className=" grid grid-cols-1 md:grid-cols-3 gap-x-[10px] gap-y-10 ">
-            <Article />
-            <Article />
-            <Article />
-            <Article />
-            <Article />
-            <Article />
-            <Article />
-            <Article />
-            <Article />
-            <Article />
-            <Article />
-            <Article />
+            {postsByAuthor !== null ? (
+              postsByAuthor.map((post) => (
+                <Article
+                  key={post.id}
+                  id={post.id}
+                  title={post.title.rendered}
+                  featured_image={post.featured_image}
+                  slug={post.slug}
+                ></Article>
+              ))
+            ) : (
+              <p>Pas de données disponibles</p>
+            )}
           </div>
           <LoadMore />
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde placeat
-          dolorum hic doloremque dolorem provident, accusantium voluptatum et
-          dolore consectetur, soluta ut iure? Provident, ipsum beatae. Dicta
-          commodi sequi quo.
         </div>
       </div>
     </section>

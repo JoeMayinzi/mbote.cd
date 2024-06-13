@@ -1,10 +1,28 @@
+"use client";
 import Image from "next/image";
 import SearchImg from "../../assets/images/result-img.webp";
 import Link from "next/link";
 import LoadMore from "@/components/load-more/More";
+import { useRouter } from "next/router";
+import { useSearchParams } from "next/navigation";
+import useFallySearchResults from "@/hooks/useFilteredPostsBySearchQuery";
+import { useDispatch, useSelector } from "react-redux";
+import { useEffect } from "react";
+import { fetchPosts } from "@/redux/slices/postsSlice";
+import SearchedPosts from "@/components/articles/searchedPosts/SearchedPosts";
 
 /* eslint-disable react/no-unescaped-entities */
 export default function SearchPage() {
+  const searchParams = useSearchParams();
+  const searchQuery = searchParams.get("q");
+  const posts = useSelector((state) => state.posts.posts);
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(fetchPosts());
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   return (
     <section>
       <div className="container mx-auto px-4 md:px-4 mt-5 p-[30px] ">
@@ -48,396 +66,24 @@ export default function SearchPage() {
               autre terme de recherche.
             </p>
           </div>
-          <div className=" mt-7 block md:flex  gap-5 result-box-shadaw">
-            <div>
-              <Image
-                className=" w-full h-auto"
-                src={SearchImg}
-                objectFit="contain"
-                alt="search result image"
-              />
-            </div>
-            <div className="ps-[10px] md:ps-0 py-[10px] pr-[10px] ">
-              <h3 className="font-extrabold text-base md:text-xl ">
-                <Link href="/">
-                  Niska annonce son premier méga concert au Congo, le même jour
-                  que...
-                </Link>
-              </h3>
-              <div className="mt-2">
-                <div className="flex gap-2">
-                  <div>
-                    <Link
-                      className=" uppercase py-2 px-4 bg-[#fdab09] text-[10px] md:text-sm font-bold "
-                      href="/"
-                    >
-                      buzz
-                    </Link>
-                  </div>
-                  <span className=" text-sm font-normal">
-                    <time>mai 15, 2024</time>
-                  </span>
-                </div>
-                <div className=" mt-5">
-                  <span className=" text-[#555] text-sm ">
-                    Le 10 août prochain, c'est un événement inédit qui se
-                    déroulera ...
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className=" mt-7 block md:flex  gap-5 result-box-shadaw">
-            <div>
-              <Image
-                className=" w-full h-auto"
-                src={SearchImg}
-                objectFit="contain"
-                alt="search result image"
-              />
-            </div>
-            <div className="ps-[10px] md:ps-0 py-[10px] pr-[10px] ">
-              <h3 className="font-extrabold text-base md:text-xl ">
-                <Link href="/">
-                  Niska annonce son premier méga concert au Congo, le même jour
-                  que...
-                </Link>
-              </h3>
-              <div className="mt-2">
-                <div className="flex gap-2">
-                  <div>
-                    <Link
-                      className=" uppercase py-2 px-4 bg-[#fdab09] text-[10px] md:text-sm font-bold "
-                      href="/"
-                    >
-                      Événements
-                    </Link>
-                  </div>
-                  <span className=" text-sm font-normal">
-                    <time>mai 15, 2024</time>
-                  </span>
-                </div>
-                <div className=" mt-5">
-                  <span className=" text-[#555] text-sm ">
-                    Le 10 août prochain, c'est un événement inédit qui se
-                    déroulera ...
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className=" mt-7 block md:flex  gap-5 result-box-shadaw">
-            <div>
-              <Image
-                className=" w-full h-auto"
-                src={SearchImg}
-                objectFit="contain"
-                alt="search result image"
-              />
-            </div>
-            <div className="ps-[10px] md:ps-0 py-[10px] pr-[10px] ">
-              <h3 className="font-extrabold text-base md:text-xl ">
-                <Link href="/">
-                  Niska annonce son premier méga concert au Congo, le même jour
-                  que...
-                </Link>
-              </h3>
-              <div className="mt-2">
-                <div className="flex gap-2">
-                  <div>
-                    <Link
-                      className=" uppercase py-2 px-4 bg-[#fdab09] text-[10px] md:text-sm font-bold "
-                      href="/"
-                    >
-                      Événements
-                    </Link>
-                  </div>
-                  <span className=" text-sm font-normal">
-                    <time>mai 15, 2024</time>
-                  </span>
-                </div>
-                <div className=" mt-5">
-                  <span className=" text-[#555] text-sm ">
-                    Le 10 août prochain, c'est un événement inédit qui se
-                    déroulera ...
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className=" mt-7 block md:flex  gap-5 result-box-shadaw">
-            <div>
-              <Image
-                className=" w-full h-auto"
-                src={SearchImg}
-                objectFit="contain"
-                alt="search result image"
-              />
-            </div>
-            <div className="ps-[10px] md:ps-0 py-[10px] pr-[10px] ">
-              <h3 className="font-extrabold text-base md:text-xl ">
-                <Link href="/">
-                  Niska annonce son premier méga concert au Congo, le même jour
-                  que...
-                </Link>
-              </h3>
-              <div className="mt-2">
-                <div className="flex gap-2">
-                  <div>
-                    <Link
-                      className=" uppercase py-2 px-4 bg-[#fdab09] text-[10px] md:text-sm font-bold "
-                      href="/"
-                    >
-                      Événements
-                    </Link>
-                  </div>
-                  <span className=" text-sm font-normal">
-                    <time>mai 15, 2024</time>
-                  </span>
-                </div>
-                <div className=" mt-5">
-                  <span className=" text-[#555] text-sm ">
-                    Le 10 août prochain, c'est un événement inédit qui se
-                    déroulera ...
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className=" mt-7 block md:flex  gap-5 result-box-shadaw">
-            <div>
-              <Image
-                className=" w-full h-auto"
-                src={SearchImg}
-                objectFit="contain"
-                alt="search result image"
-              />
-            </div>
-            <div className="ps-[10px] md:ps-0 py-[10px] pr-[10px] ">
-              <h3 className="font-extrabold text-base md:text-xl ">
-                <Link href="/">
-                  Niska annonce son premier méga concert au Congo, le même jour
-                  que...
-                </Link>
-              </h3>
-              <div className="mt-2">
-                <div className="flex gap-2">
-                  <div>
-                    <Link
-                      className=" uppercase py-2 px-4 bg-[#fdab09] text-[10px] md:text-sm font-bold "
-                      href="/"
-                    >
-                      Événements
-                    </Link>
-                  </div>
-                  <span className=" text-sm font-normal">
-                    <time>mai 15, 2024</time>
-                  </span>
-                </div>
-                <div className=" mt-5">
-                  <span className=" text-[#555] text-sm ">
-                    Le 10 août prochain, c'est un événement inédit qui se
-                    déroulera ...
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className=" mt-7 block md:flex  gap-5 result-box-shadaw">
-            <div>
-              <Image
-                className=" w-full h-auto"
-                src={SearchImg}
-                objectFit="contain"
-                alt="search result image"
-              />
-            </div>
-            <div className="ps-[10px] md:ps-0 py-[10px] pr-[10px] ">
-              <h3 className="font-extrabold text-base md:text-xl ">
-                <Link href="/">
-                  Niska annonce son premier méga concert au Congo, le même jour
-                  que...
-                </Link>
-              </h3>
-              <div className="mt-2">
-                <div className="flex gap-2">
-                  <div>
-                    <Link
-                      className=" uppercase py-2 px-4 bg-[#fdab09] text-[10px] md:text-sm font-bold "
-                      href="/"
-                    >
-                      Événements
-                    </Link>
-                  </div>
-                  <span className=" text-sm font-normal">
-                    <time>mai 15, 2024</time>
-                  </span>
-                </div>
-                <div className=" mt-5">
-                  <span className=" text-[#555] text-sm ">
-                    Le 10 août prochain, c'est un événement inédit qui se
-                    déroulera ...
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className=" mt-7 block md:flex  gap-5 result-box-shadaw">
-            <div>
-              <Image
-                className=" w-full h-auto"
-                src={SearchImg}
-                objectFit="contain"
-                alt="search result image"
-              />
-            </div>
-            <div className="ps-[10px] md:ps-0 py-[10px] pr-[10px] ">
-              <h3 className="font-extrabold text-base md:text-xl ">
-                <Link href="/">
-                  Niska annonce son premier méga concert au Congo, le même jour
-                  que...
-                </Link>
-              </h3>
-              <div className="mt-2">
-                <div className="flex gap-2">
-                  <div>
-                    <Link
-                      className=" uppercase py-2 px-4 bg-[#fdab09] text-[10px] md:text-sm font-bold "
-                      href="/"
-                    >
-                      Événements
-                    </Link>
-                  </div>
-                  <span className=" text-sm font-normal">
-                    <time>mai 15, 2024</time>
-                  </span>
-                </div>
-                <div className=" mt-5">
-                  <span className=" text-[#555] text-sm ">
-                    Le 10 août prochain, c'est un événement inédit qui se
-                    déroulera ...
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className=" mt-7 block md:flex  gap-5 result-box-shadaw">
-            <div>
-              <Image
-                className=" w-full h-auto"
-                src={SearchImg}
-                objectFit="contain"
-                alt="search result image"
-              />
-            </div>
-            <div className="ps-[10px] md:ps-0 py-[10px] pr-[10px] ">
-              <h3 className="font-extrabold text-base md:text-xl ">
-                <Link href="/">
-                  Niska annonce son premier méga concert au Congo, le même jour
-                  que...
-                </Link>
-              </h3>
-              <div className="mt-2">
-                <div className="flex gap-2">
-                  <div>
-                    <Link
-                      className=" uppercase py-2 px-4 bg-[#fdab09] text-[10px] md:text-sm font-bold "
-                      href="/"
-                    >
-                      Événements
-                    </Link>
-                  </div>
-                  <span className=" text-sm font-normal">
-                    <time>mai 15, 2024</time>
-                  </span>
-                </div>
-                <div className=" mt-5">
-                  <span className=" text-[#555] text-sm ">
-                    Le 10 août prochain, c'est un événement inédit qui se
-                    déroulera ...
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className=" mt-7 block md:flex  gap-5 result-box-shadaw">
-            <div>
-              <Image
-                className=" w-full h-auto"
-                src={SearchImg}
-                objectFit="contain"
-                alt="search result image"
-              />
-            </div>
-            <div className="ps-[10px] md:ps-0 py-[10px] pr-[10px] ">
-              <h3 className="font-extrabold text-base md:text-xl ">
-                <Link href="/">
-                  Niska annonce son premier méga concert au Congo, le même jour
-                  que...
-                </Link>
-              </h3>
-              <div className="mt-2">
-                <div className="flex gap-2">
-                  <div>
-                    <Link
-                      className=" uppercase py-2 px-4 bg-[#fdab09] text-[10px] md:text-sm font-bold "
-                      href="/"
-                    >
-                      Événements
-                    </Link>
-                  </div>
-                  <span className=" text-sm font-normal">
-                    <time>mai 15, 2024</time>
-                  </span>
-                </div>
-                <div className=" mt-5">
-                  <span className=" text-[#555] text-sm ">
-                    Le 10 août prochain, c'est un événement inédit qui se
-                    déroulera ...
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className=" mt-7 block md:flex  gap-5 result-box-shadaw">
-            <div>
-              <Image
-                className=" w-full h-auto"
-                src={SearchImg}
-                objectFit="contain"
-                alt="search result image"
-              />
-            </div>
-            <div className="ps-[10px] md:ps-0 py-[10px] pr-[10px] ">
-              <h3 className="font-extrabold text-base md:text-xl ">
-                <Link href="/">
-                  Niska annonce son premier méga concert au Congo, le même jour
-                  que...
-                </Link>
-              </h3>
-              <div className="mt-2">
-                <div className="flex gap-2">
-                  <div>
-                    <Link
-                      className=" uppercase py-2 px-4 bg-[#fdab09] text-[10px] md:text-sm font-bold "
-                      href="/"
-                    >
-                      Événements
-                    </Link>
-                  </div>
-                  <span className=" text-sm font-normal">
-                    <time>mai 15, 2024</time>
-                  </span>
-                </div>
-                <div className=" mt-5">
-                  <span className=" text-[#555] text-sm ">
-                    Le 10 août prochain, c'est un événement inédit qui se
-                    déroulera ...
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
+          {posts != null ? (
+            posts
+              .filter((post) =>
+                post.title.rendered.toLowerCase().includes(searchQuery)
+              )
+              .map((post) => (
+                <SearchedPosts
+                  key={post.id}
+                  title={post.title.rendered}
+                  content={post.content.rendered}
+                  featured_image={post.featured_image}
+                  category_names={post.category_names}
+                  date={post.date}
+                />
+              ))
+          ) : (
+            <p>Loading...</p>
+          )}
         </div>
         <LoadMore />
       </div>

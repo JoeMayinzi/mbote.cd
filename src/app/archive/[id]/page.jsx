@@ -11,6 +11,8 @@ const font = Montserrat({
 });
 
 export default function Archive() {
+  const { id } = useParams();
+  console.log(id);
   return (
     <>
       <section className={`${font.className}`}>
