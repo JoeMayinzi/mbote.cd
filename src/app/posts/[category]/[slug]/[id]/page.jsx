@@ -2,6 +2,7 @@
 import ArticlesByTag from "@/components/articles/articlesByTag/ArticleByTag";
 import RecentPosts from "@/components/articles/recentPosts/RecentPosts";
 import Relatedposts from "@/components/articles/relatedposts/Relatedposts";
+import DisqusComments from "@/components/disqus/DisqusComments";
 import ProgressBar from "@/components/progress/ProgressBar";
 import useFetchCategories from "@/hooks/useFetchCategories";
 import useFetchPostsByCategory from "@/hooks/useFetchPostsByCategory";
@@ -18,8 +19,10 @@ import { useDispatch, useSelector } from "react-redux";
 
 const ArticlePage = () => {
   const { id } = useParams();
+  const { slug } = useParams();
   const [categories] = useFetchCategories();
   const [article, setArticle] = useState(null);
+  console.log(article);
   const [postsByCategory, isLoading, error] = useFetchPostsByCategory(
     categories != null ? categories.id : ""
   );
@@ -33,6 +36,12 @@ const ArticlePage = () => {
   const recentPosts = posts != null ? posts.slice(0, 6) : [];
 
   //const postsFetchedByTag = postsByTags.slice(0, 4);
+
+  const config = {
+    url: process.env.NEXT_PUBLIC_URL + slug,
+    identifier: id, // Assuming you have an ID for each post
+    title: article.title.rendered,
+  };
 
   useEffect(() => {
     const fetchPostById = async () => {
@@ -125,6 +134,10 @@ const ArticlePage = () => {
                   className=" text-[22px] mb-[26px] "
                 ></div>
               </div>
+              <DisqusComments
+                shortname="https-mbote-cd-vercel-app"
+                config={config}
+              />
               <div className=" my-5">
                 <div className="flex gap-[5px] ">
                   <div>

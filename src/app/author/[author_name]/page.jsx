@@ -129,6 +129,7 @@ export default function Author() {
                   id={post.id}
                   title={post.title.rendered}
                   featured_image={post.featured_image}
+                  category_names={post.category_names}
                   slug={post.slug}
                 ></Article>
               ))

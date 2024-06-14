@@ -6,11 +6,17 @@ import articleImg from "../../../assets/images/article-img.png";
 const media_api_url = "https://backend.mbote.cd/wp-json/wp/v2/media/161140";
 console.log(media_api_url);
 
-export default function Article({ title, featured_image, id }) {
+export default function Article({
+  title,
+  featured_image,
+  id,
+  category_names,
+  slug,
+}) {
   const titleScliced = title.slice(0, 55) + "...";
   return (
     <article>
-      <Link href={`/posts/${id}`}>
+      <Link href={`/posts/${category_names}/${slug}/${id}`}>
         <div className=" relative top-[2px] ">
           <Image
             className="w-full h-[240px] "

@@ -3,11 +3,11 @@ import Image from "next/image";
 import SearchImg from "../../assets/images/result-img.webp";
 import Link from "next/link";
 import LoadMore from "@/components/load-more/More";
-import { useRouter } from "next/router";
+import Router, { useRouter } from "next/navigation";
 import { useSearchParams } from "next/navigation";
 import useFallySearchResults from "@/hooks/useFilteredPostsBySearchQuery";
 import { useDispatch, useSelector } from "react-redux";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { fetchPosts } from "@/redux/slices/postsSlice";
 import SearchedPosts from "@/components/articles/searchedPosts/SearchedPosts";
 
@@ -17,6 +17,23 @@ export default function SearchPage() {
   const searchQuery = searchParams.get("q");
   const posts = useSelector((state) => state.posts.posts);
   const dispatch = useDispatch();
+  const [searchUpdate, setSearchUpdate] = useState("");
+  const router = useRouter();
+
+  const handleSearchUpadate = (event) => {
+    setSearchUpdate(event.target.value);
+    console.log(searchUpdate);
+  };
+
+  const handleClickUpdateSearch = () => {
+    router.push(`/searchpage?q=${searchUpdate}`);
+  };
+
+  const handleClickUpdateSearchOnKeyDown = (event) => {
+    if (event.keyCode === 13) {
+      handleClickUpdateSearch();
+    }
+  };
 
   useEffect(() => {
     dispatch(fetchPosts());
@@ -33,16 +50,19 @@ export default function SearchPage() {
             </h4>
           </div>
           <div className="search-shadaw px-5 mt-7">
-            <form action="#" className="flex items-center">
+            <div className="flex items-center">
               <div className=" w-[95%] h-[59px]">
                 <input
                   className=" w-full h-full focus:outline-none placeholder-color text-xl font-normal"
                   type="text"
                   placeholder="Search something here"
+                  value={searchUpdate}
+                  onChange={handleSearchUpadate}
+                  onKeyDown={handleClickUpdateSearchOnKeyDown}
                 />
               </div>
               <div className=" mt-2">
-                <button type="submit">
+                <button onClick={handleClickUpdateSearch}>
                   <svg
                     width="25"
                     height="25"
@@ -58,7 +78,7 @@ export default function SearchPage() {
                   </svg>
                 </button>
               </div>
-            </form>
+            </div>
           </div>
           <div className="mt-3 text-center">
             <p className="text-sm">
