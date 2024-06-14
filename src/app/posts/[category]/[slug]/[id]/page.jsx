@@ -37,12 +37,6 @@ const ArticlePage = () => {
 
   //const postsFetchedByTag = postsByTags.slice(0, 4);
 
-  const config = {
-    url: process.env.NEXT_PUBLIC_URL + slug,
-    identifier: id, // Assuming you have an ID for each post
-    title: article.title.rendered,
-  };
-
   useEffect(() => {
     const fetchPostById = async () => {
       try {
@@ -134,10 +128,7 @@ const ArticlePage = () => {
                   className=" text-[22px] mb-[26px] "
                 ></div>
               </div>
-              <DisqusComments
-                shortname="https-mbote-cd-vercel-app"
-                config={config}
-              />
+              <DisqusComments slug={slug} title={article.title.rendered} />
               <div className=" my-5">
                 <div className="flex gap-[5px] ">
                   <div>

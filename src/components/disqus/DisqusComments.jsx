@@ -1,11 +1,18 @@
 import { DiscussionEmbed } from "disqus-react";
 import React from "react";
 
-const DisqusComments = ({ shortname, config }) => {
+const DisqusComments = ({ slug, title }) => {
+  const pageUrl = typeof window !== "undefined" ? window.location.href : "";
+  const disqusConfig = {
+    url: pageUrl,
+    identifier: slug,
+    title: title,
+  };
   return (
-    <div>
-      <DiscussionEmbed shortname={shortname} config={config} />
-    </div>
+    <DiscussionEmbed
+      shortname="https-mbote-cd-vercel-app"
+      config={disqusConfig}
+    />
   );
 };
 
