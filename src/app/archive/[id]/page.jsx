@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import archiveImg from "../../assets/images/archive.webp";
 import Article from "@/components/articles/article/Article";
 import LoadMore from "@/components/load-more/More";
 import { Montserrat } from "@next/font/google";
