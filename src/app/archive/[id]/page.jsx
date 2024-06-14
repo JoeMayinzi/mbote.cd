@@ -3,6 +3,7 @@ import Link from "next/link";
 import Article from "@/components/articles/article/Article";
 import LoadMore from "@/components/load-more/More";
 import { Montserrat } from "@next/font/google";
+import { Suspense } from "react";
 
 const font = Montserrat({
   subsets: ["latin"],
@@ -13,7 +14,7 @@ export default function Archive() {
   const { id } = useParams();
   console.log(id);
   return (
-    <>
+    <Suspense fallback={<div>Loading...</div>}>
       <section className={`${font.className}`}>
         <div className="container mx-auto  px-4 md:px-0">
           <div className="mt-7 py-[30px]">
@@ -89,6 +90,6 @@ export default function Archive() {
           <LoadMore />
         </div>
       </section>
-    </>
+    </Suspense>
   );
 }

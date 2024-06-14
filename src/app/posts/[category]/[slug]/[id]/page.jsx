@@ -13,7 +13,7 @@ import axios from "axios"; // Import Axios
 import Image from "next/image";
 import Link from "next/link";
 import { useParams } from "next/navigation";
-import { useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
 import Moment from "react-moment";
 import { useDispatch, useSelector } from "react-redux";
 
@@ -66,7 +66,7 @@ const ArticlePage = () => {
   }
 
   return (
-    <>
+    <Suspense fallback={<div>loading...</div>}>
       <ProgressBar />
       <section>
         <div className="container mx-auto py-[30px] px-4 md:px-0">
@@ -402,7 +402,7 @@ const ArticlePage = () => {
           </div>
         </div>
       </section>
-    </>
+    </Suspense>
   );
 };
 
